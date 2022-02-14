@@ -1,0 +1,261 @@
+continent	iso2	name
+Africa	DZ	Algeria
+Africa	AO	Angola
+Africa	BJ	Benin
+Africa	BW	Botswana
+Africa	BF	Burkina Faso
+Africa	BI	Burundi
+Africa	CM	Cameroon
+Africa	CV	Cape Verde
+Africa	CF	Central African Republic
+Africa	TD	Chad
+Africa	KM	Comoros
+Africa	CG	Republic of the Congo
+Africa	CD	Democratic Republic of the Congo
+Africa	CI	Ivory Coast
+Africa	DJ	Djibouti
+Africa	EG	Egypt
+Africa	GQ	Equatorial Guinea
+Africa	ER	Eritrea
+Africa	ET	Ethiopia
+Africa	GA	Gabon
+Africa	GM	Gambia
+Africa	GH	Ghana
+Africa	GN	Guinea
+Africa	GW	Guinea-Bissau
+Africa	KE	Kenya
+Africa	LS	Lesotho
+Africa	LR	Liberia
+Africa	LY	Libya
+Africa	MG	Madagascar
+Africa	MW	Malawi
+Africa	ML	Mali
+Africa	MR	Mauritania
+Africa	MU	Mauritius
+Africa	YT	Mayotte
+Africa	MA	Morocco
+Africa	MZ	Mozambique
+Africa	NA	Namibia
+Africa	NE	Niger
+Africa	NG	Nigeria
+Africa	RW	Rwanda
+Africa	RE	Réunion
+Africa	SH	Saint Helena
+Africa	SN	Senegal
+Africa	SC	Seychelles
+Africa	SL	Sierra Leone
+Africa	SO	Somalia
+Africa	ZA	South Africa
+Africa	SS	South Sudan
+Africa	SD	Sudan
+Africa	SZ	Swaziland
+Africa	ST	São Tomé and Príncipe
+Africa	TZ	Tanzania
+Africa	TG	Togo
+Africa	TN	Tunisia
+Africa	UG	Uganda
+Africa	EH	Western Sahara
+Africa	ZM	Zambia
+Africa	ZW	Zimbabwe
+Asia	AF	Afghanistan
+Asia	AM	Armenia
+Asia	AZ	Azerbaijan
+Asia	BH	Bahrain
+Asia	BD	Bangladesh
+Asia	BT	Bhutan
+Asia	BN	Brunei
+Asia	KH	Cambodia
+Asia	CN	China
+Asia	CY	Cyprus
+Asia	GE	Georgia
+Asia	HK	Hong Kong SAR China
+Asia	IN	India
+Asia	ID	Indonesia
+Asia	IR	Iran
+Asia	IQ	Iraq
+Asia	IL	Israel
+Asia	JP	Japan
+Asia	JO	Jordan
+Asia	KZ	Kazakhstan
+Asia	KW	Kuwait
+Asia	KG	Kyrgyzstan
+Asia	LA	Laos
+Asia	LB	Lebanon
+Asia	MO	Macau SAR China
+Asia	MY	Malaysia
+Asia	MV	Maldives
+Asia	MN	Mongolia
+Asia	MM	Myanmar
+Asia	NP	Nepal
+Asia	NT	Neutral Zone
+Asia	KP	North Korea
+Asia	OM	Oman
+Asia	PK	Pakistan
+Asia	PS	Palestinian Territories
+Asia	YD	People's Democratic Republic of Yemen
+Asia	PH	Philippines
+Asia	QA	Qatar
+Asia	SA	Saudi Arabia
+Asia	SG	Singapore
+Asia	KR	South Korea
+Asia	LK	Sri Lanka
+Asia	SY	Syria
+Asia	TW	Taiwan
+Asia	TJ	Tajikistan
+Asia	TH	Thailand
+Asia	TL	Timor-Leste
+Asia	TR	Turkey
+Asia	TM	Turkmenistan
+Asia	AE	United Arab Emirates
+Asia	UZ	Uzbekistan
+Asia	VN	Vietnam
+Asia	YE	Yemen
+Europe	AL	Albania
+Europe	AD	Andorra
+Europe	AT	Austria
+Europe	BY	Belarus
+Europe	BE	Belgium
+Europe	BA	Bosnia and Herzegovina
+Europe	BG	Bulgaria
+Europe	HR	Croatia
+Europe	CY	Cyprus
+Europe	CZ	Czech Republic
+Europe	DK	Denmark
+Europe	DD	East Germany
+Europe	EE	Estonia
+Europe	FO	Faroe Islands
+Europe	FI	Finland
+Europe	FR	France
+Europe	DE	Germany
+Europe	GI	Gibraltar
+Europe	GR	Greece
+Europe	GG	Guernsey
+Europe	HU	Hungary
+Europe	IS	Iceland
+Europe	IE	Ireland
+Europe	IM	Isle of Man
+Europe	IT	Italy
+Europe	JE	Jersey
+Europe	XK	Kosovo
+Europe	LV	Latvia
+Europe	LI	Liechtenstein
+Europe	LT	Lithuania
+Europe	LU	Luxembourg
+Europe	MK	Macedonia
+Europe	MT	Malta
+Europe	FX	Metropolitan France
+Europe	MD	Moldova
+Europe	MC	Monaco
+Europe	ME	Montenegro
+Europe	NL	Netherlands
+Europe	NO	Norway
+Europe	PL	Poland
+Europe	PT	Portugal
+Europe	RO	Romania
+Europe	RU	Russia
+Europe	SM	San Marino
+Europe	RS	Serbia
+Europe	CS	Serbia and Montenegro
+Europe	SK	Slovakia
+Europe	SI	Slovenia
+Europe	ES	Spain
+Europe	SJ	Svalbard and Jan Mayen
+Europe	SE	Sweden
+Europe	CH	Switzerland
+Europe	UA	Ukraine
+Europe	SU	Union of Soviet Socialist Republics
+Europe	GB	United Kingdom
+Europe	VA	Vatican City
+Europe	AX	Åland Islands
+North America	AI	Anguilla
+North America	AG	Antigua and Barbuda
+North America	AW	Aruba
+North America	BS	Bahamas
+North America	BB	Barbados
+North America	BZ	Belize
+North America	BM	Bermuda
+North America	VG	British Virgin Islands
+North America	CA	Canada
+North America	KY	Cayman Islands
+North America	CR	Costa Rica
+North America	CU	Cuba
+North America	DM	Dominica
+North America	DO	Dominican Republic
+North America	SV	El Salvador
+North America	GL	Greenland
+North America	GD	Grenada
+North America	GP	Guadeloupe
+North America	GT	Guatemala
+North America	HT	Haiti
+North America	HN	Honduras
+North America	JM	Jamaica
+North America	MQ	Martinique
+North America	MX	Mexico
+North America	MS	Montserrat
+North America	AN	Netherlands Antilles
+North America	NI	Nicaragua
+North America	PA	Panama
+North America	PR	Puerto Rico
+North America	BL	Saint Barthélemy
+North America	KN	Saint Kitts and Nevis
+North America	LC	Saint Lucia
+North America	MF	Saint Martin
+North America	PM	Saint Pierre and Miquelon
+North America	VC	Saint Vincent and the Grenadines
+North America	TT	Trinidad and Tobago
+North America	TC	Turks and Caicos Islands
+North America	VI	U.S. Virgin Islands
+North America	US	United States
+Oceania	AS	American Samoa
+Oceania	AQ	Antarctica
+Oceania	AU	Australia
+Oceania	BV	Bouvet Island
+Oceania	IO	British Indian Ocean Territory
+Oceania	CX	Christmas Island
+Oceania	CC	Cocos [Keeling] Islands
+Oceania	CK	Cook Islands
+Oceania	FJ	Fiji
+Oceania	PF	French Polynesia
+Oceania	TF	French Southern Territories
+Oceania	GU	Guam
+Oceania	HM	Heard Island and McDonald Islands
+Oceania	KI	Kiribati
+Oceania	MH	Marshall Islands
+Oceania	FM	Micronesia
+Oceania	NR	Nauru
+Oceania	NC	New Caledonia
+Oceania	NZ	New Zealand
+Oceania	NU	Niue
+Oceania	NF	Norfolk Island
+Oceania	MP	Northern Mariana Islands
+Oceania	PW	Palau
+Oceania	PG	Papua New Guinea
+Oceania	PN	Pitcairn Islands
+Oceania	WS	Samoa
+Oceania	SB	Solomon Islands
+Oceania	TK	Tokelau
+Oceania	TO	Tonga
+Oceania	TV	Tuvalu
+Oceania	UM	U.S. Minor Outlying Islands
+Oceania	VU	Vanuatu
+Oceania	WF	Wallis and Futuna
+South America	EC	Ecuador
+South America	AR	Argentina
+South America	BO	Bolivia
+South America	BR	Brazil
+South America	CL	Chile
+South America	CO	Colombia
+South America	FK	Falkland Islands
+South America	GF	French Guiana
+South America	GY	Guyana
+South America	PY	Paraguay
+South America	PE	Peru
+South America	SR	Suriname
+South America	UY	Uruguay
+South America	VE	Venezuela
+Antartica	GS	South Georgia and the South Sandwich Islands
+Antartica	XX	Antartica
+Oceans and Seas	XX	Artic Ocean
+Oceans and Seas	XX	Indian Ocean
+Oceans and Seas	XX	Meditteranean Sea 
+Oceans and Seas	XX	Pacific Ocean

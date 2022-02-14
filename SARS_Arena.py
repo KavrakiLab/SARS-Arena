@@ -66,6 +66,8 @@ import time
 #For printing purposes
 import re
 from itertools import groupby, zip_longest
+from dateutil import parser
+from datetime import datetime
 
 #For the loading bar
 from tqdm.notebook import tqdm
@@ -96,6 +98,7 @@ import pickle as pk
 ## WORKFLOW 1 functions
 
 def call_ncbi_datasets(proteins, refseq_only, annotated_only, complete_only, host, released_since):
+    
     """
     **Function**: Fetches protein sequence data from the NCBI datasets tool (parameter explanations taken from the [NCBI OpenAPI 3.0 REST API Docs](https://www.ncbi.nlm.nih.gov/datasets/docs/reference-docs/rest-api/))
 
@@ -121,6 +124,265 @@ def call_ncbi_datasets(proteins, refseq_only, annotated_only, complete_only, hos
                     + "&include_annotation_type=PROT_FASTA" \
     
     protein_sequence_name = fetch_file_and_unzip(query_string)
+
+    return protein_sequence_name
+
+def create_tab(workflow_dir):
+    
+    """
+    **Function**: Creates a UI tab for selecting arguments, in order to fetch data from the NCBI Virus database
+
+    **Parameters**: <br />
+    &ensp;&ensp;&ensp; - *workflow_dir*: The workflow to download infor about pangolin lineage. <br />
+
+    **Returns**: <br />
+    &ensp;&ensp;&ensp; - *tab (widgets.Tab)*: An ipywidgets tab that apparears on the Workflow screen
+    """
+    
+    Virus_type = widgets.Dropdown(options=['Sars-CoV', 'Sars-CoV-2', 'Both'],
+                              value='Sars-CoV-2',
+                              description='Virus:')
+
+    Protein = widgets.Dropdown(options=['ORF1ab polyprotein', 'ORF1a polyprotein', 'leader protein', 'nsp2', 'nsp3',
+                                        'nsp4', '3C-like proteinase', 'nsp6', 'nsp7', 'nsp8', 'nsp9', 'nsp10', 
+                                        'RNA-dependent RNA polymerase', 'helicase', "3'-to-5' exonuclease",
+                                        'endoRNAse', "2'-o-ribose methyltransferase", 'nsp11', 'surface glycoprotein',
+                                        'ORF3a', 'envelope protein', 'membrane glycoprotein', 'ORF6', 'ORF7a',
+                                        'ORF7b', 'ORF8', 'nucleocapsid phosphoprotein', 'ORF10'],
+                               value='nucleocapsid phosphoprotein',
+                               description='Protein:')
+
+    Completeness = widgets.Dropdown(options=['Complete', 'Partial', 'All'],
+                                    value='Complete',
+                                    description='Completeness:',
+                                    style={'description_width': 'initial'})
+
+    Host = widgets.Dropdown(options=['Human', 'All'],
+                            value='Human',
+                            description='Host:')
+    
+    RefSeq = widgets.Dropdown(options=['RefSeq', 'GenBank', 'All'],
+                              value='RefSeq',
+                              description='Sequence Type:',
+                              style={'description_width': 'initial'})
+
+    general_accordion = widgets.Accordion(children=[Virus_type, Protein, Completeness, Host, RefSeq])
+    general_accordion_titles = ['Virus', 'Protein', 'Completeness', 'Host', 'Sequence Type']
+    for i, title in enumerate(general_accordion_titles):
+        general_accordion.set_title(i, title)
+
+    Isolation_source = widgets.SelectMultiple(options=['blood', 'feces', 'lung', 'lung, oronasopharynx',
+                                                       'oronasopharynx', 'oronasopharynx, oronasopharynx',
+                                                       'placenta', 'saliva, oronasopharynx', 'swab',
+                                                       'urine'],
+                                              value=[],
+                                              description='Isolation source:',
+                                              style={'description_width': 'initial'})
+
+    Release_Date_From = widgets.DatePicker(
+        description='From',
+        value = datetime.today().replace(day=1).date(),
+        disabled=False
+    )
+
+    Release_Date_To = widgets.DatePicker(
+        description='To',
+        value = datetime.today().date(),
+        disabled=False
+    )
+
+    date_accordion = widgets.Accordion(children=[Release_Date_From, Release_Date_To])
+    date_accordion.set_title(0, 'From')
+    date_accordion.set_title(1, 'To')
+
+    Geography = widgets.Dropdown(options=['Continent', 'Country', 'USA State'],
+                                 value='Continent',
+                                 description='Selection of geographic type:',
+                                 style={'description_width': 'initial'})
+
+    Continent = widgets.SelectMultiple(options=['Africa', 'Antartica', 'Asia', 'Europe', 'North America', 'Oceania', 
+                                                'Oceans and Seas', 'South America'],
+                                       value=[],
+                                       description='Selection of continent:',
+                                       style={'description_width': 'initial'})
+
+    geography_accordion = widgets.VBox([Geography, widgets.HBox([Continent])])
+    
+    pangolin_storage = workflow_dir + '/lineage_notes.txt'
+    fetch_pangolin_lineage(pangolin_storage)
+    lineage_data = pd.read_csv(pangolin_storage, sep='\t', header=0)
+    lineage_cleaning_query = (lineage_data["Lineage"].str.startswith('*')) | (lineage_data["Lineage"].str.startswith('X'))
+    lineage_data = lineage_data[~lineage_cleaning_query]['Lineage']
+    pangolin_lineage = widgets.SelectMultiple(options=lineage_data.values.tolist(),
+                                              value=[],
+                                              description='Pangolin Lineage:',
+                                              style={'description_width': 'initial'})
+    
+    tab = widgets.Tab()
+    tab_titles = ['General Information', 'Geographic Region', 'Isolation Source', 'Pangolin Lineage', 'Release Date']
+    tab.children = [general_accordion, geography_accordion, Isolation_source, pangolin_lineage, date_accordion]
+    for i, title in enumerate(tab_titles):
+        tab.set_title(i, title)
+    return tab
+    
+def dataset_selection(tab):
+    
+    """
+    **Function**: Displays the UI ipywidgets tab for selecting arguments, in order to fetch data from the NCBI Virus database
+
+    **Parameters**: <br />
+    &ensp;&ensp;&ensp; - *tab*: The UI ipywidgets tab. <br />
+    """
+    
+    display(tab)
+    tab.children[1].children[0].observe(lambda x: update_country_tab(x, tab), names='value')
+
+def call_ncbi_virus(Virus_Type, Protein, Completeness, Host, Refseq, Geographic_region, 
+                         Isolation_source, Pangolin_lineage, Released_Dates):
+    
+    """
+    **Function**: Fetches protein sequence data from the [NCBI Virus tool](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Protein))
+
+    **Parameters**: <br />
+    &ensp;&ensp;&ensp; - *Virus_Type (str)*: Which SARS virus to work with. <br />
+    &ensp;&ensp;&ensp; - *Protein (str)*: Which proteins to retrieve in the data package. <br />
+    &ensp;&ensp;&ensp; - *Completeness (str)*: Include complete/partial genomes. <br />
+    &ensp;&ensp;&ensp; - *Host (str)*: If set, limit results to genomes extracted from this host. <br />
+    &ensp;&ensp;&ensp; - *Refseq (str)*: Fetch only RefSeq/GenBank or both. <br />
+    &ensp;&ensp;&ensp; - *Geographic_Region (str tuple)*: Tuple of Geographic type (Continent/Country/USA State) and the value <br />
+    &ensp;&ensp;&ensp; - *Isolation_source (str or list[str])*: Different types of Isolation source <br />
+    &ensp;&ensp;&ensp; - *Pangolin_lineage (str or list[str])*: Different types of Pangolin Lineages (Taken from [here](https://github.com/cov-lineages/pango-designation) <br />
+    &ensp;&ensp;&ensp; - *Released_Dates (str tuple)*: Limit results to sequences that have been released in a specified date frame. <br />
+
+    **Returns**: <br />
+    &ensp;&ensp;&ensp; - *protein_sequence_name (str)*: The name of the *.fasta* protein sequence file downloaded from the NCBI Virus database.
+
+    """
+    
+    query_string = 'q=*:*&fq={!tag=SeqType_s}SeqType_s:("Protein")'
+    
+    # Virus Type part
+    if Virus_Type == "Sars-CoV":
+        query_string += '&fq=VirusLineageId_ss:(694009)'
+    elif Virus_Type == "Sars-CoV-2":
+        query_string += '&fq=VirusLineageId_ss:(2697049)'
+    elif Virus_Type == "Both":
+        query_string += '&fq=VirusLineageId_ss:(2697049 OR 694009)'
+    else: 
+        return "Invalid Virus type, please set one of [Sars-CoV, Sars-CoV-2, Both] correctly!"   
+    
+    # Ambiguous parts removal
+    query_string += '&fq={!tag=QualNum_i}QualNum_i:([0 TO 0])'
+    
+    # Protein part
+    query_string += '&fq={!tag=ProtNames_ss}ProtNames_ss:("' + Protein + '")'
+    
+    # Sequence Type part
+    if Refseq == "RefSeq":
+        query_string += '&fq={!tag=SourceDB_s}SourceDB_s:("RefSeq")'
+    elif Refseq == "GenBank":
+        query_string += '&fq={!tag=SourceDB_s}SourceDB_s:("GenBank")'
+    elif Refseq == "Both":
+        pass
+    else: 
+        return "Invalid Sequence type, please set one of [RefSeq, GenBank, Both] correctly!" 
+    
+    # Completeness part
+    if Completeness == "Complete":
+        query_string += '&fq={!tag=Completeness_s}Completeness_s:("complete")'
+    elif Completeness == "Partial":    
+        query_string += '&fq={!tag=Completeness_s}Completeness_s:("partial")'
+    elif Completeness == "Partial": 
+        pass
+    else: 
+        return "Invalid Completeness type, please set one of [Complete, Partial, Both] correctly!" 
+    
+    # Host part
+    if Host == "Human":
+        query_string += '&fq=HostLineageId_ss:(9606)'
+    if Host != "Human" and Host != "All":
+        return "Invalid Host, please set one of [Human, All]!"
+    
+    # Isolation source part
+    list_length = len(Isolation_source)
+    if list_length != 0:
+        i = 0
+        query_string += '&fq={!tag=Isolation_csv}Isolation_csv:('
+        while i < list_length:
+            query_string += '"' + Isolation_source[i] + '"'
+            if i < list_length - 1:
+                query_string += " OR "
+            else:
+                query_string += ")"
+            i += 1
+            
+    # Pango lineage part
+    list_length = len(Pangolin_lineage)
+    if list_length != 0:
+        i = 0
+        query_string += '&fq={!tag=Lineage_s}Lineage_s:('
+        while i < list_length:
+            query_string += '"' + Pangolin_lineage[i] + '"'
+            if i < list_length - 1:
+                query_string += " OR "
+            else:
+                query_string += ")"
+            i += 1
+    
+    # Geographic region part
+    if Geographic_region[0] == 'Continent':
+        list_length = len(Geographic_region[1])
+        if list_length != 0:
+            i = 0
+            query_string += '&fq={!tag=Region_s}Region_s:('
+            while i < list_length:
+                query_string += '"' + Geographic_region[1][i] + '"'
+                if i < list_length - 1:
+                    query_string += " OR "
+                else:
+                    query_string += ")"
+                i += 1
+    
+    if Geographic_region[0] == 'Country':
+        list_length = len(Geographic_region[1])
+        if list_length != 0:
+            i = 0
+            query_string += '&fq={!tag=Country_s}Country_s:('
+            while i < list_length:
+                query_string += '"' + Geographic_region[1][i] + '"'
+                if i < list_length - 1:
+                    query_string += " OR "
+                else:
+                    query_string += ")"
+                i += 1
+            
+    if Geographic_region[0] == 'USA State':
+        list_length = len(Geographic_region[1])
+        if list_length != 0:
+            i = 0
+            query_string += '&fq={!tag=USAState_s}USAState_s:('
+            while i < list_length:
+                query_string += '"' + Geographic_region[1][i] + '"'
+                if i < list_length - 1:
+                    query_string += " OR "
+                else:
+                    query_string += ")"
+                i += 1
+                
+    # Date part
+    try:
+        date1 = datetime.combine(Released_Dates[0], datetime.min.time()).isoformat()
+        date2 = datetime.combine(Released_Dates[1], datetime.min.time()).isoformat()
+    except ValueError:
+        return "Invalid isoformat dates"
+    if(date1 > date2):
+        return "Dates are reversed! Make sure the first is older than the newer one!"
+    query_string += '&fq={!tag=CreateDate_dt}CreateDate_dt:([' + date1 + '.00Z TO ' + date2 + '.00Z])'
+    
+    # Final part
+    query_string += '&cmd=download&sort=SourceDB_s desc,CreateDate_dt desc,id asc&dlfmt=fasta&fl=AccVer_s,Definition_s,Protein_seq'
+    
+    protein_sequence_name = fetch_fasta_file(query_string)
 
     return protein_sequence_name
 
@@ -204,7 +466,7 @@ def run_msa(protein_sequence_file, nthread, threshold):
 
     # Run alignment using MAFFT
     os.system("rm -f aligned.faa")
-    command = ['mafft', '--auto', protein_sequence_file]
+    command = ['mafft', '--auto', '--thread', str(nthread), protein_sequence_file]
     with open('aligned.faa', 'w') as f:
         call(command, stdout=f)
     
@@ -291,7 +553,7 @@ def extract_peptides(min_len, max_len, aligned_sequences_df):
         peptide_list = sorted(list(set(peptide_list)), key=lambda element: (element[1], element[2]))    
         extracted_peptides.append(peptide_list)
     extracted_peptides = [peptide for final_sublist in extracted_peptides for peptide in final_sublist
-                  if('-' not in peptide[3]) and ('X' not in peptide[3])]
+                  if('-' not in peptide[3]) and ('X' not in peptide[3]) and ('J' not in peptide[3]) and ('B' not in peptide[3]) and ('Z' not in peptide[3])]
     extracted_peptides = sorted(list(set(extracted_peptides)), key=lambda element: (element[2], element[0], element[1]))
 
     return extracted_peptides

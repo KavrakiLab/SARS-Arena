@@ -1,0 +1,28 @@
+ORF1ab polyprotein
+ORF1a polyprotein
+leader protein
+nsp2
+nsp3
+nsp4
+3C-like proteinase
+nsp6
+nsp7
+nsp8
+nsp9
+nsp10
+RNA-dependent RNA polymerase
+helicase
+3'-to-5' exonuclease
+endoRNAse
+2'-o-ribose methyltransferase
+nsp11
+surface glycoprotein
+ORF3a
+envelope protein
+membrane glycoprotein
+ORF6
+ORF7a
+ORF7b
+ORF8
+nucleocapsid phosphoprotein
+ORF10

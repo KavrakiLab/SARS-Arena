@@ -1,0 +1,1869 @@
+Lineage	Description
+A	Root of the pandemic lies within lineage A. Many sequences originating from China and many global exports; including to South East Asia Japan South Korea Australia the USA and Europe represented in this lineage
+A.1	USA lineage
+A.2	Mostly Spanish lineage now includes South and Central American sequences, other European countries and Kazakhstan.
+A.2.2	Australian lineage
+A.2.3	Scottish lineage
+A.2.4	Panama lineage
+A.2.5	Central American/ USA lineage
+A.2.5.1	Costa Rica lineage from pango-designation issue #33
+A.2.5.2	Predominantly Italy lineage
+A.2.5.3	Predominantly Ecuador lineage, from pango-designation issue #168
+A.3	USA lineage
+A.4	USA lineage
+A.5	A lineage with a lot of representation from Spanish-speaking countries. A Spanish/ South-American lineage, but now with sequences from an outbreak in Scotland. Also now includes what was previously A.10.
+A.6	Thai lineage
+A.7	Indian lineage
+A.9	Indian lineage
+A.11	Ghana/ Senegal lineage
+A.12	Sierra Leone lineage
+A.15	Sweden/ Denmark lineage
+A.16	Japanese lineage
+A.17	French lineage
+A.18	Cote d'Ivoire/ Burkina Faso lineage
+A.19	Cote d'Ivoire/ Burkina Faso lineage
+A.21	Mali/ Burkina Faso lineage
+A.22	UAE lineage
+A.23	Ugandan lineage
+A.23.1	International lineage with a number of variants of potential biological concern, including 681R
+A.24	South Korean lineage
+A.25	Ugandan lineage
+A.26	UK lineage
+A.27	Mayotte/ European cluster with 18 changes in the long branch leading to this cluster, including 7 NS changes in the spike (L18F, L452R, N501Y, A653V, H655Y, D796Y, G1219V), on a 614D background. pango-designation issue #11.
+A.28	This lineage has 9 changes on its basal branch, including the 69-70del, N501T (not Y) and H655Y. (This variant is picked up by the qPCR S drop). pango-designation issue #12
+A.29	Lineage circulating in multiple countries from pango-designation issue #78
+A.30	Lineage in several countries, associated with travel from Tanzania, from pango-designation issue #138
+B	Second major haplotype (and first to be discovered)
+B.1	A large European lineage the origin of which roughly corresponds to the Northern Italian outbreak early in 2020.
+B.1.1	European lineage with 3 clear SNPs `28881GA`,`28882GA`,`28883GC`
+B.1.1.1	England
+C.1	Alias of B.1.1.1.1, South Africa
+C.1.1	Alias of B.1.1.1.1.1, Mozambique
+C.1.2	Alias of B.1.1.1.1.2, mostly South Africa, from pango-designation issue #139
+C.2	Alias of B.1.1.1.2, South Africa and some European
+C.2.1	Alias of B.1.1.1.2.1, Aruba and Curacao
+C.3	Alias of B.1.1.1.3, England
+C.4	Alias of B.1.1.1.4, Peruvian
+C.5	Alias of B.1.1.1.5, Switzerland and Luxembourg
+C.6	South Africa
+C.7	Alias of B.1.1.1.7, Denmark
+C.8	Alias of B.1.1.1.8, Canada and DRC
+C.9	Alias of B.1.1.1.9, South Africa
+C.10	Poland
+C.11	Alias of B.1.1.1.11
+C.12	Alias of B.1.1.1.12, New Zealand
+C.13	Alias of B.1.1.1.13, Peruvian
+C.14	Alias of B.1.1.1.14, Peruvian
+C.16	Alias of B.1.1.1.16, Portugal originally, now pan-european
+C.17	Alias of B.1.1.1.17, Egypt
+C.18	Alias of B.1.1.1.18, Italy
+C.19	Alias of B.1.1.1.19, Denmark
+C.20	Alias of B.1.1.1.20, Switzerland
+C.21	Alias of B.1.1.1.21, Spain
+C.22	Alias of B.1.1.1.22, Argentina
+C.23	Alias of B.1.1.1.23, Mainly USA
+C.25	Alias of B.1.1.1.25, Peru
+C.26	Alias of B.1.1.1.26, Chile
+C.27	Alias of B.1.1.1.27, England
+C.28	Alias of B.1.1.1.28, USA
+C.29	Alias of B.1.1.1.29, Chile
+C.30	Alias of B.1.1.1.30, England
+C.30.1	Alias of B.1.1.1.30.1, Denmark
+C.31	Alias of B.1.1.1.31, USA
+C.32	Alias of B.1.1.1.32, Peru
+C.33	Alias of B.1.1.1.33, Peru
+C.34	Alias of B.1.1.1.34, Canada
+C.35	Alias of B.1.1.1.35, Central Europe, England
+C.36	Alias of B.1.1.1.36, Egypt mainly and other countries
+C.36.1	Alias of B.1.1.1.36.1, Canada
+C.36.2	Alias of B.1.1.1.36.2, Switzerland
+C.36.3	Alias of B.1.1.1.36.3, Europe and USA lineage, from pango-designation issue #80
+C.36.3.1	Alias of B.1.1.1.36.3.1, Europe and USA lineage, from pango-designation issue #80
+C.37	Alias of B.1.1.1.37, lineage in Peru, Chile, USA and Germany, from pango-designation issue #52
+C.37.1	Alias of B.1.1.1.37.1, lineage outside of South America, from pango-designation issue #158
+C.38	Alias of B.1.1.1.38, lineage in multiple countries, from pango-designation issue #150, formally B.1.1.527
+C.39	Alias of B.1.1.1.39, Chile and Peru lineage
+C.40	Alias of B.1.1.1.40, Peru lineage, from pango-designation issue #203
+B.1.1.3	England Lineage
+B.1.1.4	English lineage
+B.1.1.5	European lineage
+B.1.1.7	UK lineage of concern, associated with the N501Y mutation. More information can be found at cov-lineages.org/global_report.html
+Q.1	Alias of B.1.1.7.1, predominantly Lithuania lineage, from pango-designation issue #39
+Q.2	Alias of B.1.1.7.2, Italy lineage, from pango-designation issue #79
+Q.3	Alias of B.1.1.7.3, USA lineage, from pango-designation issue #92
+Q.4	Alias of B.1.1.7.4, lineage in multiple countries with spike H681R, from pango-designation issue #176
+Q.5	Alias of B.1.1.7.5, Israel lineage, from pango-designation issue #165
+Q.6	Alias of B.1.1.7.6, France lineage, from pango-designation issue #183
+Q.7	Alias of B.1.1.7.7, predominantly France lineage, from pango-designation issue #183
+Q.8	Alias of B.1.1.7.8, Sri Lanka lineage, from pango-designation issue #197
+B.1.1.8	England
+B.1.1.10	European lineage
+L.1	Alias of B.1.1.10.1, Canadian lineage
+L.2	Alias of B.1.1.10.2, Netherlands lineage
+L.3	Alias of B.1.1.10.3, Nigerian/ European lineage with long branch from B.1.1.10
+L.4	USA lineage, alias of B.1.1.10.4
+B.1.1.12	England
+B.1.1.13	UK
+B.1.1.14	Scotland
+B.1.1.15	UK/ Luxembourg lineage
+B.1.1.16	Wales with European base
+B.1.1.17	Icelandic
+B.1.1.25	Bangladesh Lineage
+D.2	Alias of B.1.1.25.2, Australia
+D.3	Alias of B.1.1.25.3, Australia
+D.4	Alias of B.1.1.25.4, Irish/ Northern Irish lineage
+D.5	Alias of B.1.1.25.5, Swedish/ Denmark lineage
+B.1.1.26	USA Lineage
+B.1.1.27	Oman Lineage, some UAE
+B.1.1.28	Brazil mostly, absorbed B.1.1.94 and B.1.1.143
+P.1	Alias of B.1.1.28.1, Brazilian lineage with a number of spike mutaions with likely functional significance E484K, K417T, and N501Y. Described in https://virological.org/t/genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-manaus-preliminary-findings/586.
+P.1.1	Alias of B.1.1.28.1.1, European lineage in Italy and Germany
+P.1.2	Alias of B.1.1.28.1.2, Netherlands/Brazil lineage. Imported into Netherlands, likely with local transmission here and continued circulation within and/or reintroduction into Brazil, pango-designation issue #56
+P.1.3	Alias of B.1.1.28.1.3, Brazil lineage, from pango-designation issue #141
+P.1.4	Alias of B.1.1.28.1.4, Brazil lineage, from pango-designation issue #141
+P.1.5	Alias of B.1.1.28.1.5, Brazil lineage, from pango-designation issue #141
+P.1.6	Alias of B.1.1.28.1.6, Brazil lineage, from pango-designation issue #141
+P.1.7	Alias of B.1.1.28.1.7, Brazil lineage, from pango-designation issue #141
+P.1.7.1	Alias of B.1.1.28.1.7.1, Peru lineage, from pango-designation issue #326
+P.1.8	Alias of B.1.1.28.1.8, Brazil lineage, from pango-designation issue #164
+P.1.9	Alias of B.1.1.28.1.9, Brazil lineage, from pango-designation issue #174
+P.1.10	Alias of B.1.1.28.1.10, predominantly USA lineage, from pango-designation issue #179
+P.1.10.1	Alias of B.1.1.28.1.10.1, Aruba lineage, from pango-designation issue #179
+P.1.10.2	Alias of B.1.1.28.1.10.2, Mexico lineage, from pango-designation issue #179
+P.1.11	Alias of B.1.1.28.1.11, Brazil lineage, from pango-designation issue #164
+P.1.12	Alias of B.1.1.28.1.12, predominantly Peru lineage, from pango-designation issue #212
+P.1.12.1	Sublineage of P.1.12 reported predominantly from Peru and US (from pango-designation issue #282)
+P.1.13	Alias of B.1.1.28.1.13, USA lineage, from pango-designation issue #231
+P.1.14	Alias of B.1.1.28.1.14, predominantly Canada lineage, from pango-designation issue #231
+P.1.15	Alias of B.1.1.28.1.15, predominantly Chile lineage, from pango-designation issue #231
+P.1.16	Alias of B.1.1.28.1.16, predominantly Belgium lineage also in other countries in Europe, from pango-designation issue #231
+P.1.17	Alias of B.1.1.28.1.17, predominantly USA and Mexico lineage, from pango-designation issue #231
+P.1.17.1	Alias of B.1.1.28.1.17.1, predominantly in Luxembourg, from pango-designation issue #231
+P.2	Alias of B.1.1.28.2, Brazilian lineage
+P.3	Alias of B.1.1.28.3, Lineage predominantly in the Philippines with spike mutations E484K, N501Y, P681H, 141-143del. Described in Tablizo et al 2021: https://www.medrxiv.org/content/10.1101/2021.03.03.21252812v2
+P.4	Alias of B.1.1.28.4, Brazil lineage, pango-designation issue #68
+P.5	Alias of B.1.1.28.5, Brazil lineage, pango-designation issue #86
+P.6	Alias of B.1.1.28.6, Uruguay lineage, from pango-designation issue #148
+P.7	Alias of B.1.1.28.7, Brazil lineage, from pango-designation issue #29
+B.1.1.29	Wales lineage, formerly temporarily assigned B.1.1.439 due to an error (see designation issue 50)
+B.1.1.30	Lithuanian
+B.1.1.31	Russian lineage
+B.1.1.33	Brazillian
+N.1	Alias of B.1.1.33.1, US
+N.2	Alias of B.1.1.33.2, European lineage
+N.3	Alias of B.1.1.33.3, Argentinian 
+N.4	Alias of B.1.1.33.4, Chilean
+N.5	Alias of B.1.1.33.5, Argentinian 
+N.6	Alias of B.1.1.33.6, Chilean
+N.7	Alias of B.1.1.33.7, Uruguay
+N.8	Alias of B.1.1.33.8, Kenyan
+N.9	Alias of B.1.1.33.9, Brazilian lineage
+N.10	Alias of B.1.1.33.10, Brazilian lineage described in https://virological.org/t/identification-of-a-new-b-1-1-33-sars-cov-2-variant-of-interest-voi-circulating-in-brazil-with-mutation-e484k-and-multiple-deletions-in-the-amino-n-terminal-domain-of-the-spike-protein/675
+B.1.1.34	South African lineage
+B.1.1.37	UK lineage
+B.1.1.38	Wales
+B.1.1.39	Mostly Switzerland with lots of other countries
+AQ.1	Alias of B.1.1.39.1, Finland lineage
+AQ.2	Alias of B.1.1.39.2, Denmark lineage
+B.1.1.40	South African lineage
+B.1.1.41	Engligh lineage
+B.1.1.43	Scottish lineage
+B.1.1.44	Pan-European, big scottish section
+B.1.1.45	UK
+B.1.1.46	Mostly India
+B.1.1.47	Switzerland and other Northern Europe
+B.1.1.48	Japan
+B.1.1.49	Wales
+B.1.1.50	Israel and Palestine
+B.1.1.51	UK
+B.1.1.52	South Africa
+B.1.1.53	South Africa
+B.1.1.54	South African Lineage
+B.1.1.55	English lineage
+B.1.1.56	South African lineage
+B.1.1.57	South African lineage, a few English sequences, one Zimbabwe
+B.1.1.58	Eruopean lineage
+B.1.1.59	UK lineage
+B.1.1.61	USA lineage
+B.1.1.62	South African lineage
+B.1.1.63	Hong Kong lineage
+B.1.1.67	England and South Africa
+B.1.1.70	European Lineage 
+AP.1	Alias of B.1.1.70.1, Wales lineage
+B.1.1.71	Dutch, Central Europe
+B.1.1.72	US lineage
+B.1.1.74	NI & Ireland Lineage
+B.1.1.75	Belgian lineage
+B.1.1.77	US Lineage
+B.1.1.82	Wales lineage
+B.1.1.83	Northern Irish lineage
+B.1.1.84	South African
+B.1.1.86	UK lineage
+B.1.1.87	Hungarian lineage
+B.1.1.88	Portugal lineage
+B.1.1.89	England
+B.1.1.90	Sweden and Denmark lineage
+B.1.1.91	Sweden
+B.1.1.92	English lineage
+B.1.1.93	US Lineage
+B.1.1.95	English lineage
+B.1.1.97	England
+B.1.1.98	US lineage
+B.1.1.99	Mostly South Africa
+B.1.1.100	Denmark lineage
+B.1.1.101	Indian lineage
+B.1.1.107	England
+B.1.1.109	UK lineage
+B.1.1.110	Peru lineage
+B.1.1.111	African lineage (Zambia, Zimbabwe)
+B.1.1.112	Netherlands
+B.1.1.113	Western USA
+B.1.1.114	Wales
+B.1.1.115	UK lineage, now contains former B.1.1.235
+B.1.1.116	USA lineage
+B.1.1.117	South African some Argentina, now contains B.1.1.252
+B.1.1.118	US Lineage (TX)
+B.1.1.119	Northen Ireland lineage
+B.1.1.120	UK lineage
+B.1.1.121	Canadian lineage
+B.1.1.122	Netherlands
+B.1.1.123	UK lineage
+B.1.1.125	UK lineage
+B.1.1.127	Russian lineage
+B.1.1.128	US lineage 
+B.1.1.129	Russian lineage
+B.1.1.130	England
+B.1.1.132	US Lineage
+B.1.1.133	UAE/ European lineage
+B.1.1.134	UK
+B.1.1.135	US
+B.1.1.136	Australian lineage
+B.1.1.137	UK lineage
+B.1.1.138	UK lineage
+B.1.1.139	USA
+B.1.1.141	Russian, Latvian, Netherlands
+B.1.1.142	Australian lineage
+B.1.1.144	Swiss lineage
+B.1.1.145	UK lineage
+B.1.1.147	England
+B.1.1.148	US lineage
+B.1.1.149	English Lineage
+B.1.1.152	Russian
+B.1.1.153	Northern European Lineage
+B.1.1.154	UK lineage
+B.1.1.155	English
+B.1.1.157	Canadian lineage
+B.1.1.158	USA lineage
+B.1.1.159	European lineage
+B.1.1.160	Northern Ireland lineage
+B.1.1.161	Saudi lineage
+B.1.1.162	England, Russia, Latvia
+B.1.1.163	Russian lineage
+B.1.1.164	UK
+B.1.1.165	England
+B.1.1.166	UK lineage
+B.1.1.168	UK lineage
+B.1.1.169	USA lineage
+B.1.1.170	UK/Denmark lineage
+B.1.1.171	UK lineage
+B.1.1.172	USA
+B.1.1.174	USA lineage
+B.1.1.175	Bangladesh
+B.1.1.176	Canadian lineage
+B.1.1.177	Texas
+B.1.1.178	England
+B.1.1.180	USA lineage
+B.1.1.181	Used to be just Turkey, now lots of Canadian
+B.1.1.182	USA 
+B.1.1.184	Russia, some B.1.1.129
+B.1.1.185	Netherlands lineage
+B.1.1.186	Southern USA
+B.1.1.187	UK and italy
+B.1.1.189	European lineage
+B.1.1.190	Wales lineage
+B.1.1.191	Denmark
+B.1.1.192	USA
+B.1.1.193	England
+B.1.1.194	England
+B.1.1.196	UK lineage
+B.1.1.197	UK lineage
+B.1.1.198	UK/ Luxembourg lineage
+B.1.1.200	UK
+AN.1	Alias of B.1.1.200.1, Sweden and Netherlands, from B.1.1.130
+B.1.1.201	India and Singapore and Texas
+B.1.1.202	Italy
+B.1.1.203	England and Ecuador
+B.1.1.204	UK lineage
+B.1.1.205	USA lineage
+B.1.1.207	USA
+B.1.1.208	UK 
+B.1.1.209	Netherlands
+B.1.1.210	USA (TX)
+B.1.1.213	England
+B.1.1.214	Japan
+B.1.1.216	Predominantly Indian lineage with exports elsewhere
+AM.1	Alias of B.1.1.216.1, Portugal lineage
+AM.2	Alias of B.1.1.216.2, Canadian lineage
+AM.3	Alias of B.1.1.216.3, UK lineage
+AM.4	Alias of B.1.1.216.4, Canadian lineage
+B.1.1.217	UK lineage
+S.1	Alias of B.1.1.217.1, Latvian lineage, previously I.1
+B.1.1.218	European lineage
+B.1.1.219	Northern Europe (UK, Denmark, Norway, Sweden)
+B.1.1.220	UK lineage
+B.1.1.221	Belgian lineage
+B.1.1.222	USA/Mexico 
+B.1.1.224	Denmark (some German)
+B.1.1.225	USA
+B.1.1.226	USA lineage
+B.1.1.227	England
+B.1.1.231	USA lineage
+AL.1	Alias of B.1.1.231.1, Canada lineage
+B.1.1.232	Northern Europe (UK, Germany, Denmark, Belgium, NL)
+AK.1	Alias of B.1.1.232.1, UK lineage
+AK.2	Alias of B.1.1.232.2, German lineage
+B.1.1.234	England, Ireland, Northern Ireland, Northern Europe
+B.1.1.236	UK
+B.1.1.237	Wales
+B.1.1.239	USA lineage
+B.1.1.241	European lineage
+AH.1	Alias of B.1.1.241.1, Swiss Lineage
+AH.2	Alias of B.1.1.241.2, French Lineage
+AH.3	Alias of B.1.1.241.3, Finnish Lineage
+B.1.1.240	UK lineage
+AJ.1	Alias of B.1.1.240.1, Portugal lineage
+B.1.1.242	Gambia and Switzerland
+B.1.1.243	Eastern Europe, Central Europe, UK
+B.1.1.244	USA lineage
+B.1.1.249	Welsh Lineage
+B.1.1.251	UK and US
+B.1.1.253	UK
+B.1.1.254	Mostly South Africa
+B.1.1.255	UK lineage
+B.1.1.256	UK lineage
+B.1.1.258	USA (TX)
+B.1.1.261	Swedish/ Danish/ Faroe Islands lineage
+B.1.1.257	Mostly UK lineage with other northern european plus one singapore
+B.1.1.262	UK lineage
+B.1.1.263	UAE lineage (~95%)
+B.1.1.265	USA lineage
+B.1.1.266	Czech lineage
+B.1.1.267	Irish lineage
+B.1.1.268	USA lineage
+B.1.1.269	European lineage
+B.1.1.270	UK lineage
+B.1.1.271	Germain and Austrian lineage
+B.1.1.272	Denmark
+B.1.1.273	South african lineage, previously part of B.1.1.56
+B.1.1.274	England, Thailand, Russia, USA
+B.1.1.275	DRC with some UAE and England
+B.1.1.277	European lineage
+K.1	Alias of B.1.1.277.1, South Korean lineage
+K.2	Alias of B.1.1.277.2, Russian lineage
+K.3	Alias of B.1.1.277.3, Norway lineage
+B.1.1.279	English Lineage
+B.1.1.280	Lithuanian lineage
+B.1.1.282	Netherlands lineage
+B.1.1.283	Japan
+B.1.1.284	Japan
+B.1.1.285	Japan/ USA lineage
+B.1.1.286	UK
+B.1.1.288	Danish Lineage
+B.1.1.289	UK lineage
+B.1.1.290	USA lineage
+B.1.1.291	USA Lineage
+B.1.1.294	Russian and UK lineage
+M.1	Alias of B.1.1.294.1, Israel
+M.2	Alias of B.1.1.294.2, Swiss Lineage
+M.3	Alias of B.1.1.294.3, English Lineage
+B.1.1.296	UK lineage
+B.1.1.297	Central Europe lineage
+AG.1	Alias of B.1.1.297.1, Netherlands lineage
+B.1.1.298	Denmark Lineage
+B.1.1.299	UK lineage
+B.1.1.300	UK lineage
+B.1.1.301	UK lineage
+B.1.1.302	Swedish lineage
+B.1.1.303	UK
+B.1.1.304	UK/USA lineage
+B.1.1.305	Pan European
+AF.1	Alias of B.1.1.305.1, Switzerland
+B.1.1.306	Big indian lineage, exports to Zambia, Bahrain and Canada
+AE.1	Alias of B.1.1.306.1, Zambian
+AE.2	Alias of B.1.1.306.2, Bahrain
+AE.3	Alias of B.1.1.306.3, Zambia and Rwanda
+AE.4	Alias of B.1.1.306.4, Bahrain
+AE.5	Alias of B.1.1.306.5, Zambia
+AE.6	Alias of B.1.1.306.6, Bahrain
+AE.7	Alias of B.1.1.306.7, Bahrain
+AE.8	Alias of B.1.1.306.8, Canada lineage
+B.1.1.307	UK lineage
+B.1.1.308	UK
+B.1.1.309	Now all England, was US, so probably split from something
+B.1.1.310	Northern Irish with English root
+B.1.1.311	Huge UK lineage
+B.1.1.312	Jordan lineage
+B.1.1.315	Previously D.1, UK/ UAE lineage
+AD.1	Alias of B.1.1.315.1, Denmark lineage
+AD.2	Alias of B.1.1.315.2, UK lineage
+AD.2.1	Alias of B.1.1.315.2.1, Lithuanian lineage
+B.1.1.316	International lineage with spike mutation Q677H, parent of lineage R.1 and R.2 which have additional mutations including E484K mutation
+R.1	Alias of B.1.1.316.1, Sublineage of B.1.1.316 with 3 additional spike mutations, circulating in a number of countries. pango-designation issue #17
+R.2	Alias of B.1.1.316.2, Sublineage of B.1.1.316 with E484K. pango-designation issue #18
+B.1.1.317	Russian lineage
+AS.1	Alias of B.1.1.317.1, UK lineage
+AS.2	Alias of B.1.1.317.2, UK lineage
+B.1.1.318	Lineage circulating in multiple countries with a number of variants of concern (Spike D614G, Spike D796H, Spike E484K, Spike P681H, Spike T95I, Spike Y144del). pango-designation issue #15
+AZ.1	Alias of B.1.1.318.1, Canada lineage, from pango-designation issue #171
+AZ.2	Alias of B.1.1.318.2, predominantly Greece lineage, from pango-designation issue #171
+AZ.2.1	Alias of B.1.1.318.2.1, Switzerland lineage, from pango-designation issue #171
+AZ.3	Alias of B.1.1.318.3, USA lineage, from pango-designation issue #171
+AZ.4	Alias of B.1.1.318.4, Ireland lineage, from pango-designation issue #171
+AZ.5	Alias of B.1.1.318.5, Mauritius lineage, from pango-designation issue #171
+AZ.6	Alias of B.1.1.318.6, Canada lineage, from pango-designation issue #171
+B.1.1.319	Russian/Serbian Lineage
+B.1.1.320	USA lineage
+B.1.1.322	Mexico/Southwest USA
+B.1.1.323	Northern Europe, split from B.1.1.257
+B.1.1.324	Chilean Lineage
+B.1.1.325	Eastern Europe plus Belgium and Denmark
+B.1.1.326	Indian Lineage
+B.1.1.327	Swiss Lineage
+B.1.1.328	Costa Rica and Florida
+B.1.1.329	Pan-US
+B.1.1.330	Chinese Lineage
+B.1.1.331	Austrian lineage
+B.1.1.332	Brazillian Lineage
+B.1.1.333	Norwegian Lineage
+B.1.1.334	USA and Mexico
+B.1.1.335	USA and Canada
+B.1.1.336	Russian lineage
+B.1.1.337	US
+B.1.1.338	German lineage
+B.1.1.339	UAE and England
+B.1.1.340	Indian Lineage
+B.1.1.341	UK lineage
+B.1.1.342	USA
+B.1.1.343	Canadian lineage
+B.1.1.344	Mexico, Texas
+B.1.1.345	USA lineage
+B.1.1.346	Denmark lineage
+B.1.1.347	Central Europe
+B.1.1.348	South America & USA
+B.1.1.349	Russia, one "Congo" 
+B.1.1.350	Latvian lineage
+B.1.1.351	USA, England, Finland, Denmark
+B.1.1.352	USA lineage
+B.1.1.353	UAE, Israel, Australia
+B.1.1.354	Singapore, malaysia, India, UAE, England
+B.1.1.355	England, Northern Europe
+B.1.1.356	Texas
+B.1.1.357	USA lineage
+B.1.1.358	USA
+B.1.1.359	Ghana and Denmark
+B.1.1.360	Wales
+B.1.1.361	England
+B.1.1.362	USA
+B.1.1.363	Wales
+B.1.1.364	Russia, S Korea, England
+B.1.1.365	England
+B.1.1.366	UAE
+B.1.1.367	USA
+B.1.1.368	USA and Canada
+B.1.1.369	England
+B.1.1.370	England, USA, Russia, Germany
+AT.1	Alias of B.1.1.370.1, Russia and Finland lineage from pango-designation issue #47
+B.1.1.371	Saudi Arabia to Romania to Western Europe, contains B.1.1.161 at the base
+B.1.1.372	England
+B.1.1.373	Russia, split from B.1.1.31
+B.1.1.374	Balkans, Finland
+B.1.1.375	Mozambique, was C.1.1
+B.1.1.376	USA (California)
+B.1.1.377	Denmark
+B.1.1.378	UK and Brazil
+B.1.1.379	Wales
+B.1.1.380	USA
+B.1.1.381	Peruvian
+B.1.1.382	South African lineage
+B.1.1.383	South African
+B.1.1.384	Swiss Lineage
+B.1.1.385	German Lineage
+B.1.1.386	South African lineage
+B.1.1.387	South African lineage
+B.1.1.388	Columbian lineage
+B.1.1.389	Costa Rica lineage
+B.1.1.391	UAE lineage
+B.1.1.392	USA lineage
+B.1.1.393	Brazilian lineage
+B.1.1.394	Portugal lineage
+B.1.1.395	UK lineage, previously part of B.1.1.279
+B.1.1.396	Russian lineage, some previously B.1.1.184
+B.1.1.397	Predominantly Russia, includes some previous B.1.1.67 and H.1 sequences
+B.1.1.398	USA/ Indonesian lineage
+B.1.1.399	Irish lineage
+B.1.1.400	Spain lineage
+B.1.1.401	Portugal lineage
+B.1.1.402	USA (Texas), split from B.1.1.177
+B.1.1.403	USA
+B.1.1.404	Ghana, Burkina Faso, Luxembourg, Germany
+B.1.1.405	Germany lineage
+AC.1	Alias of B.1.1.405.1, UK lineage
+B.1.1.406	Spain, UK, Italy
+B.1.1.407	Mostly Russia
+B.1.1.408	UK lineage
+B.1.1.409	UAE, Israel, Saudi Arabia
+B.1.1.410	Portugal lineage
+B.1.1.411	Ecuador and US
+B.1.1.412	South African lineage
+B.1.1.413	Europe, Turkey, Iran
+B.1.1.414	Indian lineage
+B.1.1.415	Austrian lineage
+B.1.1.416	USA lineage
+B.1.1.417	Canada lineage
+B.1.1.418	USA lineage
+B.1.1.419	UK lineage, includes some formally B.1.1.193 sequences
+B.1.1.420	Western Europe, USA
+B.1.1.421	Portuguese lineage
+B.1.1.422	Lithuanian lineage
+B.1.1.423	USA lineage
+B.1.1.424	Russia lineage, contains some formally B.1.1.167 sequences
+B.1.1.425	England and Denmark
+B.1.1.426	USA lineage
+B.1.1.427	Russian Lineage
+B.1.1.428	Switzerland and North Macedonia
+B.1.1.429	Latvia and Finland
+B.1.1.430	North Macedonia
+B.1.1.431	Australia and Canada
+B.1.1.432	US and Mexico
+B.1.1.433	Denmark and Switzerland, some B.1.1.281
+B.1.1.434	Mostly US lineage with some UK and Canada (was B.1.1.304)
+B.1.1.435	Russian
+B.1.1.436	Belgium lineage
+B.1.1.437	USA lineage
+B.1.1.438	Swedish lineage
+B.1.1.440	US and Mexico
+B.1.1.441	USA lineage
+B.1.1.442	Argentinian
+B.1.1.444	South African (was B.1.1.117)
+B.1.1.445	Switzerland lineage
+B.1.1.446	Sweden lineage
+B.1.1.447	USA lineage
+B.1.1.448	South African (was B.1.1.54)
+B.1.1.449	Russia lineage
+B.1.1.450	USA lineage
+B.1.1.451	Norway lineage
+B.1.1.452	Russia lineage
+B.1.1.453	US
+B.1.1.456	South African
+B.1.1.458	Swedish lineage
+B.1.1.459	South African lineage (some were part of Belgian lineage B.1.1.75
+B.1.1.461	US TX lineage
+B.1.1.462	United Arab Emirates
+B.1.1.463	US CA lineage
+B.1.1.464	US lineage 
+AW.1	Alias of B.1.1.464.1, Canadian lineage 
+B.1.1.465	Japanese lineage
+B.1.1.466	Gambian lineage
+B.1.1.467	US lineage (NY)
+B.1.1.480	US Lineage
+B.1.1.481	Russian Lineage
+B.1.1.482	US Lineage
+AV.1	Alias of B.1.1.482.1, UK and France lineage with several VOC/VUI-like mutations, from pango-designation issue #73
+B.1.1.483	Belgian lineage
+B.1.1.484	Nigerian Lineage
+B.1.1.485	Ghanan Lineage
+B.1.1.486	US Lineage
+B.1.1.487	UK and Nigerian Lineage
+B.1.1.500	UAE lineage
+B.1.1.506	Mainly Russian
+B.1.1.507	South African Lineage (was B.1.1.254)
+B.1.1.512	US/Mexico
+B.1.1.513	US lineage (NY)
+B.1.1.514	US lineage
+B.1.1.515	German lineage
+B.1.1.516	Costa Rica lineage
+B.1.1.517	USA lineage
+B.1.1.518	USA/ Mexico lineage
+B.1.1.519	USA/ Mexico lineage
+B.1.1.521	European lineage
+B.1.1.522	Belgium lineage
+B.1.1.523	Lineage in multiple countries, predominantly Russia, from pango-designation issue #69
+B.1.1.524	Predominantly Russia lineage, from pango-designation issue #85
+B.1.1.525	Predominantly Russia lineage, from pango-designation issue #85
+B.1.1.526	India lineage, from pango-designation issue #91, previously designated B.1.624
+B.1.1.528	South Africa lineage, from pango-designation issue #177
+B.1.1.529	South Africa and Botswana lineage, from pango-designation issue #343
+BA.1	Alias of B.1.1.529.1, from pango-designation issue #361
+BA.1.1	Alias of B.1.1.529.1.1, from pango-designation issue #360
+BA.2	Alias of B.1.1.529.2, from pango-designation issue #361
+BA.3	Alias of B.1.1.529.3, from pango-designation issue #367
+BB.2	Alias of B.1.621.1.2, from pango-designation issue #232
+B.1.2	USA
+B.1.3	USA lineage
+B.1.6	Belgian lineage
+B.1.8	Netherland, South Africa, Denmark, USA
+B.1.12	Luxembourg lineage (also England, Belgium etc.)
+B.1.13	UK lineage
+B.1.14	USA lineage (CA)
+B.1.22	Netherlands lineage
+B.1.22.1	Curacao
+B.1.23	New Zealand / Australia
+B.1.35	Wales lineage
+B.1.36	Global many subliniages (see below)
+B.1.36.1	European/Denmark
+B.1.36.2	UK
+B.1.36.7	UK (reasigned from Oman lineage)
+B.1.36.8	Prodominantly Indian lineage with global records (inc. Canada)
+B.1.36.9	UK
+B.1.36.10	Jordan/Saudi Arbia (single recent record from USA)
+B.1.36.12	England
+B.1.36.16	SE Asia
+B.1.36.17	UK lineage
+B.1.36.18	Canadian lineage
+B.1.36.19	Oceana
+B.1.36.20	Mainly Scotland
+B.1.36.21	Norway lineage
+B.1.36.22	Lineage with sequences majoritively from Finland
+B.1.36.23	UK
+B.1.36.24	England with Global records
+B.1.36.25	Denmark
+B.1.36.26	Canda/USA
+B.1.36.28	UK
+B.1.36.27	Hong Kong lineage, initially associated with travellers from Nepal. Epidemiologically and phylogenetically supported.
+B.1.36.29	India
+B.1.36.31	UK/Global 
+B.1.36.33	Demark
+B.1.36.34	UK
+B.1.36.35	European/Switzerland
+B.1.36.36	Canada 
+B.1.36.37	Canada
+B.1.36.38	Canada/UK
+B.1.36.39	UK
+B.1.37	USA lineage
+B.1.38	USA
+B.1.39	Denmark
+B.1.40	Scotland lineage
+B.1.44	Wales lineage
+B.1.67	Wales lineage
+B.1.69	Scotland
+B.1.70	Scotland
+B.1.76	English Lineage
+B.1.77	English lineage
+B.1.78	Netherlands lineage
+B.1.81	UK lineage
+B.1.83	Belgian lineage
+B.1.84	DRC lineage
+B.1.91	Portuguese lineage
+B.1.93	UK lineage
+B.1.94	Luxembourg
+B.1.96	Netherlands lineage
+B.1.97	England
+B.1.103	USA
+B.1.104	England
+B.1.105	England
+B.1.106	USA
+B.1.108	USA
+B.1.110	Chilean/ US and Australia lineage
+B.1.110.1	Chilean/ US lineage
+B.1.110.2	UK lineage
+B.1.110.3	USA lineage
+B.1.111	South/ Central American lineage (mostly Trinidad and Colombia, an a small cluster from Norwich)
+B.1.112	USA/UT
+B.1.113	Indian lineage
+B.1.115	Israel and UK
+B.1.116	USA lineage
+B.1.117	UK lineage
+B.1.118	Danish
+B.1.119	USA lineage
+B.1.120	Wales lineage
+B.1.124	USA/WA
+B.1.126	USA (MN) lineage
+B.1.127	Denmark
+B.1.128	Canda, Switzerland and DRC
+B.1.131	European lineage
+B.1.134	USA lineage
+B.1.137	USA lineage
+B.1.139	USA lineage
+B.1.140	South African lineage
+B.1.142	Wales lineage
+B.1.143	Indian lineage
+B.1.145	Indian lineage
+B.1.146	Swiss lineage
+B.1.147	Canadian lineage 
+B.1.149	DRC lineage
+B.1.151	UK lineage
+B.1.153	English lineage with some Australian, New Zealand and European sequences
+B.1.157	UK/ Spanish lineage
+B.1.158	Finland lineage
+B.1.159	French lineage
+B.1.160	Large European lineage, sequences from BeNeLuX, Denmark, Switzerland, Hungary and UK.
+B.1.160.7	English Lineage
+B.1.160.8	Denmark
+B.1.160.9	Switzerland
+B.1.160.10	Switzerland
+B.1.160.11	Switzerland
+B.1.160.12	Switzerland
+B.1.160.13	Netherlands lineage
+B.1.160.14	Switzerland
+B.1.160.15	Mostly Switzerland
+B.1.160.16	Mostly Switzerland
+AB.1	Alias of B.1.160.16.1, Denmark, grown out of big swiss cluster
+B.1.160.17	Denmark
+B.1.160.18	Mayotte
+B.1.160.19	Switzerland
+B.1.160.20	Switzerland
+B.1.160.21	Luxembourg
+B.1.160.22	Switzerland, Germany, Austria
+B.1.160.23	England
+B.1.160.24	Denmark
+B.1.160.25	French Guiana
+B.1.160.26	Mostly Switzerland, a little Europe
+B.1.160.27	Mayotte
+B.1.160.28	Belgium and Luxembourg
+B.1.160.29	Switzerland
+B.1.160.30	Switzerland
+B.1.160.31	Switzerland
+B.1.160.32	Switzerland
+B.1.160.33	Was part of B.1.160.7 but this is now split on tree. English lineage last seen 2020-11-18 in uk, but long branch to a recent French sample sticking out
+B.1.161	USA
+B.1.162	USA lineage
+B.1.163	USA
+B.1.164	Eastern Europe
+B.1.165	England
+B.1.166	USA lineage
+B.1.167	Canada, England
+B.1.168	Scottish lineage
+B.1.169	USA, some previously B.1.333.1
+B.1.170	Egypt UAE
+B.1.173	England
+B.1.177	Major mostly European lineage, result of opening borders summer 2020
+B.1.177.2	English lineage
+B.1.177.3	Welsh and English lineage
+B.1.177.4	UK lineage
+B.1.177.5	UK, mostly Scotland
+B.1.177.6	Wales lineage
+B.1.177.7	Wales lineage
+B.1.177.8	Wales lineage
+B.1.177.9	UK lineage
+B.1.177.10	England
+B.1.177.11	Scotland mostly, some England
+B.1.177.12	Danish
+B.1.177.14	Danish/ Norway lineage
+B.1.177.15	English Welsh lineage
+AA.1	Alias of B.1.177.15.1, European Lineage
+AA.2	Alias of B.1.177.15.2, Welsh Lineage
+AA.3	Alias of B.1.177.15.3, Welsh Lineage
+AA.4	Alias of B.1.177.15.4, Welsh Lineage
+AA.5	Alias of B.1.177.15.5, Welsh Lineage
+AA.6	Alias of B.1.177.15.6, Welsh Lineage
+AA.7	Alias of B.1.177.15.7, Welsh Lineage
+AA.8	Alias of B.1.177.15.8, Welsh Lineage
+B.1.177.16	UK lineage
+B.1.177.17	UK, merged with B.1.177.13
+B.1.177.18	England, some Wales, parent is mainland Europe
+B.1.177.19	England, some Wales
+B.1.177.20	England
+B.1.177.21	Denmark
+B.1.177.23	Swiss lineage 
+B.1.177.24	Danish lineage, contains some previous B.1.177.1
+B.1.177.25	Gibralter lineage
+B.1.177.26	UK lineage
+B.1.177.27	Danish
+B.1.177.28	Swiss lineage 
+B.1.177.29	Spain
+B.1.177.30	England 
+B.1.177.31	Swiss lineage 
+B.1.177.32	Swiss and Portugese mostly
+B.1.177.33	Mostly italian, some swiss, some english
+B.1.177.34	Dutch
+B.1.177.35	Danish, some Israel more recently
+B.1.177.36	Dutch
+B.1.177.37	Belgian
+B.1.177.38	Dutch
+B.1.177.39	Ireland andNorthern Ireland
+B.1.177.40	Dutch
+B.1.177.41	Danish and swedish
+B.1.177.42	Danish
+B.1.177.43	Swiss, then into Germany and Austria
+B.1.177.44	Swiss mostly
+B.1.177.45	Iceland
+B.1.177.46	Sweden and Denmark
+B.1.177.47	England
+B.1.177.48	UK lineage
+B.1.177.49	Spanish lineage
+B.1.177.50	Netherlands / Germany
+Z.1	Alias of B.1.177.50.1, UK lineage
+B.1.177.51	European lineage
+B.1.177.52	European lineage
+Y.1	Alias of B.1.177.52.1, Portuguese lineage
+B.1.177.53	UK lineage
+W.1	Alias of B.1.177.53.1, French and US lineage
+W.2	Alias of B.1.177.53.2, Dutch lineage
+W.3	Alias of B.1.177.53.3, UK lineage
+W.4	Alias of B.1.177.53.4, UK lineage
+B.1.177.54	UK lineage
+V.1	Alias of B.1.177.54.1, Northern Irish and Irish lineage
+V.2	Alias of B.1.177.54.2, Northern Irish lineage
+B.1.177.55	England and Ireland
+B.1.177.56	UK lineage
+B.1.177.57	UK lineage
+B.1.177.58	UK
+B.1.177.59	Ireland
+B.1.177.60	Northern Europe, mostly Lithuania
+U.1	Alias of B.1.177.60.1, England
+U.2	Alias of B.1.177.60.2, Denmark
+U.3	Alias of B.1.177.60.3, Norway and Latvia
+B.1.177.61	Spain
+B.1.177.62	Germany, Switzerland, Netherlands
+B.1.177.63	Wales
+B.1.177.64	Ireland
+B.1.177.65	Wales
+B.1.177.66	Irish lineage
+B.1.177.67	Irish lineage
+B.1.177.68	Irish lineage
+B.1.177.69	UK lineage
+B.1.177.70	Danish lineage
+B.1.177.71	Swiss lineage 
+B.1.177.72	Portuguese lineage
+B.1.177.73	Netherlands lineage
+B.1.177.74	Netherlands, Spain, UK
+B.1.177.75	Italian lineage
+B.1.177.76	Danish
+B.1.177.77	Benelux + Denmark
+B.1.177.78	French lineage
+B.1.177.80	Scandinavian lineage
+B.1.177.81	Large European lineage
+B.1.177.82	Scandinavian lineage
+B.1.177.83	Italian lineage
+B.1.177.84	UK lineage
+B.1.177.85	Portuguese lineage
+B.1.177.86	German and Danish lineage
+B.1.177.87	UK lineage
+B.1.177.88	Italian lineage from pango-designation issue #19
+B.1.177.89	Switzerland lineage
+B.1.178	DRC lineage
+B.1.179	Denmark
+B.1.180	Romanian lineage
+B.1.181	USA lineage
+B.1.182	Spanish lineage
+B.1.184	India
+B.1.187	Polish lineage
+B.1.188	USA (OR) lineage
+B.1.189	USA/Mexico
+B.1.190	
+B.1.192	Equatorial Guinea
+B.1.194	USA
+B.1.195	UAE
+B.1.198	UK lineage
+B.1.199	USA
+B.1.201	UK lineage
+B.1.203	Panama/Costa Rica
+B.1.206	USA
+B.1.205	Peruvian
+B.1.208	French lineage
+B.1.210	Indian lineage
+B.1.211	Belgium/ Luxembourg lineage
+B.1.212	South American lineage
+B.1.213	Polish lineage
+B.1.214	DRC/ Congo lineage
+B.1.214.1	Congo/ France lineage
+B.1.214.2	Lineage from Belgium with a number of key spike mutations and a 9bp spike insertion.
+B.1.214.3	France, Belgium and Mayotte lineage.
+B.1.214.4	Danish lineage. 
+B.1.215	Scottish lineage
+B.1.218	Swiss lineage
+B.1.219	Suriname lineage
+B.1.220	European lineage
+B.1.221	European lineage
+B.1.221.1	UK lineage
+B.1.221.2	German lineage
+B.1.221.3	Danish lineage
+B.1.221.4	Belgium/ Luxembourg lineage
+B.1.222	Scottish lineage
+B.1.223	UK lineage
+B.1.224	Austrian lineage
+B.1.225	UK lineage
+B.1.227	Sweden
+B.1.229	UK lineage
+B.1.231	UK lineage
+B.1.232	USA/ Scottish lineage
+B.1.233	USA lineage
+B.1.234	USA lineage
+B.1.235	UK
+B.1.236	Swiss lineage
+B.1.237	South african lineage
+B.1.238	UK lineage
+B.1.239	USA lineage
+B.1.240	USA
+B.1.240.1	Curacao and Aruba
+B.1.240.2	England
+B.1.241	USA lineage
+B.1.243	USA lineage
+B.1.243.1	Emergent lineage in Arizona with a number of defining amino acid mutations, including S:E484K and S:V213G. Described in Skidmore et al 2021. https://www.medrxiv.org/content/10.1101/2021.03.26.21254367v1.full.pdf.
+B.1.243.2	Mexico lineage, from pango-designation issue #169
+B.1.242	Norway lineage
+B.1.245	USA/CA
+B.1.247	India
+B.1.249	England
+B.1.248	Scotland
+B.1.250	England
+B.1.251	England
+B.1.252	Wales
+B.1.254	Scotland
+B.1.256	Scottish lineage
+B.1.258	UK lineage
+B.1.258.2	Irish lineage (has sub-lineage G.1)
+G.1	Alias of B.1.258.2.1, UK lineage
+B.1.258.3	UK lineage
+B.1.258.4	UK lineage
+B.1.258.5	UK lineage
+B.1.258.6	UK lineage
+B.1.258.7	UK lineage
+B.1.258.9	Danish lineage
+B.1.258.10	Scottish lineage
+B.1.258.11	Danish lineage
+B.1.258.12	UK lineage
+B.1.258.14	Italian lineage
+B.1.258.15	Danish lineage
+B.1.258.16	Swiss/ Danish lineage
+B.1.258.17	European lineage
+B.1.258.18	Netherlands lineage
+B.1.258.19	Danish lineage
+B.1.258.20	Luxembourg lineage
+B.1.258.21	Netherlands lineage
+B.1.258.22	Swedish lineage
+B.1.258.23	USA (UT) lineage
+B.1.258.24	Italian lineage
+B.1.260	Saudi Arabian lineage
+B.1.263	Danish
+B.1.264	USA (UT)
+B.1.264.1	Russia, Germany, Switzerland, Austria. Was B.1.412
+B.1.265	USA lineage
+B.1.267	USA (CA)
+B.1.268	USA
+B.1.270	Canadian lineage 
+B.1.273	French lineage
+B.1.274	Utah lineage
+B.1.276	USA lineage
+B.1.277	European lineage
+B.1.279	Canadian lineage 
+B.1.280	USA
+B.1.281	Bahrain lineage
+B.1.282	UK lineage
+B.1.284	USA - Texas
+B.1.285	USA - Texas
+B.1.287	USA lineage
+B.1.289	USA - Arizona
+B.1.291	Costa Rica
+B.1.292	Gambia
+B.1.293	USA
+B.1.294	USA -  WI and MN
+B.1.298	USA (north east)
+B.1.301	USA , some B.1.2 merged in
+B.1.302	USA, New England
+B.1.304	USA
+B.1.305	USA, mostly TX
+B.1.306	USA lineage
+B.1.308	Northern USA and Canada
+B.1.309	USA lineage
+B.1.310	Netherlands
+B.1.311	USA lineage
+B.1.313	USA (removed the polytomy at the base of the lineage)
+B.1.314	North American lineage
+B.1.315	USA lineage
+B.1.316	Canada lineage
+B.1.318	USA (FL)
+B.1.319	USA and Australia
+B.1.320	USA
+B.1.321	Belgium, England
+B.1.323	USA (NY)
+B.1.324	USA
+B.1.325	USA (TX)
+B.1.326	USA (TX)
+B.1.328	USA
+B.1.329	German
+B.1.330	USA (MN)
+B.1.332	USA
+B.1.333	USA lineage WA
+B.1.334	USA lineage
+B.1.335	USA lineage
+B.1.336	USA lineage
+B.1.337	USA lineage
+B.1.338	Australia
+B.1.340	USA lineage
+B.1.341	USA lineage
+B.1.342	Sweden
+B.1.344	USA (CO)
+B.1.346	USA lineage
+B.1.348	USA lineage
+B.1.349	USA lineage
+B.1.350	Canada
+B.1.350.1	England
+B.1.351	Lineage of concern detected in South Africa
+B.1.351.1	Sublineage of B.1.351 circulating in Botswana
+B.1.351.2	Sublineage of B.1.351 circulating in Mayotte
+B.1.351.3	Sublineage of B.1.351 predominantly in Bangladesh and Singapore with exports elsewhere
+B.1.351.5	Sublineage of B.1.351 in Spain, from pango-designation issue #211
+B.1.343	Denmark
+B.1.354	Denmark
+B.1.355	USA lineage
+B.1.356	European, mostly dutch and spanish, some north american
+B.1.357	USA (OR,WA,HI)
+B.1.358	Danish lineage
+B.1.359	USA lineage
+B.1.360	USA
+B.1.361	USA lineage (split from whatever Chris reassigns B.1.361 to)
+B.1.362	Israel lineage
+B.1.362.1	UK lineage
+B.1.362.2	UK lineage
+B.1.363	USA lineage
+B.1.366	USA lineage
+B.1.367	European lineage (mostly France and England)
+B.1.369	USA/ New Zealand lineage
+B.1.369.1	Canada lineage
+B.1.370	USA lineage, cleaned up a lot in release 2021-01-20
+B.1.371	Danish/ USA lineage, previously part of B.1.21
+B.1.372	Danish lineage
+B.1.375	USA lineage (circulating in Connecticut with the 69-70del, which leads to SGTF. However, they express 484E and 501N in their spike proteins.) 
+B.1.377	USA and England
+B.1.378	USA
+B.1.379	UK
+B.1.380	Rwanda / Uganda
+B.1.381	South Africa
+B.1.382	USA
+B.1.383	Wales
+B.1.384	USA lineage
+B.1.385	USA
+B.1.387	French lineage
+B.1.388	Cote d'Ivoire lineage
+B.1.389	England + Europe
+B.1.390	USA
+B.1.391	UK
+B.1.393	Uganda
+B.1.395	Wales
+B.1.396	USA lineage
+B.1.397	USA lineage
+B.1.398	European lineage
+B.1.399	USA
+B.1.400	USA lineage
+B.1.400.1	USA lineage, from pango-designation issue #94
+B.1.401	USA lineage
+B.1.402	USA lineage
+B.1.403	USA lineage
+B.1.404	USA lineage
+B.1.405	USA lineage
+B.1.406	Germany/ UK lineage
+B.1.407	UK lineage
+B.1.408	UK/ Romanian lineage
+B.1.409	USA lineage
+B.1.411	Sri Lankan lineage
+B.1.413	USA
+B.1.415	USA
+B.1.415.1	Predominantly Mexico lineage, from pango-designation issue #157
+B.1.416	Senegal/ Gambian lineage, reassigned from B.1.5.12
+B.1.416.1	European lineage within diversity of B.1.416. Previously assigned E.1
+B.1.417	South African lineage
+B.1.418	Scottish lineage
+B.1.420	Colombian lineage
+B.1.421	USA lineage
+B.1.422	Canada mostly
+B.1.423	USA lineage
+B.1.424	USA lineage
+B.1.425	USA lineage
+B.1.426	USA (UT) lineage
+B.1.427	USA lineage (CA)
+B.1.428	Danish lineage (amalgam of Danish sequences from B.1.358, B.1.288, B.1.262)
+B.1.428.1	Iraq
+B.1.428.2	Tunisia, England, France
+B.1.428.3	UAE, Jordan
+B.1.429	A lineage predominantly circulating in California but with exports to other countries. Characterised by the spike L452R mutation but also has spike:W152C orf1ab:D5584Y and N:T205I.
+B.1.429.1	Colorado lineage from pango-designation issue #37
+B.1.431	Scotland
+B.1.432	USA lineage
+B.1.433	USA lineage
+B.1.434	Australian lineage (previously a couple part of B.1.25, B.1.295)
+B.1.435	USA - UT
+B.1.436	USA liniage reassigned from previous tree 
+B.1.437	USA - FL
+B.1.438	Lineage circulating in multiple countries
+B.1.438.1	Canada lineage
+B.1.438.2	Mayotte and Reunion lineage
+B.1.438.3	USA lineage
+B.1.438.4	USA lineage
+B.1.439	USA
+B.1.441	Global lineage (inc. merge of B.1.274)
+B.1.442	USA
+B.1.443	USA lineage
+B.1.444	USA Utah lineage
+B.1.445	USA (AZ)
+B.1.446	USA, some B.1.333
+B.1.448	USA lineage
+B.1.450	USA (TX)
+B.1.451	USA lineage (VA), previously B.1.328 and B.1.317
+B.1.452	USA (CA)
+B.1.453	USA (CA and TX)
+B.1.456	SE Asian (reasigned)
+B.1.458	India
+B.1.459	Indonesia 
+B.1.460	UK lineage
+B.1.462	UK/Nigera
+B.1.463	Finland 
+B.1.465	UK, contains B.1.466 which is reassigned (see below)
+B.1.466	Global lineage containing two new sublineages (see below)
+B.1.466.1	USA/UAE 
+B.1.466.2	Indonesia
+AU.1	Alias of B.1.466.2.1, predominantly Papua New Guinea with some Australia sequences
+AU.2	Alias of B.1.466.2.2, Malaysia lineage
+AU.3	Alias of B.1.466.2.3, predominantly Australia with some Papua New Guinea and Singapore sequences
+B.1.467	Nigeria/Switzerland 
+B.1.468	Indonesia/Sinagpore. Seq names missassigned in original file
+B.1.469	European (Turkey, Denmark, UK)
+B.1.470	Indonesia/Singapore
+B.1.471	UK with global representaion
+B.1.473	USA lineage
+B.1.474	Denmark/ Luxemboug lineage
+B.1.475	German lineage
+B.1.476	West African lineage
+B.1.478	USA lineage
+B.1.479	USA lineage
+B.1.480	England, Australia, Sweden, Norway
+B.1.482	France/ West African lineage
+B.1.483	USA lineage
+B.1.485	USA lineage
+B.1.486	USA (MA)
+B.1.487	USA - TX
+B.1.488	Denmark and Sweden
+B.1.489	Wales and Norway
+B.1.490	Finland.  
+B.1.491	England
+B.1.492	USA - Colorado
+B.1.493	USA (FL)
+B.1.494	USA (Split from B.1.3)
+B.1.495	USA (Split from B.1.3)
+B.1.496	USA (could be dissolved - sequences jumped out, previously split from B.1.3)
+B.1.497	South Korea (was B.1.3.1)
+B.1.498	USA (Split from B.1.3)
+B.1.499	Mostly Argentina, some Spain, NL, Hong Kong (was B.1.3.2)
+B.1.499.1	USA lineage
+B.1.500	USA (split from B.1.3)
+B.1.501	USA (Split from B.1.3)
+B.1.502	USA (Split from B.1.3)
+B.1.503	USA (Split from B.1.3)
+B.1.504	Israel and England (was B.1.3.3)
+B.1.505	Israel and england (was B.1.3.4)
+B.1.506	USA (NY, split from B.1.3)
+B.1.507	USA (MI, NY, split from B.1.3)
+B.1.508	USA (NY, AZ, split from B.1.3)
+B.1.509	USA (split from B.1.3, mostly FL)
+B.1.510	Iceland, Sweden, North America (could be dissolved)
+B.1.511	USA lineage
+B.1.513	Northern Europe
+B.1.515	USA (Utah)
+B.1.516	USA (AZ and NM)
+B.1.517	USA (mostly AZ)
+B.1.517.1	Australia
+B.1.518	USA
+B.1.520	USA, Canada, England, Germany etc. (could be dissolved / reassigned to B.1)
+B.1.521	USA lineage
+B.1.523	UK/Australia
+B.1.524	Malaysian lineage
+B.1.525	International lineage with E484K, del69-70 among other defining mutations.
+B.1.526	A lineage predominantly circulating in New York but with a few exports to other countries. Characterised by spike mutations T95I and D253G, plus others. The most frequent spike mutation pattern is L5F T95I D253G E484K D614G A701V, with a smaller fraction having S477N instead of E484K. Spike mutation E484K is present in about half of this lineage (as of 2021-02-10) - Very possible not all new additions carry T95I and D253G (someone should check this, e.g. for USA/NY-Wadsworth-21008455-01/2021 and Aruba/AW-RIVM-11403/2021)
+B.1.527	Czech Republic/ Ukraine lineage
+B.1.528	Moroccan lineage
+B.1.529	French lineage
+B.1.530	Kenya
+B.1.531	England
+B.1.532	England
+B.1.533	Saudi Arabia
+B.1.534	Denmark
+B.1.535	Australia
+B.1.536	Denmark
+B.1.537	India
+B.1.538	India
+B.1.539	USA
+B.1.540	India
+B.1.541	USA lineage
+B.1.542	Spain
+B.1.543	USA
+B.1.544	Congo/ Cameroon/ USA lineage
+B.1.545	New Zealand
+B.1.546	USA
+B.1.547	Canada
+B.1.548	India
+B.1.549	Kenya + England
+B.1.550	USA lineage
+B.1.551	USA lineage
+B.1.552	North American
+B.1.554	USA (UT) lineage
+B.1.555	Sweden
+B.1.556	USA lineage
+B.1.557	Northern Ireland
+B.1.558	USA/ Mexico lineage
+B.1.559	Scotland
+B.1.560	India
+B.1.561	USA - contains previous B.1.404
+B.1.562	England base, to Ireland
+B.1.563	UK lineage
+B.1.564	USA lineage, split out from B.1.369
+B.1.564.1	Canada lineage
+B.1.565	USA - contains previous B.1.139
+B.1.566	USA - Arizona and Texas
+B.1.567	USA lineage, formally part of B.1.2
+B.1.568	USA lineage, split out from B.1.361
+B.1.569	USA (CA and TX)
+B.1.570	USA (CO)
+B.1.571	USA lineage, split out from B.1.369
+B.1.572	USA, split from B.1.325
+B.1.573	Canada (BC)
+B.1.574	USA lineage, split out from B.1.363
+B.1.575	USA and Aruba lineage with spike mutations "S:P681H","S:S494P" and "S:T716I". 
+B.1.575.1	Spainish sub lineage of B.1.575 with spike mutations "S:P681H","S:S494P" and "S:T716I".
+B.1.575.2	Spain lineage, from pango-designation issue #116
+B.1.576	USA lineage, formally part of B.1.363
+B.1.577	USA lineage, formally part of B.1.2
+B.1.578	USA, formally part of B.1.313
+B.1.579	USA (AZ) formally part of B.1.516
+B.1.580	USA Southern (some B.1.361)
+B.1.581	USA (TX)
+B.1.582	USA (TX some B.1.361)
+B.1.585	USA lineage
+B.1.586	USA lineage (previously part of B.1.320 that jumped to a new part of the tree)
+B.1.587	USA (OR) lineage
+B.1.588	USA (NY/PR) lineage
+B.1.588.1	Romanian lineage
+B.1.589	USA  lineage
+B.1.590	USA  lineage
+B.1.591	USA  lineage
+B.1.592	Canadian  lineage
+B.1.593	USA lineage
+B.1.594	USA lineage
+B.1.595	USA (was B.1.2)
+B.1.595.1	USA (FL into Lousiana)
+B.1.595.2	USA (AZ) 
+B.1.595.3	USA (up the east coast)
+B.1.595.4	USA (MN)
+B.1.596	USA lineage
+B.1.596.1	Kenyan lineage
+B.1.597	France, Algeria (previously part of B.1.367 that jumped to a new part of the tree)
+B.1.598	Canada (from NY)
+B.1.599	USA, Canada (previously part of B.1.311 that jumped to a new part of the tree)
+B.1.600	Bolivia/ Spain lineage
+B.1.601	USA lineage
+B.1.602	USA lineage
+B.1.603	USA lineage
+B.1.604	USA lineage
+B.1.605	USA lineage
+B.1.606	USA lineage (previously part of B.1.325 that jumped to a new part of the tree)
+B.1.607	England (previously part of B.1.369 that jumped to a new part of the tree - could also be withdrawn).
+B.1.609	USA/ Mexico lineage
+B.1.610	UK lineage, previously part of B.1.235
+B.1.611	Canada lineage
+B.1.612	USA lineage, split out from B.1.361
+B.1.613	Danish lineage (amalgam of Danish sequences from B.1.358, B.1.288, B.1.262), split out from B.1.428
+B.1.614	Sweden
+B.1.615	Canada
+B.1.616	France lineage, pango-designation issue #31
+B.1.617	Predominantly India lineage with several spike mutations, pango-designation issue #38
+B.1.617.1	Predominantly India lineage with 484Q, pango-designation issue #49
+B.1.617.2	Predominantly India lineage with several spike mutations, pango-designation issue #49
+AY.1	Alias of B.1.617.2.1, in several European countries, from pango-designation issue #95
+AY.2	Alias of B.1.617.2.2, in USA with K417N, from pango-designation issue #107
+AY.3	Alias of B.1.617.2.3, USA lineage, from pango-designation issue #121
+AY.3.1	Alias of B.1.617.2.3.1, USA lineage, from pango-designation issue #147
+AY.3.2	Alias of B.1.617.2.3.2, Peru lineage, from pango-designation issue #312
+AY.3.3	Alias of B.1.617.2.3.3, USA lineage, from pango-designation issue #365
+AY.3.4	Alias of B.1.617.2.3.4, Bahrain lineage
+AY.4	Alias of B.1.617.2.4, UK lineage, from pango-designation issue #180
+AY.4.1	Alias of B.1.617.2.4.1, UK lineage, from pango-designation issue #214
+AY.4.2	Alias of B.1.617.2.4.2, predominantly UK lineage, from pango-designation issue #223
+AY.4.2.1	Alias of B.1.617.2.4.2.1, predominantly UK lineage, from pango-designation issue #248
+AY.4.2.2	Alias of B.1.617.2.4.2.2, UK lineage, from pango-designation issue #249
+AY.4.2.3	Alias of B.1.617.2.4.2.3, European lineage, from pango-designation issue #356
+AY.4.2.4	Alias of B.1.617.2.4.2.4, European lineage
+AY.4.3	Alias of B.1.617.2.4.3, lineage in several countries, from pango-designation issue #222
+AY.4.4	Alias of B.1.617.2.4.4, lineage in several European countries, from pango-designation issue #237
+AY.4.5	Alias of B.1.617.2.4.5, predominantly Lithuania lineage, from pango-designation issue #241
+AY.4.6	Alias of B.1.617.2.4.6, European lineage, from pango-designation issue #264
+AY.4.7	Alias of B.1.617.2.4.7, lineage in Aruba and other countries, from pango-designation issue #291
+AY.4.8	Alias of B.1.617.2.4.8, UK lineage, from pango-designation issue #304
+AY.4.9	Alias of B.1.617.2.4.9, European lineage, from pango-designation issue #332
+AY.4.10	Alias of B.1.617.2.4.10, European lineage, from pango-designation issue #332
+AY.4.11	Alias of B.1.617.2.4.11, European lineage
+AY.4.12	Alias of B.1.617.2.4.12, Canada lineage
+AY.4.13	Alias of B.1.617.2.4.13, European lineage
+AY.4.14	Alias of B.1.617.2.4.14, lineage in Denmark and other countries
+AY.4.15	Alias of B.1.617.2.4.15, Denmark lineage
+AY.4.16	Alias of B.1.617.2.4.16, Gibraltar lineage
+AY.4.17	Alias of B.1.617.2.4.17, Lithuania lineage
+AY.5	Alias of B.1.617.2.5, UK lineage, from pango-designation issue #180
+AY.5.1	Alias of B.1.617.2.5.1, Portugal lineage
+AY.5.2	Alias of B.1.617.2.5.2, Portugal lineage
+AY.5.3	Alias of B.1.617.2.5.3, USA lineage
+AY.5.4	Alias of B.1.617.2.5.4, European lineage
+AY.5.5	Alias of B.1.617.2.5.5, European lineage, formally AY.97
+AY.5.6	Alias of B.1.617.2.5.6, lineage in Saint Vincent and the Grenadines, Grenada and other countries
+AY.6	Alias of B.1.617.2.6, UK lineage, from pango-designation issue #180
+AY.7	Alias of B.1.617.2.7, UK lineage, from pango-designation issue #180
+AY.7.1	Alias of B.1.617.2.7.1, Denmark lineage
+AY.7.2	Alias of B.1.617.2.7.2, predominantly Italy lineage in multiple other European countries
+AY.8	Alias of B.1.617.2.8, UK lineage, from pango-designation issue #180
+AY.9	Alias of B.1.617.2.9, UK lineage, from pango-designation issue #180
+AY.9.2	Alias of B.1.617.2.9.2, European lineage
+AY.9.2.1	Alias of B.1.617.2.9.2.1, Canada lineage
+AY.9.2.2	Alias of B.1.617.2.9.2.2, Sweden lineage, from pango-designation issue #284
+AY.10	Alias of B.1.617.2.10, UK lineage, from pango-designation issue #180
+AY.11	Alias of B.1.617.2.11, UK lineage, from pango-designation issue #142
+AY.13	Alias of B.1.617.2.13, USA lineage
+AY.14	Alias of B.1.617.2.14, USA lineage
+AY.15	Alias of B.1.617.2.15, Canada lineage
+AY.16	Alias of B.1.617.2.16, lineage in Kenya and multiple other countries
+AY.16.1	Alias of B.1.617.2.16.1, France lineage
+AY.17	Alias of B.1.617.2.17, Ireland and Northern Ireland lineage
+AY.18	Alias of B.1.617.2.18, Canada lineage
+AY.19	Alias of B.1.617.2.19, South Africa lineage
+AY.20	Alias of B.1.617.2.20, USA and Mexico lineage
+AY.20.1	Alias of B.1.617.2.20.1, Czech Republic lineage
+AY.21	Alias of B.1.617.2.21, lineage predominantly in Italy and Switzerland
+AY.22	Alias of B.1.617.2.22, predominantly Portugal lineage
+AY.23	Alias of B.1.617.2.23, predominantly Singapore and Indonesia lineage, from pango-designation issue #175
+AY.23.1	Alias of B.1.617.2.23.1, Singapore lineage, from pango-designation issue #237
+AY.23.2	Alias of B.1.617.2.23.2, European lineage, from pango-designation issue #265
+AY.24	Alias of B.1.617.2.24, predominantly Indonesia lineage, from pango-designation issue #175
+AY.24.1	Alias of B.1.617.2.24.1, Brunei lineage
+AY.25	Alias of B.1.617.2.25, USA lineage, from pango-designation issue #181
+AY.25.1	Alias of B.1.617.2.25.1, Canada and USA lineage, from pango-designation issue #313
+AY.25.1.1	Alias of B.1.617.2.25.1.1, Peru lineage, from pango-designation issue #355
+AY.25.1.2	Alias of B.1.617.2.25.1.2, Trinidad and Tobago lineage
+AY.25.2	Alias of B.1.617.2.25.2, Argentina lineage
+AY.25.3	Alias of B.1.617.2.25.3, Canada and USA lineage
+AY.26	Alias of B.1.617.2.26, USA and Mexico lineage, from pango-designation issue #188
+AY.26.1	Alias of B.1.617.2.26.1, Peru lineage, from pango-designation issue #278
+AY.27	Alias of B.1.617.2.27, Canada lineage, from pango-designation issue #196
+AY.28	Alias of B.1.617.2.28, Sri Lanka lineage, from pango-designation issue #199
+AY.29	Alias of B.1.617.2.29, Japan lineage, from pango-designation issue #208
+AY.29.1	Alias of B.1.617.2.29.1, Japan lineage, from pango-designation issue #224
+AY.30	Alias of B.1.617.2.30, Thailand and Cambodia lineage, from pango-designation issue #207
+AY.31	Alias of B.1.617.2.31, lineage associated with Myanmar. At the time of designation, almost all sequences in this lineage were from Myanmar or had travel history from Myanmar, from pango-designation issue #206
+AY.32	Alias of B.1.617.2.32, South Africa lineage, from pango-designation issue #209
+AY.33	Alias of B.1.617.2.33, Lineage circulating mostly in Belgium, Denmark, France, Netherlands, Germany, from pango-designation issues #215 and #219
+AY.33.1	Alias of B.1.617.2.33.1, Reunion and France lineage, from pango-designation issue #370
+AY.34	Alias of B.1.617.2.34, lineage with spike Q677H circulating in multiple countries, from pango-designation issue #217
+AY.34.1	Alias of B.1.617.2.34.1, lineage in multiple countries including Gambia, Senegal, Benin and Mali, from pango-designation issue #255
+AY.34.1.1	Alias of B.1.617.2.34.1.1, Brazil and Chile lineage
+AY.34.2	Alias of B.1.617.2.34.2, lineage in multiple countries including Martinique, from pango-designation issue #269
+AY.35	Alias of B.1.617.2.35, lineage with spike E484Q circulating in USA, from pango-designation issue #217
+AY.36	Alias of B.1.617.2.36, lineage predominantly in Nigeria, UK and USA, from pango-designation issue #225
+AY.37	Alias of B.1.617.2.37, lineage predominantly in Liberia, USA and France, from pango-designation issue #228
+AY.38	Alias of B.1.617.2.38, lineage predominantly in South Africa, from pango-designation issue #229
+AY.39	Alias of B.1.617.2.39, predominantly USA lineage, from pango-designation issue #234
+AY.39.1	Alias of B.1.617.2.39.1, Australia and USA lineage, from pango-designation issue #234
+AY.39.1.1	Alias of B.1.617.2.39.1.1, predominantly New Zealand lineage, from pango-designation issue #234
+AY.39.1.2	Alias of B.1.617.2.39.1.2, Australia lineage, from pango-designation issue #307
+AY.39.1.3	Alias of B.1.617.2.39.1.3, Australia lineage, from pango-designation issue #339
+AY.39.2	Alias of B.1.617.2.39.2, Peru lineage, from pango-designation issue #295
+AY.39.3	Alias of B.1.617.2.39.3, Trinidad and Tobago lineage
+AY.40	Alias of B.1.617.2.40, Reunion lineage, from pango-designation issue #237
+AY.41	Alias of B.1.617.2.41, European lineage, from pango-designation issue #237
+AY.42	Alias of B.1.617.2.42, European lineage, from pango-designation issue #239
+AY.42.1	Alias of B.1.617.2.42.1, lineage in Bonaire, Curacao and other countries, from pango-designation issue #331
+AY.43	Alias of B.1.617.2.43, European lineage, from pango-designation issue #240
+AY.43.1	Alias of B.1.617.2.43.1, Brazil lineage, from pango-designation issue #319
+AY.43.2	Alias of B.1.617.2.43.2, Brazil lineage, from pango-designation issue #319
+AY.43.3	Alias of B.1.617.2.43.3, Chile lineage, from pango-designation issue #337
+AY.43.4	Alias of B.1.617.2.43.4, Switzerland lineage, from pango-designation issue #317
+AY.43.5	Alias of B.1.617.2.43.5, Portugal lineage, from pango-designation issue #335
+AY.43.6	Alias of B.1.617.2.43.6, Denmark lineage, from pango-designation issue #315
+AY.43.7	Alias of B.1.617.2.43.7, Brazil lineage, from pango-designation issue #378
+AY.43.8	Alias of B.1.617.2.43.8, lineage in Netherlands, Suriname and other countries
+AY.44	Alias of B.1.617.2.44, USA lineage, from pango-designation issue #242
+AY.45	Alias of B.1.617.2.45, South Africa lineage, from pango-designation issue #246
+AY.46	Alias of B.1.617.2.46, Africa lineage, from pango-designation issue #247
+AY.46.1	Alias of B.1.617.2.46.1, USA lineage, from pango-designation issue #247
+AY.46.2	Alias of B.1.617.2.46.2, Germany and Turkey lineage, from pango-designation issue #247
+AY.46.3	Alias of B.1.617.2.46.3, Brazil lineage, from pango-designation issue #247
+AY.46.4	Alias of B.1.617.2.46.4, USA lineage, from pango-designation issue #247
+AY.46.5	Alias of B.1.617.2.46.5, UK lineage, from pango-designation issue #247
+AY.46.6	Alias of B.1.617.2.46.6, European lineage, from pango-designation issue #247
+AY.46.6.1	Alias of B.1.617.2.46.6.1, Italy lineage, from pango-designation issue #369
+AY.47	Alias of B.1.617.2.47, USA lineage, from pango-designation issue #254
+AY.48	Alias of B.1.617.2.48, USA lineage
+AY.49	Alias of B.1.617.2.49, USA lineage
+AY.50	Alias of B.1.617.2.50, Ireland lineage
+AY.51	Alias of B.1.617.2.51, European lineage
+AY.52	Alias of B.1.617.2.52, USA lineage
+AY.53	Alias of B.1.617.2.53, European lineage
+AY.54	Alias of B.1.617.2.54, USA lineage
+AY.55	Alias of B.1.617.2.55, lineage in Rwanda and other countries
+AY.56	Alias of B.1.617.2.56, USA lineage
+AY.57	Alias of B.1.617.2.57, Vietnam lineage
+AY.58	Alias of B.1.617.2.58, European lineage
+AY.59	Alias of B.1.617.2.59, Malaysia lineage
+AY.60	Alias of B.1.617.2.60, European lineage
+AY.61	Alias of B.1.617.2.61, Italy lineage
+AY.62	Alias of B.1.617.2.62, USA and Mexico lineage
+AY.63	Alias of B.1.617.2.63, Norway lineage
+AY.64	Alias of B.1.617.2.64, USA lineage
+AY.65	Alias of B.1.617.2.65, lineage in Bahrain and other countries
+AY.66	Alias of B.1.617.2.66, European lineage
+AY.67	Alias of B.1.617.2.67, USA lineage
+AY.68	Alias of B.1.617.2.68, European lineage
+AY.69	Alias of B.1.617.2.69, South Korea lineage
+AY.70	Alias of B.1.617.2.70, European lineage
+AY.71	Alias of B.1.617.2.71, European lineage
+AY.72	Alias of B.1.617.2.72, European lineage
+AY.73	Alias of B.1.617.2.73, European lineage
+AY.74	Alias of B.1.617.2.74, Canada lineage
+AY.75	Alias of B.1.617.2.75, USA and European lineage
+AY.75.2	Alias of B.1.617.2.75.2, Philippines lineage
+AY.75.3	Alias of B.1.617.2.75.3, Japan lineage
+AY.76	Alias of B.1.617.2.76, predominantly Malaysia lineage
+AY.77	Alias of B.1.617.2.77, USA lineage
+AY.78	Alias of B.1.617.2.78, Germany and Turkey lineage
+AY.79	Alias of B.1.617.2.79, predominantly Malaysia lineage
+AY.80	Alias of B.1.617.2.80, European lineage
+AY.81	Alias of B.1.617.2.81, USA lineage
+AY.82	Alias of B.1.617.2.82, Fiji lineage
+AY.83	Alias of B.1.617.2.83, USA lineage
+AY.84	Alias of B.1.617.2.84, European lineage
+AY.85	Alias of B.1.617.2.85, Thailand lineage
+AY.86	Alias of B.1.617.2.86, Canada and USA lineage
+AY.87	Alias of B.1.617.2.87, UK lineage
+AY.88	Alias of B.1.617.2.88, lineage in Ghana and other countries
+AY.90	Alias of B.1.617.2.90, UK lineage
+AY.91	Alias of B.1.617.2.91, lineage in South Africa, Namibia and other countries
+AY.91.1	Alias of B.1.617.2.91.1, European lineage
+AY.92	Alias of B.1.617.2.92, European lineage
+AY.93	Alias of B.1.617.2.93, Canada lineage
+AY.94	Alias of B.1.617.2.94, European lineage
+AY.95	Alias of B.1.617.2.95, Maldives and European lineage
+AY.96	Alias of B.1.617.2.96, Botswana lineage
+AY.98	Alias of B.1.617.2.98, UK lineage
+AY.98.1	Alias of B.1.617.2.98.1, European lineage
+AY.99	Alias of B.1.617.2.99, South Africa and Nigeria lineage
+AY.99.1	Alias of B.1.617.2.99.1, Brazil lineage
+AY.99.2	Alias of B.1.617.2.99.2, Brazil lineage
+AY.100	Alias of B.1.617.2.100, USA lineage
+AY.101	Alias of B.1.617.2.101, Brazil and Chile lineage
+AY.102	Alias of B.1.617.2.102, Peru and Chile lineage, from pango-designation issue #272
+AY.102.1	Alias of B.1.617.2.102.1, Peru lineage, from pango-designation issue #325
+AY.102.2	Alias of B.1.617.2.102.2, Peru lineage, from pango-designation issue #330
+AY.103	Alias of B.1.617.2.103, USA lineage
+AY.103.1	Alias of B.1.617.2.103.1, Argentina lineage
+AY.103.2	Alias of B.1.617.2.103.2, Canada lineage
+AY.104	Alias of B.1.617.2.104, Sri Lanka lineage
+AY.105	Alias of B.1.617.2.105, USA lineage
+AY.106	Alias of B.1.617.2.106, lineage in Jordan and other countries
+AY.107	Alias of B.1.617.2.107, USA lineage
+AY.108	Alias of B.1.617.2.108, lineage in Pakistan and other countries
+AY.109	Alias of B.1.617.2.109, lineage in Nigeria and other countries
+AY.110	Alias of B.1.617.2.110, USA lineage
+AY.111	Alias of B.1.617.2.111, UK lineage
+AY.112	Alias of B.1.617.2.112, lineage in India and other countries, from pango-designation issue #283
+AY.112.1	Alias of B.1.617.2.112.1, Bahrain lineage
+AY.113	Alias of B.1.617.2.113, USA and Mexico lineage
+AY.114	Alias of B.1.617.2.114, USA lineage
+AY.116	Alias of B.1.617.2.116, Africa lineage
+AY.116.1	Alias of B.1.617.2.116.1, USA lineage
+AY.117	Alias of B.1.617.2.117, USA lineage
+AY.118	Alias of B.1.617.2.118, USA lineage
+AY.119	Alias of B.1.617.2.119, USA lineage
+AY.119.1	Alias of B.1.617.2.119.1, Chile and Peru lineage, from pango-designation issue #336
+AY.119.2	Alias of B.1.617.2.119.2, USA lineage, from pango-designation issue #288
+AY.120	Alias of B.1.617.2.120, UK lineage
+AY.120.1	Alias of B.1.617.2.120.1, USA lineage
+AY.120.2	Alias of B.1.617.2.120.2, South Africa lineage
+AY.120.2.1	Alias of B.1.617.2.120.2.1, European lineage
+AY.121	Alias of B.1.617.2.121, European lineage
+AY.121.1	Alias of B.1.617.2.121.1, Poland and Germany lineage
+AY.122	Alias of B.1.617.2.122, European lineage
+AY.122.1	Alias of B.1.617.2.122.1, Israel lineage, formally AY.12 but renamed as descends from AY.122 which was designated after AY.12, from pango-designation issue #170
+AY.122.2	Alias of B.1.617.2.122.2, Finland and Estonia lineage, from pango-designation issue #273
+AY.122.3	Alias of B.1.617.2.122.3, Denmark and Sweden lineage, from pango-designation issue #371
+AY.122.4	Alias of B.1.617.2.122.4, South America and USA lineage
+AY.122.5	Alias of B.1.617.2.122.5, South Korea lineage
+AY.123	Alias of B.1.617.2.123, Predominantly Belgium and France lineage
+AY.123.1	Alias of B.1.617.2.123.1, Belgium lineage, from pango-designation issue #354
+AY.124	Alias of B.1.617.2.124, lineage in Portugal and other European countries
+AY.124.1	Alias of B.1.617.2.124.1, lineage in Portugal and other European countries, from pango-designation issue #345
+AY.124.1.1	Alias of B.1.617.2.124.1.1, lineage in Mauritius and other countries
+AY.125	Alias of B.1.617.2.125, European lineage, from pango-designation issue #328
+AY.125.1	Alias of B.1.617.2.125.1, Australia lineage
+AY.126	Alias of B.1.617.2.126, European lineage, from pango-designation issue #253
+AY.127	Alias of B.1.617.2.127, lineage in India and other countries, from pango-designation issue #342
+AY.127.1	Alias of B.1.617.2.127.1, lineage in Djibouti and other countries, from pango-designation issue #352
+AY.127.2	Alias of B.1.617.2.127.2, Qatar lineage
+AY.128	Alias of B.1.617.2.128, lineage in Estonia, Georgia and other countries, from pango-designation issue #309
+AY.129	Alias of B.1.617.2.129, European lineage, from pango-designation issue #329
+AY.130	Alias of B.1.617.2.130, Bahrain lineage, from pango-designation issue #351
+AY.131	Alias of B.1.617.2.131, mainly reported from Bangladesh, from pango-designation issue #373
+AY.132	Alias of B.1.617.2.132, Denmark lineage, from pango-designation issue #379
+AY.133	Alias of B.1.617.2.133, France Germany and UK lineage (with some samples from elsewhere, notably Senegal and Ghana), from pango-designation issue #380
+B.1.617.3	Predominantly India lineage with 484Q, pango-designation issue #49
+B.1.618	India lineage in West Bengal, pango-designation issue #46
+B.1.619	Lineage in multiple countries, potentially originated in Cameroon and introduced into Europe, pango-designation issue #44
+B.1.619.1	South Korea lineage, from pango-designation issue #160
+B.1.620	Lineage in multiple countries, potentially originated in Cameroon and spread within Europe post-introduction, pango-designation issue #54
+B.1.621	Lineage predominantly in Colombia with several spike mutations, pango-designation issue #57
+B.1.621.1	Lineage in multiple countries, pango-designation issue #115
+B.1.621.2	Lineage in multiple countries, from pango-designation issue #232
+B.1.622	Reunion lineage, pango-designation issue #58
+B.1.623	Predominantly USA lineage with mutations of interest, from pango-designation issue #25
+B.1.625	Predominantly Colombia and USA lineage, from pango-designation issue #93
+B.1.626	Europe and USA lineage, from pango-designation issue #118
+B.1.627	USA, Mexico and Honduras lineage, from pango-designation issue #130
+B.1.629	Lineage circulating in several countries, from pango-designation issue #132
+B.1.630	Lineage in several countries, from pango-designation issue #137
+B.1.631	USA and Mexico lineage, from pango-designation issue #146
+B.1.632	Predominantly Mexico lineage, from pango-designation issue #156
+B.1.633	India lineage, from pango-designation issue #155
+B.1.634	Mexico and USA lineage, from pango-designation issue #159
+B.1.635	Mexico and USA lineage, from pango-designation issue #159
+B.1.636	USA, Mexico and Honduras lineage, from pango-designation issue #173
+B.1.637	Added as B.1.526.1 15 Mar 2021, but turned out not to be a descendant of B.1.526; was folded into B.1.526 from 14 Jun - 18 Aug 2021; now a separate lineage to leave B.1.526 more congruent with Iota (Nextstrain 21F / original B.1.526); pango-designation issue #154
+B.1.637.1	USA lineage, from pango-designation issue #353
+B.1.638	South Africa lineage, from pango-designation issue #205
+B.1.639	Lineage sequenced in USA, potentially associated with Puerto Rico, from pango-designation issue #161
+B.1.640	Lineage in Africa and Europe, from pango-designation issue #297
+B.1.640.1	Lineage in Africa and Europe, from pango-designation issue #362
+B.1.640.2	Lineage from pango-designation issue #362
+B.1.9	European wide lineage with active sublineages
+B.1.9.1	Scottish Lineage
+B.1.9.2	USA
+B.1.9.3	Belgium
+B.1.9.4	European wide lineage with active cases with activity in Switzerland 
+B.1.9.5	European sublinage highly represented in Turkey
+B.3	A European lineage - Germany & UK predominantly
+B.3.1	Welsh lineage
+B.4	Iranian lineage and global exports
+B.4.1	Lineage from Kazakhstan within the B.4 diversity
+B.4.2	Bahrein lineage
+B.4.4	USA lineage
+B.4.5	Australian lineage
+B.4.6	Australian lineage
+B.4.7	Africa and UAE
+B.4.8	Cryptic lineage in Iran? Occasional international appearances,  most recently Nov 2020
+B.5	Japanese lineage
+B.6	Indian lineage
+B.6.1	Malaysian lineage
+B.6.2	Malaysian lineage
+B.6.3	Singapore lineage
+B.6.4	Singapore lineage
+B.6.5	Australian lineage
+B.6.6	Singapore lineage
+B.6.8	Papua New Guinea 
+B.10	Northern Irish lineage
+B.11	European lineage with sequences from the Netherlands, UK, Austria, Slovakia
+B.12	Japanese lineage
+B.13	USA lineage
+B.15	UK lineage
+B.18	European lineage (Iceland and England)
+B.19	USA lineage
+B.20	USA lineage
+B.23	Lineage with representation from mainly UK sequences, but also sequences from Portugal, Iceland and Brazil
+B.26	Scottish lineage
+B.27	UK lineage, Curacao, Switzerland
+B.28	UK lineage
+B.29	Spanish/UK/ Australian lineage
+B.30	Reassigned from B.2.12, USA lineage
+B.31	Reassigned from B.2.5, UK/ Australia/ New Zealand lineage
+B.32	Scottish lineage
+B.33	UK lineage
+B.34	Scottish lineage
+B.35	Previously B.2.6, USA lineage
+B.36	Previously B.2.11, Israel lineage
+B.37	USA lineage
+B.38	Belgium lineage
+B.39	Previously B.2.2, USA/ UK/ Australian lineage
+B.40	Previously B.2.1. Large lineage majoritively from UK and Australia with representation from Europe, Jordan, USA, India, Ghana, South Korea
+B.41	Previously B.2.10, South Korean lineage
+B.42	Hong Kong lineage
+B.43	Hong Kong lineage
+B.44	Portugal lineage
+B.45	Scottish lineage
+B.46	USA lineage
+B.47	English lineage
+B.49	Danish lineage
+B.50	Indonesian lineage
+B.51	USA lineage
+B.52	UK lineage
+B.53	Lithuanian lineage
+B.55	Redesignated from B.11 (split), UK/Danish
+B.56	Singapore/Malaysia/Indonesia
+B.57	Largely Scottish
+B.58	Largely English, UK/Canada/Australia
+B.60	England
+B.61	Redesignated from B.40 (split), UK
+XA	Recombinant lineage with parental lineages B.1.1.7 and B.1.177, UK lineage
+XB	Reombinant lineage with parental lineage B.1.634 and B.1.631, Central and North America lineage, discussed in pango-designation issue #189. Formally B.1.628
+XC	Reombinant lineage with parental lineage AY.29 and B.1.1.7, Japan lineage, from pango-designation issue #263
+*A.2.1	Withdrawn: Lineage with sequences predominantly from Panama
+*A.8	Withdrawn: Indian lineage merged with A.9
+*A.10	Withdrawn: Spanish lineage reassigned to A.5
+*A.13	Withdrawn: Cote d'Ivoire lineage
+*A.14	Withdrawn: Cote d'Ivoire lineage
+*A.20	Withdrawn: UAE lineage
+*B.1.1.2	Withdrawn: UK and Australia
+*B.1.1.6	Withdrawn: USA (TX)
+*B.1.1.20	Withdrawn: UK lineage
+*B.1.1.32	Withdrawn: Indian lineage
+*B.1.1.35	Withdrawn: UK lineage
+*B.1.1.36	Withdrawn: USA
+*B.1.1.60	Withdrawn: Northern Ireland lineage
+*B.1.1.64	Withdrawn: UK lineage
+*B.1.1.65	Withdrawn: USA lineage
+*B.1.1.66	Withdrawn: South African lineage
+*B.1.1.73	Withdrawn: Reassigned lineage
+*B.1.1.76	Withdrawn: USA lineage
+*B.1.1.78	Withdrawn: Russian lineage
+*B.1.1.79	Withdrawn: Russian lineage
+*B.1.1.80	Withdrawn: Bangladesh lineage
+*B.1.1.81	Withdrawn: Northern Ireland lineage
+*B.1.1.85	Withdrawn: USA lineage
+*B.1.1.94	Withdrawn: Brazil lineage
+*B.1.1.96	Withdrawn: Saudi Arabia/ Russia lineage
+*B.1.1.102	Withdrawn: Latvian lineage
+*B.1.1.103	Withdrawn: Bangladesh lineage
+*B.1.1.104	Withdrawn: Netherlands/ Europe lineage
+*B.1.1.105	Withdrawn: Turkish lineage
+*B.1.1.106	Withdrawn: UK lineage
+*B.1.1.108	Withdrawn: UK lineage
+*B.1.1.124	Withdrawn: UK/ Switzerland lineage
+*B.1.1.126	Withdrawn: USA lineage
+*B.1.1.131	Withdrawn: UK lineage
+*B.1.1.140	Withdrawn: Russian lineage
+*B.1.1.143	Withdrawn: Brazilian lineage, merged into lineage B.1.1.28
+*B.1.1.146	Withdrawn: UK lineage
+*B.1.1.150	Withdrawn: UK lineage
+*B.1.1.151	Withdrawn: UK lineage
+*B.1.1.156	Withdrawn: South African lineage
+*B.1.1.167	Withdrawn: Denmark/ E European lineage
+*B.1.1.173	Withdrawn: UK lineage
+*B.1.1.179	Withdrawn: Indian (split from B.1.1.32)
+*B.1.1.183	Withdrawn: South Korea
+*B.1.1.195	Withdrawn: UK lineage
+*B.1.1.199	Withdrawn: UK (split from B.1.1.64)
+*B.1.1.206	Withdrawn: South Africa (mostly from B.1.1.54)
+*B.1.1.211	Withdrawn: French, swiss, UK, Belgian
+*B.1.1.212	Withdrawn: Indian (split from B.1.1.32)
+*B.1.1.215	Withdrawn: England with a spanish base
+*B.1.1.223	Withdrawn: USA, NZ, England, one Russia
+*B.1.1.233	Withdrawn: USA (WA)
+*B.1.1.235	Withdrawn, merged with B.1.1.115
+*B.1.1.238	Withdrawn: UK and New Zealand (split from B.1.1.7)
+*B.1.1.245	Withdrawn: Northern Ireland lineage, previously B.1.1.60 (split)
+*B.1.1.246	Withdrawn: Russia
+*B.1.1.247	Withdrawn: Northern Europe (UK, NL, Switzerland) and Northern Africa (Egypt and Morocco), Gambia (some B.1.1.55)
+*B.1.1.248	Withdrawn: Brazilian lineage reassigned B.1.1.28
+*B.1.1.250	Withdrawn: UK lineage
+*B.1.1.252	Withdrawn: South Africa (formerly B.1.1.66)
+*B.1.1.259	Withdrawn: UK (split from B.1.1.64)
+*B.1.1.260	Withdrawn: UK (split from B.1.1.64)
+*B.1.1.264	Withdrawn: Wales lineage, previously part of B.1.1.30
+*B.1.1.276	Withdrawn: Previously part of B.1.1.55, USA lineage
+*B.1.1.278	Withdrawn: UK lineage
+*B.1.1.281	Withdrawn: Indian lineage, previously part of B.1.1.32
+*B.1.1.287	Withdrawn: USA lineage
+*B.1.1.292	Withdrawn: UK lineage
+*B.1.1.293	Withdrawn: Gambian lineage
+*B.1.1.295	Withdrawn: UK/Australia lineage
+*B.1.1.313	Withdrawn: English lineage
+*B.1.1.314	Withdrawn: Brazilian lineage, previously part of B.1.1.33
+*B.1.1.439	Withdrawn: Wales lineage, reassigned to B.1.1.29
+*B.1.1.527	Withdrawn: Lineage in multiple countries, from pango-designation issue #150, reassigned to C.38
+*B.1.3.1	Withdrawn: South Korean lineage
+*B.1.3.2	Withdrawn: Argentinian lineage
+*B.1.3.3	Withdrawn: Israel lineage
+*B.1.3.4	Withdrawn: Israel/ UK lineage
+*B.1.5	Withdrawn: Reassigned to B.1 and additional sublineages as this lineage has lost monophyletic status and split into multiple parts of the B.1 tree. Previously had a Spanish base, European lineage/ lots of Spanish sequences towards the basal end of the subtree and exports around the globe.
+*B.1.5.2	Withdrawn: Reassigned B.1.190, Netherlands lineage
+*B.1.5.5	Withdrawn: Reassigned B.1.225
+*B.1.5.6	Withdrawn: UK lineage reassigned B.1.223
+*B.1.5.11	Withdrawn: Reassigned B.1.189, USA/ Mexico lineage
+*B.1.5.12	Withdrawn: Reassigned to B.1.416, Senegal/ Gambia lineage
+*B.1.5.13	Withdrawn: Reassigned B.1.180, Romanian lineage
+*B.1.5.15	Withdrawn: Reassigned B.1.185, USA lineage
+*B.1.5.17	Withdrawn: Reassigned B.1.181, USA lineage
+*B.1.5.16	Withdrawn: South African lineage, reassigned to B.1.237
+*B.1.5.18	Withdrawn: Reassigned B.1.256
+*B.1.5.19	Withdrawn: South African lineage reassigned to B.1.381
+*B.1.5.21	Withdrawn: Reassigned B.1.418, Scottish lineage
+*B.1.5.25	Withdrawn: Reassigned B.1.229
+*B.1.5.26	Withdrawn: Reassigned B.1.232
+*B.1.5.27	Withdrawn: USA lineage (CA), reassigned to B.1.243
+*B.1.5.28	Withdrawn: Reassigned B.1.231
+*B.1.5.29	Withdrawn: USA lineage (WI/ IL) reassigned to B.1.415
+*B.1.5.30	Withdrawn: UK lineage
+*B.1.5.31	Withdrawn: South African lineage, reassigned B.1.417
+*B.1.5.32	Withdrawn: Colombian lineage, reassigned B.1.420
+*B.1.5.33	Withdrawn: Split up in current tree, reassigned to B.1. UK lineage
+*B.1.5.34	Withdrawn: Reassigned to B.1.222, reassigned Scottish lineage
+*B.1.5.35	Withdrawn: Indian lineage reassigned B.1, lacks any structure in current tree
+*B.1.5.36	Withdrawn: Indian lineage reassigned to B.1.136
+*B.1.8.2	Withdrawn: Reassigned in the current tree. USA lineage (CA)
+*B.1.9.6	Withdrawn: North Macedonia, Switzerland
+*B.1.11	Withdrawn: UK lineage, reassigned B.1- broken up in current tree
+*B.1.19	Withdrawn: USA lineage (WI), reassigned B.1- broken up in current tree
+*B.1.21	Withdrawn: Split up Washington (USA), reassigned mostly to B.1.371
+*B.1.25	Withdrawn: Australian lineage
+*B.1.26	Withdrawn: USA/Gambia lineage
+*B.1.34	Withdrawn: English lineage, reassigned B.1
+*B.1.36.3	Withdrawn: Danish lineage
+*B.1.36.4	Withdrawn: Netherlands lineage
+*B.1.36.5	Withdrawn: Saudi Arabia lineage, reassigned to parent lineage B.1.36
+*B.1.36.6	Withdrawn: Norway lineage
+*B.1.36.11	Withdrawn: Netherlands lineage
+*B.1.36.13	Withdrawn: Irish lineage
+*B.1.36.14	Withdrawn: Danish lineage
+*B.1.36.15	Withdrawn: Saudi Arabia lineage
+*B.1.36.17.1	Withdrawn: Alias F.1 New Zealand lineage
+*B.1.74	Withdrawn: Spanish lineage
+*B.1.75	Withdrawn: Reassigned in the current tree. English lineage
+*B.1.79	Withdrawn: UK lineage, some now reassigned to B.1.5
+*B.1.80	Withdrawn: Reassigned in the current tree. Indian lineage
+*B.1.82	Withdrawn: Reassigned in the current tree. UK lineage
+*B.1.88	Withdrawn: Scottish lineage
+*B.1.89	Withdrawn: Reassigned in the current tree. UK lineage
+*B.1.90	Withdrawn: Reassigned in the current tree. Scottish lineage
+*B.1.95	Withdrawn: Indian lineage
+*B.1.98	Withdrawn: UK lineage
+*B.1.102	Withdrawn: Reassigned in the current tree. Iceland lineage
+*B.1.107	Withdrawn: Reassigned in the current tree. Danish lineage, with USA and UK sequences
+*B.1.109	Withdrawn: Luxembourg lineage
+*B.1.114	Withdrawn: Reassigned in the current tree. Canadian lineage
+*B.1.133	Withdrawn: Reassigned in the current tree. USA lineage (WA)
+*B.1.135	Withdrawn: Reassigned in the current tree. Small Portuguese lineage
+*B.1.136	Withdrawn: Reassigned in the current tree. Indian lineage, split up and reassigned to B.1
+*B.1.138	Withdrawn: Reassigned in the current tree. Small Australian lineage
+*B.1.141	Withdrawn: Reassigned in the current tree. Scottish lineage, first wave of N439K
+*B.1.144	Withdrawn: South African lineage
+*B.1.150	Withdrawn: Reassigned lineage
+*B.1.152	Withdrawn: English lineage
+*B.1.154	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.156	Withdrawn: Reassigned in the current tree. Scottish lineage
+*B.1.160.1	Withdrawn: Reassigned B.1.523 English lineage
+*B.1.160.2	Withdrawn: Reassigned B.1.523 English lineage
+*B.1.160.3	Withdrawn: Indonesian lineage (now B.1.470)
+*B.1.160.4	Withdrawn: English lineage (now B.1.471)
+*B.1.160.5	Withdrawn: Danish lineage
+*B.1.160.6	Withdrawn: Danish lineage, reassigned B.1.160 lack of resolution in current tree
+*B.1.177.1	Withdrawn: Denmark
+*B.1.177.13	Withdrawn, now part of B.1.177.17
+*B.1.177.22	Withdrawn: UK lineage
+*B.1.177.79	Withdrawn: Latvian lineage. Did not have a defining mutation within the coding region. Therefore merged into B.1.177.60
+*B.1.183	Withdrawn: Reassigned in the current tree. Canadian lineage
+*B.1.185	Withdrawn: Reassigned in the current tree. USA lineage (previously B.1.5.15)
+*B.1.186	Withdrawn: Saudi-arabian/ Indian lineage (now B.1.260)
+*B.1.191	Withdrawn: Reassigned in the current tree. Previously B.1.5.21, Scottish lineage
+*B.1.193	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.196	Withdrawn: USA lineage
+*B.1.197	Withdrawn: Australian/ New Zealand lineage
+*B.1.200	Withdrawn: Reassigned in the current tree. Previously part of B.1.98, reassigned UK lineage
+*B.1.202	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.204	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.207	Withdrawn: USA lineage (TX)
+*B.1.209	Withdrawn: Small Scottish lineage
+*B.1.216	Withdrawn: USA lineage
+*B.1.217	Withdrawn: Reassigned in the current tree. Indian lineage Reassigned from B.1.80, split this assignment
+*B.1.226	Withdrawn: Reassigned in the current tree. Equatorial Guinea lineage
+*B.1.228	Withdrawn: Reassigned in the current tree. USA lineage, reassigned from B.1.5.27 split
+*B.1.230	Withdrawn: Reassigned in the current tree. USA lineage, reassigned from B.1.5.27 split
+*B.1.244	Withdrawn: Reassigned in the current tree. Saudi Arabian lineage that previously was part of B.1.160
+*B.1.246	Withdrawn: Reassigned in the current tree. Saudi Arabian lineage, previously some assigned B.1.160
+*B.1.253	Withdrawn: Reassigned in the current tree. UK lineage
+*B.1.255	Withdrawn: North American lineage, with other global diversity (Now all over tree)
+*B.1.257	Withdrawn: Reassigned in the current tree. UK lineage
+*B.1.258.1	Withdrawn: French lineage
+*B.1.258.8	Withdrawn: Danish lineage
+*B.1.258.13	Withdrawn: Reassigned in the current tree. Danish lineage
+*B.1.259	Withdrawn: Saudi Arabia/ India lineage (now in B.1.260)
+*B.1.261	Withdrawn: Saudi Arabian lineage (now in B.1.260)
+*B.1.262	Withdrawn: Reassigned in the current tree. Danish lineage
+*B.1.266	Withdrawn: Reassigned in the current tree. Austrian lineage
+*B.1.269	Withdrawn: Reassigned in the current tree. Slovenian lineage
+*B.1.271	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.272	Withdrawn: Reassigned in the current tree. France/ Australian lineage
+*B.1.275	Withdrawn: France lineage
+*B.1.278	Withdrawn: Reassigned in the current tree. UK/ Australia lineage, previously part of B.1.13
+*B.1.283	Withdrawn: USA lineage
+*B.1.286	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.288	Withdrawn: Reassigned in the current tree. Denmark lineage
+*B.1.290	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.295	Withdrawn: Reassigned in the current tree. Australian lineage
+*B.1.296	Withdrawn: Reassigned in the current tree. USA/ Australian lineage
+*B.1.297	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.297.1	Withdrawn: Reassigned in the current tree. Canadian lineage
+*B.1.299	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.300	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.303	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.307	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.312	Withdrawn: USA lineage
+*B.1.317	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.322	Withdrawn: USA lineage, reassigned B.1
+*B.1.327	Withdrawn: Reassigned in the current tree. Danish lineage
+*B.1.331	Withdrawn: USA lineage
+*B.1.333.1	Withdrawn: USA lineage (WA) (all B.1.169)
+*B.1.339	Withdrawn: Reassigned in the current tree. Irish lineage
+*B.1.345	Withdrawn: Reassigned in the current tree. Canadian lineage
+*B.1.347	Withdrawn: Reassigned in the current tree. Canadian lineage, previously part of B.1.114 lineage
+*B.1.351.4	Withdrawn: Potential contaminant lineage from mixture of B.1.351 and Delta. Discussion in pango-designation issue #134. Sequences from Botswana, do not have E484K or N501Y but have L452R and T478K
+*B.1.352	Withdrawn: Reassigned in the current tree. USA lineage (CA)
+*B.1.353	Withdrawn: Reassigned in the current tree. European lineage
+*B.1.364	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.365	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.368	Withdrawn: Reassigned in the current tree. USA lineage
+*B.1.373	Withdrawn: Reassigned in the current tree. Swedish lineage
+*B.1.374	Withdrawn: Reassigned in the current tree. European lineage
+*B.1.374.1	Withdrawn: Reassigned in the current tree. Bangladesh lineage
+*B.1.376	Withdrawn: Wales lineage
+*B.1.386	Withdrawn: Reassigned in the current tree. US lineage
+*B.1.392	Withdrawn: UK lineage
+*B.1.394	Withdrawn: North Macedonian lineage
+*B.1.410	Withdrawn: Reassigned in the current tree. Danish lineage
+*B.1.412	Withdrawn: Russian lineage
+*B.1.414	Withdrawn: Netherlands lineage
+*B.1.419	Withdrawn: Iceland lineage
+*B.1.440	Withdrawn: USA lineage (All NM, one AZ)
+*B.1.447	Withdrawn: Saudi Arabian lineage
+*B.1.449	Withdrawn: Saudi Arabia (mixture of B.1.260 and B.1.160)
+*B.1.454	Withdrawn: India (was part of B.1.160)
+*B.1.455	Withdrawn: Saudi Arabia (was part of B.1.247)
+*B.1.457	Withdrawn: UK, Norway, South Korea, Denmark (mostly B.1.160)
+*B.1.457.1	Withdrawn: USA (MI) plus England (was B.1.247, B.1.160)
+*B.1.461	Withdrawn: India (from B.1.247)
+*B.1.464	Withdrawn: India and Nepal
+*B.1.472	Withdrawn: England and Denmark (was part of B.1.160)
+*B.1.477	Withdrawn: England (all were B.1.275)
+*B.1.481	Withdrawn: DRC and Senegal base, into Switzerland
+*B.1.484	Withdrawn: France and USA (MI)
+*B.1.512	Withdrawn: UK, Australia, USA
+*B.1.514	Withdrawn: USA (TX) split from B.1.2
+*B.1.519	Withdrawn: England, split from B.1.117
+*B.1.526.1	Withdrawn: Issue 45. New York. Sublineage of B.1.526 (with spike mutations T95I and D253G) that appears to have several more unique mutations.
+*B.1.526.2	Withdrawn: Issue 45. New York. Sublineage of B.1.526 (with spike mutations T95I and D253G) that appears to have several more unique mutations.
+*B.1.526.3	Withdrawn: Issue 45. Belgium and Luxembourg lineage
+*BB.1	Withdrawn: Redesignated as B.1.621.2
+*B.1.624	Withdrawn: India lineage, from pango-designation issue #91. Redesignated as B.1.1.526
+*B.1.628	Withdrawn: Identified as a recombinant lineage and therefore renamed XB. Discussion in pango-designation issue #189
+*AY.9.1	Withdrawn: Merged into AY.9.2 as these lineages likely form a single clade
+*AY.12	Withdrawn: Reassigned to AY.122.1
+*AY.75.1	Withdrawn: Did not have a defining mutation within the coding region so was merged into AY.75
+*AY.89	Withdrawn: Merged into AY.4, pango-designation issue #398
+*AY.97	Withdrawn: Reassigned to AY.5.5
+*AY.115	Withdrawn: Merged into AY.116 as these lineages likely form a single clade
+*B.2.1	Withdrawn: Reassigned to B.40
+*B.2.6	Withdrawn: Reassigned to B.35
+*B.2.10	Withdrawn: Reassigned to B.41
+*B.2.11	Withdrawn: Reassigned to B.36
+*B.2.12	Withdrawn: Reassigned to B.30
+*B.6.7	Withdrawn: USA/Texas
+*B.14	Withdrawn: USA lineage
+*B.48	Withdrawn: Reassigned to B.23
+*B.54	Withdrawn: Distributed amongst other lineages
+*B.59	Withdrawn: Originally Latvian & Ireland, no longer monophyletic
+*C.15	Withdrawn: Alias of B.1.1.1.15, Denmark lineage
+*E.1	Withdrawn: Reassigned B.1.416.1. French lineage within the diversity of a Senegal/ Gambia lineage
+*F.1	Withdrawn: Alias of B.1.36.17.1, New Zealand lineage
+*H.1	Withdrawn: Alias of B.1.1.67.1, South African lineage, split from B.1.1.10
+*I.1	Withdrawn: Alias of B.1.1.217.1, Latvian lineage, split from B.1.1.25
+*J.1	Withdrawn: Alias of B.1.1.250.1, Australian lineage

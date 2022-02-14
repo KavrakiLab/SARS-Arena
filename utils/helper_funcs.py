@@ -1,6 +1,7 @@
 # For fetching data from ncbi
-from urllib.request import urlopen
+from urllib import request
 from shutil import copyfileobj
+from subprocess import call
 
 # For protein file extraction
 import os
@@ -40,9 +41,71 @@ import HLA_Arena as arena
 import pyrosetta
 import pickle as pk
 
+def fetch_fasta_file(query_string):
+    
+    try:
+        os.remove("/tmp/sequences.fasta")
+    except OSError:
+        pass
+    
+    call(["curl -d '" + query_string + "' -X POST https://www.ncbi.nlm.nih.gov/genomes/VirusVariation/vvsearch2/ > /tmp/sequences.fasta"], shell=True)
+
+    if(not os.path.isfile("/tmp/sequences.fasta")):
+       return ".fasta file was not downloaded. It is quite possible that there's something wrong with your arguments. Please check your arguments thoroughly. It could also be that the service is down."
+    if(os.stat("/tmp/sequences.fasta").st_size == 0):
+       return ".fasta is empty, meaning that the either the query is wrong, or for these specified arguments there are no sequences available. Please check your arguments again."
+    
+    return "/tmp/sequences.fasta"
+
+def fetch_pangolin_lineage(directory):
+    
+    with request.urlopen("https://raw.githubusercontent.com/cov-lineages/pango-designation/master/lineage_notes.txt") as in_stream, open(directory, 'wb') as out_file:
+        copyfileobj(in_stream, out_file)
+
+def update_country_tab(change, tab):
+    
+    if change['new'] == 'Continent':
+        tab.children[1].children[1].children = [widgets.SelectMultiple(options=['Africa', 'Antartica', 'Asia', 
+                                                                                'Europe', 'North America', 
+                                                                                'Oceania', 'Oceans and Seas', 
+                                                                                'South America'],
+                                                                       value=[],
+                                                                       description='Selection of continent:',
+                                                                       style={'description_width': 'initial'})]
+    elif change['new'] == 'Country':
+        tab.children[1].children[1].children = [widgets.SelectMultiple(options=sorted(pd.read_csv("../utils/countries_list.txt", sep='\t', header=0)['name'].tolist()),
+                                                                       value=[],
+                                                                       description='Selection of country:',
+                                                                       style={'description_width': 'initial'})]
+    else:
+        tab.children[1].children[1].children = [widgets.SelectMultiple(options=['AK', 'AL', 'AR', 'AZ', 'CA', 'CO',
+                                                                                'CT', 'DC', 'DE', 'FL', 'GA', 'HI',
+                                                                                'IA', 'ID', 'IL', 'IN', 'KS', 'KY',
+                                                                                'LA', 'MA', 'MD', 'ME', 'MI', 'MN',
+                                                                                'MO', 'MS', 'MT', 'NC', 'ND', 'NE', 
+                                                                                'NH', 'NJ', 'NM', 'NV', 'NY', 'OH',
+                                                                                'OK', 'OR', 'PA', 'RI', 'SC', 'SD',
+                                                                                'TN', 'TX', 'UT', 'VA', 'VT', 'WA', 
+                                                                                'WI', 'WV', 'WY'],
+                                                                       value=[],
+                                                                       description='Selection of USA State:',
+                                                                       style={'description_width': 'initial'})]
+        
+def extract_elements(tab):
+    Virus_type = tab.children[0].children[0].value
+    Protein = tab.children[0].children[1].value
+    Completeness = tab.children[0].children[2].value
+    Host = tab.children[0].children[3].value
+    RefSeq = tab.children[0].children[4].value
+    Geographic_region = (tab.children[1].children[0].value, tab.children[1].children[1].children[0].value)
+    Isolation_source = tab.children[2].value
+    Pangolin_source = tab.children[3].value
+    Release_date = (tab.children[4].children[0].value, tab.children[4].children[1].value)
+    return Virus_type, Protein, Completeness, Host, RefSeq, Geographic_region, Isolation_source, Pangolin_source, Release_date
+
 def fetch_file_and_unzip(query_string):
     
-    with urlopen(query_string) as in_stream, open('/tmp/ncbi_dataset.zip', 'wb') as out_file:
+    with request.urlopen(query_string) as in_stream, open('/tmp/ncbi_dataset.zip', 'wb') as out_file:
         copyfileobj(in_stream, out_file)
 
     # Create a ZipFile Object and load the zipped dataset file in it

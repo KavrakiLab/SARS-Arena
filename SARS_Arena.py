@@ -161,7 +161,7 @@ def create_tab(workflow_dir):
                             value='Human',
                             description='Host:')
     
-    RefSeq = widgets.Dropdown(options=['RefSeq', 'GenBank', 'All'],
+    RefSeq = widgets.Dropdown(options=['RefSeq', 'GenBank', 'Both'],
                               value='RefSeq',
                               description='Sequence Type:',
                               style={'description_width': 'initial'})
@@ -381,6 +381,8 @@ def call_ncbi_virus(Virus_Type, Protein, Completeness, Host, Refseq, Geographic_
     
     # Final part
     query_string += '&cmd=download&sort=SourceDB_s desc,CreateDate_dt desc,id asc&dlfmt=fasta&fl=AccVer_s,Definition_s,Protein_seq'
+    
+    print(query_string)
     
     protein_sequence_name = fetch_fasta_file(query_string)
 

@@ -152,7 +152,7 @@ def create_tab(workflow_dir):
                                value='nucleocapsid phosphoprotein',
                                description='Protein:')
 
-    Completeness = widgets.Dropdown(options=['Complete', 'Partial', 'All'],
+    Completeness = widgets.Dropdown(options=['Complete', 'Partial', 'Both'],
                                     value='Complete',
                                     description='Completeness:',
                                     style={'description_width': 'initial'})
@@ -292,7 +292,7 @@ def call_ncbi_virus(Virus_Type, Protein, Completeness, Host, Refseq, Geographic_
         query_string += '&fq={!tag=Completeness_s}Completeness_s:("complete")'
     elif Completeness == "Partial":    
         query_string += '&fq={!tag=Completeness_s}Completeness_s:("partial")'
-    elif Completeness == "Partial": 
+    elif Completeness == "Both": 
         pass
     else: 
         return "Invalid Completeness type, please set one of [Complete, Partial, Both] correctly!" 
@@ -384,7 +384,7 @@ def call_ncbi_virus(Virus_Type, Protein, Completeness, Host, Refseq, Geographic_
     # Final part
     query_string += '&cmd=download&sort=SourceDB_s desc,CreateDate_dt desc,id asc&dlfmt=fasta&fl=AccVer_s,Definition_s,Protein_seq'
     
-    print(query_string)
+    #print(query_string)
     
     protein_sequence_name = fetch_fasta_file(query_string)
 

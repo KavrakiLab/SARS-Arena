@@ -318,6 +318,8 @@ def call_ncbi_virus(Virus_Type, Protein, Completeness, Host, Refseq, Geographic_
             
     # Pango lineage part
     list_length = len(Pangolin_lineage)
+    if list_length >= 1025:
+        return "Selection of pangolin lineages is too large, and the algorithm will fail! If you wish to choose all pangolin lineages, just leave the selection empty!"
     if list_length != 0:
         i = 0
         query_string += '&fq={!tag=Lineage_s}Lineage_s:('

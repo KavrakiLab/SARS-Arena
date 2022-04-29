@@ -100,7 +100,7 @@ import pickle as pk
 def call_ncbi_datasets(proteins, refseq_only, annotated_only, complete_only, host, released_since):
     
     """
-    **Function**: Fetches protein sequence data from the NCBI datasets tool (parameter explanations taken from the [NCBI OpenAPI 3.0 REST API Docs](https://www.ncbi.nlm.nih.gov/datasets/docs/reference-docs/rest-api/))
+    **Function**: Fetches protein sequence data from the NCBI datasets tool (WARNING: Not working anymore) (parameter explanations taken from the [NCBI OpenAPI 3.0 REST API Docs](https://www.ncbi.nlm.nih.gov/datasets/docs/reference-docs/rest-api/))
 
     **Parameters**: <br />
     &ensp;&ensp;&ensp; - *proteins (str or list[str])*: Which proteins to retrieve in the data package. <br />

@@ -1,0 +1,1993 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.7.5" />
+<title>SARS_Arena API documentation</title>
+<meta name="description" content="SARS-Arena:
+A Pipeline for Selection and Structural HLA Modeling of Conserved Peptides of SARS-related …" />
+<link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css' rel='stylesheet'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+<style>.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{font-weight:bold}#index h4 + ul{margin-bottom:.6em}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>SARS_Arena</code></h1>
+</header>
+<section id="section-intro">
+<p>SARS-Arena:
+A Pipeline for Selection and Structural HLA Modeling of Conserved Peptides of SARS-related</p>
+<h2 id="installation">Installation</h2>
+<p>SARS-Arena is made available through <a href="https://hub.docker.com/r/kavrakilab/hla-arena">Docker Hub</a>, under the tag "sars-arena".</p>
+<p>Installation instructions are also provided in our <a href="TODO">github page</a>.</p>
+<h2 id="modeller-license-key">Modeller license key</h2>
+<p>SARS-Arena Workflow 2 rely on Modeller to perform the homology modeling of a given HLA receptor. This modeling task is integrated into a specific HLA-Arena function (more details below). However, using Modeller requires you to register and obtain your own license key, if you do not already have one. First, follow instructions on the <a href="https://salilab.org/modeller/registration.html">Modeller registration page</a>. </p>
+<p>Once you have the key, you can permanently update the SARS-Arena container with your key. For that, you should execute the commands below, replacing <code>MODELLER_KEY</code> with the correct key. </p>
+<pre><code>docker run -it kavrakilab/hla-arena:sars-arena
+sed -i "s/XXXX/MODELLER_KEY/g" /conda/envs/apegen/lib/modeller-9.20/modlib/modeller/config.py
+exit
+docker commit $(docker ps -a | sed -n 2p | awk '{ print $1 }') kavrakilab/hla-arena:sars-arena
+docker container rm $(docker ps -a | sed -n 2p | awk '{ print $1 }')
+</code></pre>
+<p>Note that this modification is permanent, in the sense that will not be lost when you close the container. However, it will be required again when you update the container (e.g., docker pull kavrakilab/hla-arena).</p>
+<p>There is also the option of adding the key temporarily, when running a specific workflow. For that, just add the content below as one of the first cells to be executed in the workflow. Remember to replace <code>MODELLER_KEY</code> with the correct key.</p>
+<pre><code>from subprocess import call
+call(["sed -i "s/XXXX/" + MODELLER_KEY + "/g" /conda/envs/apegen/lib/modeller-9.20/modlib/modeller/config.py"], shell=True)
+</code></pre>
+<h2 id="using-jupyter-notebook">Using Jupyter Notebook</h2>
+<p>Each file with a '.ipynb' extension in this folder is a Jupyter notebook allowing you to run one of SARS-Arena workflows. Note that Jupyter Notebook is already installed in this docker image of SARS-Arena. If you are new to Jupyter Notebook, you can check this <a href="https://www.youtube.com/watch?v=HW29067qVWk&amp;feature=youtu.be&amp;t=274">tutorial on how to interact with its interface</a>. Numerous other resources are available online.</p>
+<h2 id="available-workflows">Available workflows</h2>
+<p><a href="http://127.0.0.1:8888/notebooks/ProjectDevelopment/Workflows/Peptide_Extraction_Workflow_1A.ipynb">Workflow_1A.ipynb</a> (open link in a new tab)</p>
+<p>Workflow 1A will allow that users run the multiple sequence alignment of SARS-CoV-2 proteins in loco. To avoid processing crashes, we recommend using this workflow to run no more than 50,000 protein sequences. Workflow 1A consists of five steps: (i) fetch dataset from NCBI, (ii) extract and filter the sequence file, (iii) Multiple Sequence Alignment, (iv) computing conservation score, and (v) computing conserved peptides.</p>
+<p><a href="http://127.0.0.1:8888/notebooks/ProjectDevelopment/Workflows/Peptide_Extraction_Workflow_1B.ipynb">Workflow_1B.ipynb</a> (open link in a new tab)</p>
+<p>Workflow 1B, differently from Workflow 1A, allows users to recover information from a pre-computed multiple sequence alignment based on a specific date. We recommend the use of this workflow for cases where there is a need to analyze a large number of protein sequences (e.g. more than 50.000 sequences). This workflow consists of three steps: (i) fetch Pre-computed MSA dataset, (ii) computing conservation score, (iii) computing conserved peptides.</p>
+<p><a href="http://127.0.0.1:8888/notebooks/ProjectDevelopment/Workflows/Peptide_Extraction_Workflow_1C.ipynb">Workflow_1C.ipynb</a> (open link in a new tab)</p>
+<p>The Workflow 1C, contrary to Workflows 1A and 1B, has a different purpose. Here, instead of analyzing only protein sequences from SARS-CoV-2, the user can also retrieve information from multiple sequence alignment with sequences from SARS-related coronaviruses. This workflow consists of four steps: (i) fetch Pre-computed Multiple Sequence Alignment (MSA) from SARS-CoV-2, (ii) multiple Sequence Alignment, (iii) computing conservation score, (iv) computing conserved peptides.</p>
+<p><a href="http://127.0.0.1:8888/notebooks/ProjectDevelopment/Workflows/Peptide-HLA_Binding_Prediction_Workflow_2.ipynb">Workflow_2.ipynb</a> (open link in a new tab)</p>
+<p>Workflow 2 provides a way to model the three-dimensional structure of selected peptides in the context of different HLAs. This workflow consists of five steps: (i) obtain peptide and HLA sequences for prediction, (ii) filter peptides using a sequence-based affinity prediction tool, (iii) model HLAs, (iv) model peptide-HLA complexes with APE-Gen, and (v) structural scoring functions.</p>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">&#34;&#34;&#34;
+SARS-Arena:  A Pipeline for Selection and Structural HLA Modeling of Conserved Peptides of SARS-related
+
+## Installation
+
+SARS-Arena is made available through [Docker Hub](https://hub.docker.com/r/kavrakilab/hla-arena), under the tag &#34;sars-arena&#34;.
+
+Installation instructions are also provided in our [github page](TODO).
+
+## Modeller license key
+
+SARS-Arena Workflow 2 rely on Modeller to perform the homology modeling of a given HLA receptor. This modeling task is integrated into a specific HLA-Arena function (more details below). However, using Modeller requires you to register and obtain your own license key, if you do not already have one. First, follow instructions on the [Modeller registration page](https://salilab.org/modeller/registration.html). 
+
+Once you have the key, you can permanently update the SARS-Arena container with your key. For that, you should execute the commands below, replacing `MODELLER_KEY` with the correct key. 
+
+    docker run -it kavrakilab/hla-arena:sars-arena
+    sed -i &#34;s/XXXX/MODELLER_KEY/g&#34; /conda/envs/apegen/lib/modeller-9.20/modlib/modeller/config.py
+    exit
+    docker commit $(docker ps -a | sed -n 2p | awk &#39;{ print $1 }&#39;) kavrakilab/hla-arena:sars-arena
+    docker container rm $(docker ps -a | sed -n 2p | awk &#39;{ print $1 }&#39;)
+
+Note that this modification is permanent, in the sense that will not be lost when you close the container. However, it will be required again when you update the container (e.g., docker pull kavrakilab/hla-arena).
+
+There is also the option of adding the key temporarily, when running a specific workflow. For that, just add the content below as one of the first cells to be executed in the workflow. Remember to replace `MODELLER_KEY` with the correct key.
+
+    from subprocess import call
+    call([&#34;sed -i \&#34;s/XXXX/&#34; + MODELLER_KEY + &#34;/g\&#34; /conda/envs/apegen/lib/modeller-9.20/modlib/modeller/config.py&#34;], shell=True)
+
+
+## Using Jupyter Notebook
+
+Each file with a &#39;.ipynb&#39; extension in this folder is a Jupyter notebook allowing you to run one of SARS-Arena workflows. Note that Jupyter Notebook is already installed in this docker image of SARS-Arena. If you are new to Jupyter Notebook, you can check this [tutorial on how to interact with its interface](https://www.youtube.com/watch?v=HW29067qVWk&amp;feature=youtu.be&amp;t=274). Numerous other resources are available online.
+
+
+## Available workflows
+
+[Workflow_1A.ipynb](http://127.0.0.1:8888/notebooks/ProjectDevelopment/Workflows/Peptide_Extraction_Workflow_1A.ipynb) (open link in a new tab)
+
+Workflow 1A will allow that users run the multiple sequence alignment of SARS-CoV-2 proteins in loco. To avoid processing crashes, we recommend using this workflow to run no more than 50,000 protein sequences. Workflow 1A consists of five steps: (i) fetch dataset from NCBI, (ii) extract and filter the sequence file, (iii) Multiple Sequence Alignment, (iv) computing conservation score, and (v) computing conserved peptides.
+
+[Workflow_1B.ipynb](http://127.0.0.1:8888/notebooks/ProjectDevelopment/Workflows/Peptide_Extraction_Workflow_1B.ipynb) (open link in a new tab)
+
+Workflow 1B, differently from Workflow 1A, allows users to recover information from a pre-computed multiple sequence alignment based on a specific date. We recommend the use of this workflow for cases where there is a need to analyze a large number of protein sequences (e.g. more than 50.000 sequences). This workflow consists of three steps: (i) fetch Pre-computed MSA dataset, (ii) computing conservation score, (iii) computing conserved peptides.
+
+[Workflow_1C.ipynb](http://127.0.0.1:8888/notebooks/ProjectDevelopment/Workflows/Peptide_Extraction_Workflow_1C.ipynb) (open link in a new tab)
+
+The Workflow 1C, contrary to Workflows 1A and 1B, has a different purpose. Here, instead of analyzing only protein sequences from SARS-CoV-2, the user can also retrieve information from multiple sequence alignment with sequences from SARS-related coronaviruses. This workflow consists of four steps: (i) fetch Pre-computed Multiple Sequence Alignment (MSA) from SARS-CoV-2, (ii) multiple Sequence Alignment, (iii) computing conservation score, (iv) computing conserved peptides.
+
+[Workflow_2.ipynb](http://127.0.0.1:8888/notebooks/ProjectDevelopment/Workflows/Peptide-HLA_Binding_Prediction_Workflow_2.ipynb) (open link in a new tab)
+
+Workflow 2 provides a way to model the three-dimensional structure of selected peptides in the context of different HLAs. This workflow consists of five steps: (i) obtain peptide and HLA sequences for prediction, (ii) filter peptides using a sequence-based affinity prediction tool, (iii) model HLAs, (iv) model peptide-HLA complexes with APE-Gen, and (v) structural scoring functions.
+
+&#34;&#34;&#34;
+
+# -------------------------------------------------------------------------------- #
+## Imports
+
+# For utility functions used within the code
+from utils.helper_funcs import *
+
+# Subprocess module
+from subprocess import check_output, STDOUT, PIPE, run, call, Popen
+import multiprocessing
+import time
+
+#For printing purposes
+import re
+from itertools import groupby, zip_longest
+from dateutil import parser
+from datetime import datetime
+
+#For the loading bar
+from tqdm.notebook import tqdm
+
+#For visualization and interaction purposes
+import matplotlib.pyplot as plt
+import seaborn as sns
+from ipywidgets import *
+
+#For data processing
+import numpy as np
+import pandas as pd
+import math
+
+#For consensus sequence
+from Bio import AlignIO, SeqIO
+from Bio.Align import AlignInfo
+
+#For modelling HLA sequences
+import HLA_Arena as arena
+
+# For p3HLA scoring function
+import pyrosetta
+import pickle as pk
+
+
+# -------------------------------------------------------------------------------- #
+## WORKFLOW 1 functions
+
+def call_ncbi_datasets(proteins, refseq_only, annotated_only, complete_only, host, released_since):
+    
+    &#34;&#34;&#34;
+    **Function**: Fetches protein sequence data from the NCBI datasets tool (WARNING: Not working anymore) (parameter explanations taken from the [NCBI OpenAPI 3.0 REST API Docs](https://www.ncbi.nlm.nih.gov/datasets/docs/reference-docs/rest-api/))
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *proteins (str or list[str])*: Which proteins to retrieve in the data package. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *refseq_only (bool)*: If true, limit results to RefSeq genomes. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *annotated_only (bool)*: If true, limit results to annotated genomes. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *complete_only (bool)*: Only include complete genomes. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *host (str)*: If set, limit results to genomes extracted from this host (Taxonomy ID or name). &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *released_since (str)*: If set, limit results to viral genomes that have been released after a specified date and time. April 1, 2020 midnight UTC should be formatted as follows: 2020-04-01T00:00:00.000Z. &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *protein_sequence_name (str)*: The name of the *.faa* protein sequence file downloaded from the NCBI datasets tool.
+
+    &#34;&#34;&#34;
+
+    query_string = &#34;https://api.ncbi.nlm.nih.gov/datasets/v1alpha/virus/taxon/sars2/protein/&#34; + proteins \
+                    + &#34;/download?refseq_only=&#34; + str(refseq_only) \
+                    + &#34;&amp;annotated_only=&#34; + str(annotated_only) \
+                    + &#34;&amp;released_since=&#34; + str(released_since) \
+                    + &#34;&amp;host=&#34; + host \
+                    + &#34;&amp;complete_only=&#34; + str(complete_only) \
+                    + &#34;&amp;include_annotation_type=PROT_FASTA&#34; \
+    
+    protein_sequence_name = fetch_file_and_unzip(query_string)
+
+    return protein_sequence_name
+
+def create_tab(workflow_dir):
+    
+    &#34;&#34;&#34;
+    **Function**: Creates a UI tab for selecting arguments, in order to fetch data from the NCBI Virus database
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *workflow_dir*: The workflow to download infor about pangolin lineage. &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *tab (widgets.Tab)*: An ipywidgets tab that apparears on the Workflow screen
+    &#34;&#34;&#34;
+    
+    Virus_type = widgets.Dropdown(options=[&#39;Sars-CoV&#39;, &#39;Sars-CoV-2&#39;, &#39;Both&#39;],
+                              value=&#39;Sars-CoV-2&#39;,
+                              description=&#39;Virus:&#39;)
+
+    Protein = widgets.Dropdown(options=[&#39;ORF1ab polyprotein&#39;, &#39;ORF1a polyprotein&#39;, &#39;leader protein&#39;, &#39;nsp2&#39;, &#39;nsp3&#39;,
+                                        &#39;nsp4&#39;, &#39;3C-like proteinase&#39;, &#39;nsp6&#39;, &#39;nsp7&#39;, &#39;nsp8&#39;, &#39;nsp9&#39;, &#39;nsp10&#39;, 
+                                        &#39;RNA-dependent RNA polymerase&#39;, &#39;helicase&#39;, &#34;3&#39;-to-5&#39; exonuclease&#34;,
+                                        &#39;endoRNAse&#39;, &#34;2&#39;-o-ribose methyltransferase&#34;, &#39;nsp11&#39;, &#39;surface glycoprotein&#39;,
+                                        &#39;ORF3a&#39;, &#39;envelope protein&#39;, &#39;membrane glycoprotein&#39;, &#39;ORF6&#39;, &#39;ORF7a&#39;,
+                                        &#39;ORF7b&#39;, &#39;ORF8&#39;, &#39;nucleocapsid phosphoprotein&#39;, &#39;ORF10&#39;],
+                               value=&#39;nucleocapsid phosphoprotein&#39;,
+                               description=&#39;Protein:&#39;)
+
+    Completeness = widgets.Dropdown(options=[&#39;Complete&#39;, &#39;Partial&#39;, &#39;Both&#39;],
+                                    value=&#39;Complete&#39;,
+                                    description=&#39;Completeness:&#39;,
+                                    style={&#39;description_width&#39;: &#39;initial&#39;})
+
+    Host = widgets.Dropdown(options=[&#39;Human&#39;, &#39;All&#39;],
+                            value=&#39;Human&#39;,
+                            description=&#39;Host:&#39;)
+    
+    RefSeq = widgets.Dropdown(options=[&#39;RefSeq&#39;, &#39;GenBank&#39;, &#39;Both&#39;],
+                              value=&#39;RefSeq&#39;,
+                              description=&#39;Sequence Type:&#39;,
+                              style={&#39;description_width&#39;: &#39;initial&#39;})
+
+    general_accordion = widgets.Accordion(children=[Virus_type, Protein, Completeness, Host, RefSeq])
+    general_accordion_titles = [&#39;Virus&#39;, &#39;Protein&#39;, &#39;Completeness&#39;, &#39;Host&#39;, &#39;Sequence Type&#39;]
+    for i, title in enumerate(general_accordion_titles):
+        general_accordion.set_title(i, title)
+
+    Isolation_source = widgets.SelectMultiple(options=[&#39;blood&#39;, &#39;feces&#39;, &#39;lung&#39;, &#39;lung, oronasopharynx&#39;,
+                                                       &#39;oronasopharynx&#39;, &#39;oronasopharynx, oronasopharynx&#39;,
+                                                       &#39;placenta&#39;, &#39;saliva, oronasopharynx&#39;, &#39;swab&#39;,
+                                                       &#39;urine&#39;],
+                                              value=[],
+                                              description=&#39;Isolation source:&#39;,
+                                              style={&#39;description_width&#39;: &#39;initial&#39;})
+
+    Release_Date_From = widgets.DatePicker(
+        description=&#39;From&#39;,
+        value = datetime.today().replace(day=1).date(),
+        disabled=False
+    )
+
+    Release_Date_To = widgets.DatePicker(
+        description=&#39;To&#39;,
+        value = datetime.today().date(),
+        disabled=False
+    )
+
+    date_accordion = widgets.Accordion(children=[Release_Date_From, Release_Date_To])
+    date_accordion.set_title(0, &#39;From&#39;)
+    date_accordion.set_title(1, &#39;To&#39;)
+
+    Geography = widgets.Dropdown(options=[&#39;Continent&#39;, &#39;Country&#39;, &#39;USA State&#39;],
+                                 value=&#39;Continent&#39;,
+                                 description=&#39;Selection of geographic type:&#39;,
+                                 style={&#39;description_width&#39;: &#39;initial&#39;})
+
+    Continent = widgets.SelectMultiple(options=[&#39;Africa&#39;, &#39;Antartica&#39;, &#39;Asia&#39;, &#39;Europe&#39;, &#39;North America&#39;, &#39;Oceania&#39;, 
+                                                &#39;Oceans and Seas&#39;, &#39;South America&#39;],
+                                       value=[],
+                                       description=&#39;Selection of continent:&#39;,
+                                       style={&#39;description_width&#39;: &#39;initial&#39;})
+
+    geography_accordion = widgets.VBox([Geography, widgets.HBox([Continent])])
+    
+    pangolin_storage = workflow_dir + &#39;/lineage_notes.txt&#39;
+    fetch_pangolin_lineage(pangolin_storage)
+    lineage_data = pd.read_csv(pangolin_storage, sep=&#39;\t&#39;, header=0)
+    lineage_cleaning_query = (lineage_data[&#34;Lineage&#34;].str.startswith(&#39;*&#39;)) | (lineage_data[&#34;Lineage&#34;].str.startswith(&#39;X&#39;))
+    lineage_data = lineage_data[~lineage_cleaning_query][&#39;Lineage&#39;]
+    pangolin_lineage = widgets.SelectMultiple(options=lineage_data.values.tolist(),
+                                              value=[],
+                                              description=&#39;Pangolin Lineage:&#39;,
+                                              style={&#39;description_width&#39;: &#39;initial&#39;})
+    
+    tab = widgets.Tab()
+    tab_titles = [&#39;General Information&#39;, &#39;Geographic Region&#39;, &#39;Isolation Source&#39;, &#39;Pangolin Lineage&#39;, &#39;Release Date&#39;]
+    tab.children = [general_accordion, geography_accordion, Isolation_source, pangolin_lineage, date_accordion]
+    for i, title in enumerate(tab_titles):
+        tab.set_title(i, title)
+    return tab
+    
+def dataset_selection(tab):
+    
+    &#34;&#34;&#34;
+    **Function**: Displays the UI ipywidgets tab for selecting arguments, in order to fetch data from the NCBI Virus database
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *tab*: The UI ipywidgets tab. &lt;br /&gt;
+    &#34;&#34;&#34;
+    
+    display(tab)
+    tab.children[1].children[0].observe(lambda x: update_country_tab(x, tab), names=&#39;value&#39;)
+
+def call_ncbi_virus(Virus_Type, Protein, Completeness, Host, Refseq, Geographic_region, 
+                         Isolation_source, Pangolin_lineage, Released_Dates):
+    
+    &#34;&#34;&#34;
+    **Function**: Fetches protein sequence data from the [NCBI Virus tool](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Protein))
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Virus_Type (str)*: Which SARS virus to work with. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Protein (str)*: Which proteins to retrieve in the data package. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Completeness (str)*: Include complete/partial genomes. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Host (str)*: If set, limit results to genomes extracted from this host. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Refseq (str)*: Fetch only RefSeq/GenBank or both. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Geographic_Region (str tuple)*: Tuple of Geographic type (Continent/Country/USA State) and the value &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Isolation_source (str or list[str])*: Different types of Isolation source &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Pangolin_lineage (str or list[str])*: Different types of Pangolin Lineages (Taken from [here](https://github.com/cov-lineages/pango-designation) &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Released_Dates (str tuple)*: Limit results to sequences that have been released in a specified date frame. &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *protein_sequence_name (str)*: The name of the *.fasta* protein sequence file downloaded from the NCBI Virus database.
+
+    &#34;&#34;&#34;
+    
+    query_string = &#39;q=*:*&amp;fq={!tag=SeqType_s}SeqType_s:(&#34;Protein&#34;)&#39;
+    
+    # Virus Type part
+    if Virus_Type == &#34;Sars-CoV&#34;:
+        query_string += &#39;&amp;fq=VirusLineageId_ss:(694009)&#39;
+    elif Virus_Type == &#34;Sars-CoV-2&#34;:
+        query_string += &#39;&amp;fq=VirusLineageId_ss:(2697049)&#39;
+    elif Virus_Type == &#34;Both&#34;:
+        query_string += &#39;&amp;fq=VirusLineageId_ss:(2697049 OR 694009)&#39;
+    else: 
+        return &#34;Invalid Virus type, please set one of [Sars-CoV, Sars-CoV-2, Both] correctly!&#34;   
+    
+    # Ambiguous parts removal
+    query_string += &#39;&amp;fq={!tag=QualNum_i}QualNum_i:([0 TO 0])&#39;
+    
+    # Protein part
+    query_string += &#39;&amp;fq={!tag=ProtNames_ss}ProtNames_ss:(&#34;&#39; + Protein + &#39;&#34;)&#39;
+    
+    # Sequence Type part
+    if Refseq == &#34;RefSeq&#34;:
+        query_string += &#39;&amp;fq={!tag=SourceDB_s}SourceDB_s:(&#34;RefSeq&#34;)&#39;
+    elif Refseq == &#34;GenBank&#34;:
+        query_string += &#39;&amp;fq={!tag=SourceDB_s}SourceDB_s:(&#34;GenBank&#34;)&#39;
+    elif Refseq == &#34;Both&#34;:
+        pass
+    else: 
+        return &#34;Invalid Sequence type, please set one of [RefSeq, GenBank, Both] correctly!&#34; 
+    
+    # Completeness part
+    if Completeness == &#34;Complete&#34;:
+        query_string += &#39;&amp;fq={!tag=Completeness_s}Completeness_s:(&#34;complete&#34;)&#39;
+    elif Completeness == &#34;Partial&#34;:    
+        query_string += &#39;&amp;fq={!tag=Completeness_s}Completeness_s:(&#34;partial&#34;)&#39;
+    elif Completeness == &#34;Both&#34;: 
+        pass
+    else: 
+        return &#34;Invalid Completeness type, please set one of [Complete, Partial, Both] correctly!&#34; 
+    
+    # Host part
+    if Host == &#34;Human&#34;:
+        query_string += &#39;&amp;fq=HostLineageId_ss:(9606)&#39;
+    if Host != &#34;Human&#34; and Host != &#34;All&#34;:
+        return &#34;Invalid Host, please set one of [Human, All]!&#34;
+    
+    # Isolation source part
+    list_length = len(Isolation_source)
+    if list_length != 0:
+        i = 0
+        query_string += &#39;&amp;fq={!tag=Isolation_csv}Isolation_csv:(&#39;
+        while i &lt; list_length:
+            query_string += &#39;&#34;&#39; + Isolation_source[i] + &#39;&#34;&#39;
+            if i &lt; list_length - 1:
+                query_string += &#34; OR &#34;
+            else:
+                query_string += &#34;)&#34;
+            i += 1
+            
+    # Pango lineage part
+    list_length = len(Pangolin_lineage)
+    if list_length &gt;= 1025:
+        return &#34;Selection of pangolin lineages is too large, and the algorithm will fail! If you wish to choose all pangolin lineages, just leave the selection empty!&#34;
+    if list_length != 0:
+        i = 0
+        query_string += &#39;&amp;fq={!tag=Lineage_s}Lineage_s:(&#39;
+        while i &lt; list_length:
+            query_string += &#39;&#34;&#39; + Pangolin_lineage[i] + &#39;&#34;&#39;
+            if i &lt; list_length - 1:
+                query_string += &#34; OR &#34;
+            else:
+                query_string += &#34;)&#34;
+            i += 1
+    
+    # Geographic region part
+    if Geographic_region[0] == &#39;Continent&#39;:
+        list_length = len(Geographic_region[1])
+        if list_length != 0:
+            i = 0
+            query_string += &#39;&amp;fq={!tag=Region_s}Region_s:(&#39;
+            while i &lt; list_length:
+                query_string += &#39;&#34;&#39; + Geographic_region[1][i] + &#39;&#34;&#39;
+                if i &lt; list_length - 1:
+                    query_string += &#34; OR &#34;
+                else:
+                    query_string += &#34;)&#34;
+                i += 1
+    
+    if Geographic_region[0] == &#39;Country&#39;:
+        list_length = len(Geographic_region[1])
+        if list_length != 0:
+            i = 0
+            query_string += &#39;&amp;fq={!tag=Country_s}Country_s:(&#39;
+            while i &lt; list_length:
+                query_string += &#39;&#34;&#39; + Geographic_region[1][i] + &#39;&#34;&#39;
+                if i &lt; list_length - 1:
+                    query_string += &#34; OR &#34;
+                else:
+                    query_string += &#34;)&#34;
+                i += 1
+            
+    if Geographic_region[0] == &#39;USA State&#39;:
+        list_length = len(Geographic_region[1])
+        if list_length != 0:
+            i = 0
+            query_string += &#39;&amp;fq={!tag=USAState_s}USAState_s:(&#39;
+            while i &lt; list_length:
+                query_string += &#39;&#34;&#39; + Geographic_region[1][i] + &#39;&#34;&#39;
+                if i &lt; list_length - 1:
+                    query_string += &#34; OR &#34;
+                else:
+                    query_string += &#34;)&#34;
+                i += 1
+                
+    # Date part
+    try:
+        date1 = datetime.combine(Released_Dates[0], datetime.min.time()).isoformat()
+        date2 = datetime.combine(Released_Dates[1], datetime.min.time()).isoformat()
+    except ValueError:
+        return &#34;Invalid isoformat dates&#34;
+    if(date1 &gt; date2):
+        return &#34;Dates are reversed! Make sure the first is older than the newer one!&#34;
+    query_string += &#39;&amp;fq={!tag=CreateDate_dt}CreateDate_dt:([&#39; + date1 + &#39;.00Z TO &#39; + date2 + &#39;.00Z])&#39;
+    
+    # Final part
+    query_string += &#39;&amp;cmd=download&amp;sort=SourceDB_s desc,CreateDate_dt desc,id asc&amp;dlfmt=fasta&amp;fl=AccVer_s,Definition_s,Protein_seq&#39;
+    
+    #print(query_string)
+    
+    protein_sequence_name = fetch_fasta_file(query_string)
+
+    return protein_sequence_name
+
+
+def count_sequences(protein_sequence_file):
+    
+    &#34;&#34;&#34;
+    **Function**: Prints and returns the total number of sequences in the *.faa* protein sequence file file downloaded from the NCBI datasets tool.
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *protein_sequence_name (str)*: The name of the *.faa* protein sequence file. &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *number_of_sequences (int)*: Number of sequences in the *.faa* file. 
+
+    &#34;&#34;&#34; 
+    
+    command = &#34;grep -c &#39;&gt;&#39; &#34; + protein_sequence_file
+    results = check_output(command, stderr=STDOUT, shell=True)
+    number_of_sequences = int(re.search(r&#39;\d+&#39;, str(results)).group(0))
+    print(&#34;Total number of sequences:&#34;, number_of_sequences)
+    return number_of_sequences
+
+
+def read_faa(input_file, output_file, N):
+
+    &#34;&#34;&#34;
+    **Function**: Parses the *.faa* and filters sequences with unwanted characters. Additionally, only the first **N** sequences will be kept. 
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *input_file (str)*: The name of the *.faa* protein sequence file. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *output_file (str)*: The preferred name of the **filtered** *.faa* protein sequence file. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *N (int)*: The first **N** number of sequences that will be kept
+
+    &#34;&#34;&#34; 
+    
+    i = 1
+    with open(output_file, &#39;w&#39;) as output:
+        for header,group in groupby(input_file, isheader):
+            if header:
+                line = next(group)
+                ensembl_id = line
+                if i == N + 1:
+                    break
+                i = i + 1
+            else:
+                temp_list = []
+                X_flag = True
+                for line in group:
+                    if &#39;X&#39; not in line:
+                        temp_list.append(line)
+                    else:
+                        X_flag = False
+                if X_flag:
+                    output.write(ensembl_id)
+                    for line in temp_list:
+                        output.write(line)
+    number_of_sequences = count_sequences(output_file)
+    return str(N - number_of_sequences) + &#34; sequences had invalid characters and were discarded&#34;
+
+
+def run_msa(protein_sequence_file, nthread, threshold):
+
+    &#34;&#34;&#34;
+    **Function**: Runs multiple sequence alignment on the input sequences using [MAFFT](https://mafft.cbrc.jp/alignment/software/).
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *protein_sequence_name (str)*: The name of the *.faa* protein sequence file. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *nthread (int)*: The number of cores MAFFT will use to perform the alignment &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *threshold (float)*: Threshold for calculating the consensus sequence of the alignment (frequencies below this threshold will have an unknown amino acid) &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *consensus_sequence (str)*: The consensus sequence obtained after the MSA. 
+
+    &#34;&#34;&#34; 
+    
+    if(threshold &gt; 1 or threshold &lt; 0):
+        return &#34;Define a threshold between 0 and 1!&#34;
+    if(nthread &lt; 1 or nthread &gt; multiprocessing.cpu_count()):
+        return &#34;Define a proper cpu core number!&#34;
+
+    # Run alignment using MAFFT
+    os.system(&#34;rm -f aligned.faa&#34;)
+    command = [&#39;mafft&#39;, &#39;--auto&#39;, &#39;--thread&#39;, str(nthread), protein_sequence_file]
+    with open(&#39;aligned.faa&#39;, &#39;w&#39;) as f:
+        call(command, stdout=f)
+    
+    #Store sequences in csv
+    sequence_list = []
+    for i, re in enumerate(SeqIO.parse(&#39;aligned.faa&#39;, &#39;fasta&#39;)):
+        sequence_list.append((i + 1, str(re.seq)))
+    pd.DataFrame(data=sequence_list).to_csv(&#39;aligned.csv&#39;)
+
+    # Compute consensus sequence
+    alignment = AlignIO.read(&#39;aligned.faa&#39;, &#39;fasta&#39;)
+    summary_align = AlignInfo.SummaryInfo(alignment)
+
+    return str(summary_align.gap_consensus(threshold))
+
+def conservation_analysis(scoring_method, scoring_matrix):
+
+    &#34;&#34;&#34;
+    **Function**: Computes a conservation score based on each position of the aligned sequences (source code is adopted from [here](https://compbio.cs.princeton.edu/conservation/)).
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *scoring_method (str)*: Preffered scoring method. Possible values are: &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 1. `js_divergence` (Method by [Capra and Singh](https://academic.oup.com/bioinformatics/article/23/15/1875/203579)) &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 2. `shannon_entropy` &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 3. `property_entropy` (Method by [Mirny and Shakhnovich](https://www.sciencedirect.com/science/article/pii/S002228369992911X)) &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 4. `vn_entropy` (Method by [Caffrey et al.](https://onlinelibrary.wiley.com/doi/full/10.1110/ps.03323604)) &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *scoring_matrix (str)*: Preffered scoring matrix. This only applies to methods that actually use a scoring matrix for calculating conservation, like `js_divergence`, else, it is ignored (e.g. `shannon_entropy`). Possible values are: &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 1. `blosum62` &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 2. `blosum35` &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 3. `blosum40` &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 4. `blosum50` &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 5. `blosum80` &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 6. `blosum100` &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - conservation_file (str): The name of the *.csv* conservation file.
+
+    &#34;&#34;&#34; 
+    
+    scoring_matrix_path = &#39;../conservation_code/matrix/&#39; + scoring_matrix + &#39;.bla&#39;
+    conservation_file = &#39;conservation.csv&#39;
+    os.system(&#34;rm -f &#34; + conservation_file)
+    command = [&#39;python&#39;, &#39;../conservation_code/score_conservation.py&#39;, &#39;-m&#39;, scoring_matrix_path, 
+               &#39;-s&#39;, scoring_method, &#39;-o&#39;, conservation_file, &#39;aligned.faa&#39;]
+    result = run(command, stdout=PIPE, stderr=PIPE, universal_newlines=True)
+    print(result.stdout, result.stderr)
+
+    return conservation_file
+
+def extract_peptides(min_len, max_len, aligned_sequences_df):
+    &#34;&#34;&#34;
+    **Function**: Extracts all peptides of a given length of all the aligned sequences
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *min_len (int)*: The minimum peptide length. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *max_len (int)*: The maximum peptide length. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *aligned_sequences_df (pandas.DataFrame)*: Dataframe containing all the aligned sequences &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *extracted_peptides (list[str]): List of all the peptides extracted from all the aligned sequences.  
+
+    &#34;&#34;&#34; 
+    
+    # Extract peptides of length `max_len`
+    print(&#34;Extracting all peptides from sequences&#34;)
+    Region_sequences = aligned_sequences_df[&#39;Aligned_Sequences&#39;].tolist()
+    peptide_list = []
+    for sequence in tqdm(Region_sequences):
+        peptides = [(i, i + max_len, max_len, sequence[i:i + max_len]) for i in range(len(sequence)- max_len + 1)]
+        peptide_list.append(peptides)
+
+    # Post-processing for all peptide lengths until `min_len`
+    print(&#34;Post-processing for all peptide lengths&#34;)
+    peptide_list = [peptide for peptide_sublist in peptide_list for peptide in peptide_sublist]
+    peptide_list = sorted(list(set(peptide_list)), key=lambda element: (element[0], element[1]))
+    extracted_peptides = []
+    extracted_peptides.append(peptide_list)
+    for pep_length in tqdm(range(min_len, max_len)):
+        temp_list = peptide_list.copy()
+        peptide_list = []
+        for (start, stop, length, peptide) in temp_list:
+            peptide_list.append((start, stop - 1, length - 1, peptide[0:(length - 1)]))
+            peptide_list.append((start + 1, stop, length - 1, peptide[1:length]))
+        peptide_list = sorted(list(set(peptide_list)), key=lambda element: (element[1], element[2]))    
+        extracted_peptides.append(peptide_list)
+    extracted_peptides = [peptide for final_sublist in extracted_peptides for peptide in final_sublist
+                  if(&#39;-&#39; not in peptide[3]) and (&#39;X&#39; not in peptide[3]) and (&#39;J&#39; not in peptide[3]) and (&#39;B&#39; not in peptide[3]) and (&#39;Z&#39; not in peptide[3])]
+    extracted_peptides = sorted(list(set(extracted_peptides)), key=lambda element: (element[2], element[0], element[1]))
+
+    return extracted_peptides
+
+
+def interactive_plot_selection(conservation_df, extracted_peptides, min_len, max_len):
+    &#34;&#34;&#34;
+    **Function**: Interactive plot of the conservation scores in each position. The user can interact with the conservation threshold, the rolling median window length and the peptide lengths to filter the desired peptides.
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *conservation_df (pandas.DataFrame)*: Dataframe that contains the alignment and the conservation score per sequence position. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *extracted_peptides (list[str])*: List of all the peptides extracted from all the aligned sequences. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *min_len (int)*: The minimum peptide length. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *max_len (int)*: The maximum peptide length. &lt;br /&gt;
+
+    &#34;&#34;&#34; 
+    CV_slider = FloatSlider(value=conservation_df[&#39;Score&#39;].mean(), min=round(conservation_df[&#39;Score&#39;].min()) - 1, 
+                      step=0.1, max=min(round(conservation_df[&#39;Score&#39;].max()) + 1, 100), continuous_update=False)
+    CV_cutoff = conservation_df[&#39;Score&#39;].mean()
+
+    RMW_slider = IntSlider(value=10, min=1, step=1, max=100, continuous_update=False)
+    RMW_cutoff = 10
+
+    Peptide_length_slider = IntSlider(value=min_len+1, min=min_len, step=1, max=max_len, continuous_update=False)
+    Pep_length = min_len+1
+    
+    x = interact(handle_interact, CV_cutoff=CV_slider, RMW_cutoff=RMW_slider, Pep_length=Peptide_length_slider,
+                 conservation_df=fixed(conservation_df), extracted_peptides=fixed(extracted_peptides))
+
+    
+def fetch_precomputed_sequences(year, month):
+
+    &#34;&#34;&#34;
+    **Function**: Fetches the prealigned sequences from our repository. 
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *year (int)*: Sequences will be fetched from this year onwards. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *month (int)*: Sequences will be fetched from this month onwards. &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *protein_sequence_name (str)*: The name of the *.faa* protein sequence file that contains all requested aligned sequences.
+
+    &#34;&#34;&#34;
+   
+    query_string = &#34;https://sars-arena.rice.edu:8000/get_msa/&#34; + year + &#34;/&#34; + month
+
+    protein_sequence_name = fetch_file_and_unzip(query_string)
+
+    return protein_sequence_name   
+
+# -------------------------------------------------------------------------------- #
+## WORKFLOW 2 functions
+
+def fetch_hla_sequences(hlas):
+    &#34;&#34;&#34;
+    **Function**: Fetches the HLA sequences from the [IPD-IMGT/HLA Database](https://www.ebi.ac.uk/ipd/imgt/hla/)
+
+    Parameters: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *hlas (list[str])*: List of HLAs.  It is important that the HLA name follows the pattern GENE*ALLELE GROUP:HLA PROTEIN (e.g. A*02:01, B*57:01, C*11:07) &lt;br /&gt;
+
+    Returns: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *hla_sequences (dict)*: dictionary where keys are HLAs and values are their sequences. 
+
+    &#34;&#34;&#34;         
+    os.system(&#34;rm -f hla_prot.fasta&#34;)
+    os.system(&#34;wget ftp://ftp.ebi.ac.uk/pub/databases/ipd/imgt/hla/hla_prot.fasta&#34;)
+    hla_reformatted = [&#39;HLA-&#39; + hla.replace(&#34;*&#34;, &#34;&#34;).replace(&#34;:&#34;, &#34;&#34;) for hla in hlas]
+    hla_sequences = {}
+    with open(&#34;hla_prot.fasta&#34;) as in_handle:
+        for title, seq in SeqIO.FastaIO.SimpleFastaParser(in_handle):
+            for i,hla in enumerate(hlas):
+                if hlas[i] in title and hla_reformatted[i] not in hla_sequences.keys():
+                    hla_sequences[hla_reformatted[i]] = seq
+    return hla_sequences
+
+
+def hla_filtering(hla_sequences):
+
+    &#34;&#34;&#34;
+    **Function**: Filters the HLA sequences So that they are compatible with [MHCflurry](https://github.com/openvax/mhcflurry)
+
+    Parameters: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *hla_sequences (dict)*: dictionary where keys are HLAs and values are their sequences. &lt;br /&gt;
+
+    Returns: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *hla_filtered_sequences (dict)*: dictionary where keys are filtered, MHCflurry-compatible HLAs and values are their sequences. &lt;br /&gt;
+
+    &#34;&#34;&#34;   
+
+    mhcflurry_alleles = list(pd.read_csv(&#34;../utils/MHCflurry_supported_alleles.txt&#34;, header=None)[0])
+    hla_filtered_sequences = {}
+    for key, value in hla_sequences.items():
+        if key in mhcflurry_alleles:
+            hla_filtered_sequences[key] = value
+
+    return hla_filtered_sequences
+
+
+def mhcflurry_scoring():
+    &#34;&#34;&#34;
+    **Function**: Peptide-HLA pairs from Workflow 2 are being scored using [MHCflurry](https://github.com/openvax/mhcflurry)
+
+    &#34;&#34;&#34;     
+    command = &#34;mhcflurry-predict mhcflurry_input.csv --out predictions.csv&#34;
+    print(&#34;Calling MHCFlurry...&#34;)
+    s = Popen(command, shell=True)
+    s.wait()
+    print(&#34;MHCflurry finished, collecting results...&#34;)
+    f=IntProgress(min=0, max=100, description=&#39;MHCflurry:&#39;, bar_style=&#39;info&#39;)
+    display(f)
+
+    count = 0
+    f.value = 0
+    while count &lt;= 100:
+        time.sleep(.1)
+        p1 = Popen([&#34;cat&#34;, &#34;predictions.csv&#34;], stdout=PIPE)
+        p2 = Popen([&#34;wc&#34;, &#34;-l&#34;], stdin=p1.stdout, stdout=PIPE)
+        val = int(p2.communicate()[0])
+        if val == 0 and count &lt; 80: val = 0.5
+        count += float(val*100/40)
+        f.value = count # signal to increment the progress bar
+
+def mhcflurry_plot_selection(df_predictions, binder_cutoff):
+    &#34;&#34;&#34;
+    **Function**: Interactive swarm plot of the binding affinity scores of peptide-HLA pairs. The x-axis denotes the different HLAs. The user can interact with the binding affinity threshold in order to filter the desired peptide-HLA pairs.
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *df_predictions (pandas.DataFrame)*: Dataframe with binding affinity predictions for each peptide-HLA pair. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *binder_cutoff (int)*: Binding affinity cutoff in order to filter peptide-HLA pairs (Default : 500nM) &lt;br /&gt;
+
+    &#34;&#34;&#34;       
+    max_thres = max(df_predictions[&#39;mhcflurry_prediction&#39;]) + 1000
+
+    slider = IntSlider(value=500, min=0, step=50, max=int(max_thres), continuous_update=False)
+    binder_cutoff.value = &#34;500&#34;
+
+    x = interact(mhcflurry_handle_interact, df_predictions=fixed(df_predictions), cutoff=slider, binder_cutoff=fixed(binder_cutoff))
+
+    
+def model_hlas_MODELLER(hla_sequences):
+    &#34;&#34;&#34;
+    **Function**: Calling MODELLER to model the input HLA sequences. 
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *hla_sequences (dict)*: dictionary where keys are HLAs and values are their sequences.  &lt;br /&gt;
+
+    &#34;&#34;&#34;            
+    hla_alleles = hla_sequences.keys()
+    for hla_allele in hla_alleles:
+        if os.path.exists(hla_allele + &#34;.pdb&#34;):
+            print(&#34;Already found &#34; + hla_allele + &#34;.pdb&#34;)
+            continue
+        os.makedirs(&#34;./Modeller-files/&#34; + hla_allele + &#34;-modeller-output&#34;, exist_ok=True)
+        os.chdir(&#34;./Modeller-files/&#34; + hla_allele + &#34;-modeller-output&#34;)
+        with open(&#34;alpha_chain.fasta&#34;, &#34;w&#34;) as f:
+            f.write(&#34;&gt;&#34; + hla_allele)
+            f.write(&#34;\n&#34; + hla_sequences[hla_allele])
+        f.close()
+        arena.model_hla((&#34;alpha_chain.fasta&#34;, hla_allele), num_models=2)
+        call([&#34;cp best_model.pdb ../../&#34; + hla_allele + &#34;.pdb&#34;], shell=True)
+        os.chdir(&#34;../../&#34;)
+
+def model_structures(Filtered_peptides):
+    &#34;&#34;&#34;
+    **Function**: Performs docking of peptide-HLA pairs with [APE-GEN](https://github.com/KavrakiLab/APE-Gen))
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Filtered_peptides (pandas.DataFrame)*: Dataframe of peptide-HLA pairs to be modelled.  &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *best_scoring_confs (dict)*: dictionary where keys are peptide-HLA pairs and values are paths to the *.pdb* files that correspond to their best-modelled conformations. 
+
+    &#34;&#34;&#34;   
+    best_scoring_confs = {}
+    selected_hla_peptides = []
+    list(Filtered_peptides.to_records(index=False))
+    selected_hla_peptides = list(Filtered_peptides.to_records(index=False))
+    i = 0
+    fail_counter = 0
+    while i &lt; len(selected_hla_peptides):
+        allele, peptide, mhcfpred = selected_hla_peptides[i]
+        print (&#39;-&#39;*80)
+        print(&#34;Running APE-Gen on HLA:&#34; + allele +&#34; peptide:&#34;+ peptide)
+        print (&#39;-&#39;*80)
+
+        comp =  allele.replace(&#34;*&#34;, &#34;&#34;)+&#34;-&#34;+peptide
+        print(comp)
+        root_dir = os.getcwd()
+        call([&#34;mkdir -p &#34; + comp], shell=True)
+        call([&#34;cp &#34; + allele+&#34;.pdb ./&#34;+comp+&#34;/&#34;+allele+&#34;.pdb&#34;], shell=True)
+        os.chdir(comp)
+        try:
+            best_scoring_conf = arena.dock(peptide, &#34;./&#34;+allele+&#34;.pdb&#34;)
+            print(best_scoring_conf)
+            best_scoring_confs[comp.replace(&#34;:&#34;, &#34;&#34;)] = best_scoring_conf
+            os.chdir(&#34;../&#34;)
+            i+=1
+        except Exception as e:
+            os.chdir(root_dir)
+            call([&#34;rm -r ./&#34;+comp+&#34;/&#34;], shell=True)
+            fail_counter +=1
+            if fail_counter &gt; 5:
+                print(&#34;ERROR from APE-Gen generating structure more then five times &#34;+comp)
+                print(&#34;Skipping structure &#34;+comp)
+                fail_counter=0
+                i+=1
+            else:
+                print(&#34;ERROR from APE-Gen generating structure &#34;+comp)
+                print(&#34;Repeating reconstruction of the structure &#34;+comp)
+    return best_scoring_confs
+
+def score_structures(best_scoring_confs):
+    &#34;&#34;&#34;
+    **Function**: Performs scoring of peptide-HLA pairs conformations with different scoring functions. 
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *best_scoring_confs (dict)*: dictionary where keys are peptide-HLA pairs and values are paths to the *.pdb* files that correspond to their best-modelled conformations. &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *scoring_results (pandas.DataFrame)*: DataFrame that contains the peptide-HLA pairs and the socres for each scoring function 
+
+    &#34;&#34;&#34;  
+    init_rosetta()
+    energies = {&#34;Modeled HLAs&#34;: [], &#34;peptide&#34;: [], &#34;vina&#34;: [], &#34;vinardo&#34;: [], &#34;AutoDock4&#34;: [], &#34;3pHLA&#34;: []}
+    for key, value in best_scoring_confs.items():
+        allele = key[4:9]
+        peptide = key[10:]
+        energy_vina = arena.rescore_complex_simple_smina(value, &#34;vina&#34;)
+        energy_vinardo = arena.rescore_complex_simple_smina(value, &#34;vinardo&#34;)
+        energy_ad4 = arena.rescore_complex_simple_smina(value, &#34;ad4_scoring&#34;)
+        energy_ppp = pyrosetta_ppp(allele, peptide, value)
+        energies[&#34;Modeled HLAs&#34;].append(allele)
+        energies[&#34;peptide&#34;].append(peptide)
+        energies[&#34;vina&#34;].append(energy_vina)
+        energies[&#34;vinardo&#34;].append(energy_vinardo)
+        energies[&#34;AutoDock4&#34;].append(energy_ad4)
+        energies[&#34;3pHLA&#34;].append(energy_ppp)
+    scoring_results = pd.DataFrame(energies)
+    return scoring_results
+
+def energy_plot_selection(scoring_results, scoring_function, energy_cutoff):
+    &#34;&#34;&#34;
+    **Function**: Interactive plot of the energy scores for each peptide-HLA pair. The user can interact with the energy cutoff so that wanted pHLA complexes are stored.
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *scoring_results (pandas.DataFrame)*: DataFrame that contains the peptide-HLA pairs and the scores for each scoring function. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *scoring_function (str)*: Scoring function to be chosen for energy filtering. Possible values are: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 1. `vina` &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 2. `vinardo` &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 3. `AutoDock4` &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 4. `3pHLA` (In-house scoring method (link to paper/github pending)) &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *energy_cutoff (str)*: Energy cutoff chosen by user for filtering pHLA complexes. Chosen by user (Default : Mean of the scoring function of the `scoring_results`)
+
+    &#34;&#34;&#34;      
+    min_energy = np.min(scoring_results[scoring_function])
+    max_energy = np.max(scoring_results[scoring_function])
+    mean_energy = np.mean(scoring_results[scoring_function])
+    scoring_specific_df = scoring_results[[&#39;Modeled HLAs&#39;, &#39;peptide&#39;, scoring_function]]
+    slider = FloatSlider(min=min_energy-1, max=max_energy + 1, step=0.1, value = mean_energy, continuous_update=False)
+    energy_cutoff.value = str(mean_energy)
+
+    x = interact(energy_handle_interact, scoring_specific_df=fixed(scoring_specific_df), cutoff=slider,  min_energy=fixed(min_energy), energy_cutoff=fixed(energy_cutoff), scoring_function=fixed(scoring_function))
+
+    
+
+def store_best_structures(best_scoring_confs, selected, structures_storage_location):
+    &#34;&#34;&#34;
+    **Function**: Stores the structures selected for further processing
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *best_scoring_confs (dict)*: dictionary where keys are peptide-HLA pairs and values are paths to the *.pdb* files that correspond to their best-modelled conformations. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *selected (dict)*: DataFrame that contains the filtered by the energy cutoff peptide-HLA pairs. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *structures_storage_location (str)*: Directory for the selected structures to be stored. 
+
+    &#34;&#34;&#34; 
+    for index, row in selected.iterrows():
+        key = &#34;HLA-&#34; + row[&#34;Modeled HLAs&#34;]+&#34;-&#34;+row[&#34;peptide&#34;]
+        path = best_scoring_confs[key]
+        print(&#34;Writing &#34;+key+&#34; to &#34; + structures_storage_location)
+        call([&#34;cp &#34; + best_scoring_confs[key] + &#34; &#34; + structures_storage_location + &#34;/&#34; + key + &#34;.pdb&#34;], shell=True)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="SARS_Arena.call_ncbi_datasets"><code class="name flex">
+<span>def <span class="ident">call_ncbi_datasets</span></span>(<span>proteins, refseq_only, annotated_only, complete_only, host, released_since)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Fetches protein sequence data from the NCBI datasets tool (WARNING: Not working anymore) (parameter explanations taken from the <a href="https://www.ncbi.nlm.nih.gov/datasets/docs/reference-docs/rest-api/">NCBI OpenAPI 3.0 REST API Docs</a>)</p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>proteins (str or list[str])</em>: Which proteins to retrieve in the data package. <br />
+&ensp;&ensp;&ensp; - <em>refseq_only (bool)</em>: If true, limit results to RefSeq genomes. <br />
+&ensp;&ensp;&ensp; - <em>annotated_only (bool)</em>: If true, limit results to annotated genomes. <br />
+&ensp;&ensp;&ensp; - <em>complete_only (bool)</em>: Only include complete genomes. <br />
+&ensp;&ensp;&ensp; - <em>host (str)</em>: If set, limit results to genomes extracted from this host (Taxonomy ID or name). <br />
+&ensp;&ensp;&ensp; - <em>released_since (str)</em>: If set, limit results to viral genomes that have been released after a specified date and time. April 1, 2020 midnight UTC should be formatted as follows: 2020-04-01T00:00:00.000Z. <br /></p>
+<p><strong>Returns</strong>: <br />
+&ensp;&ensp;&ensp; - <em>protein_sequence_name (str)</em>: The name of the <em>.faa</em> protein sequence file downloaded from the NCBI datasets tool.</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def call_ncbi_datasets(proteins, refseq_only, annotated_only, complete_only, host, released_since):
+    
+    &#34;&#34;&#34;
+    **Function**: Fetches protein sequence data from the NCBI datasets tool (WARNING: Not working anymore) (parameter explanations taken from the [NCBI OpenAPI 3.0 REST API Docs](https://www.ncbi.nlm.nih.gov/datasets/docs/reference-docs/rest-api/))
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *proteins (str or list[str])*: Which proteins to retrieve in the data package. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *refseq_only (bool)*: If true, limit results to RefSeq genomes. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *annotated_only (bool)*: If true, limit results to annotated genomes. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *complete_only (bool)*: Only include complete genomes. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *host (str)*: If set, limit results to genomes extracted from this host (Taxonomy ID or name). &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *released_since (str)*: If set, limit results to viral genomes that have been released after a specified date and time. April 1, 2020 midnight UTC should be formatted as follows: 2020-04-01T00:00:00.000Z. &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *protein_sequence_name (str)*: The name of the *.faa* protein sequence file downloaded from the NCBI datasets tool.
+
+    &#34;&#34;&#34;
+
+    query_string = &#34;https://api.ncbi.nlm.nih.gov/datasets/v1alpha/virus/taxon/sars2/protein/&#34; + proteins \
+                    + &#34;/download?refseq_only=&#34; + str(refseq_only) \
+                    + &#34;&amp;annotated_only=&#34; + str(annotated_only) \
+                    + &#34;&amp;released_since=&#34; + str(released_since) \
+                    + &#34;&amp;host=&#34; + host \
+                    + &#34;&amp;complete_only=&#34; + str(complete_only) \
+                    + &#34;&amp;include_annotation_type=PROT_FASTA&#34; \
+    
+    protein_sequence_name = fetch_file_and_unzip(query_string)
+
+    return protein_sequence_name</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.call_ncbi_virus"><code class="name flex">
+<span>def <span class="ident">call_ncbi_virus</span></span>(<span>Virus_Type, Protein, Completeness, Host, Refseq, Geographic_region, Isolation_source, Pangolin_lineage, Released_Dates)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Fetches protein sequence data from the <a href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Protein">NCBI Virus tool</a>)</p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>Virus_Type (str)</em>: Which SARS virus to work with. <br />
+&ensp;&ensp;&ensp; - <em>Protein (str)</em>: Which proteins to retrieve in the data package. <br />
+&ensp;&ensp;&ensp; - <em>Completeness (str)</em>: Include complete/partial genomes. <br />
+&ensp;&ensp;&ensp; - <em>Host (str)</em>: If set, limit results to genomes extracted from this host. <br />
+&ensp;&ensp;&ensp; - <em>Refseq (str)</em>: Fetch only RefSeq/GenBank or both. <br />
+&ensp;&ensp;&ensp; - <em>Geographic_Region (str tuple)</em>: Tuple of Geographic type (Continent/Country/USA State) and the value <br />
+&ensp;&ensp;&ensp; - <em>Isolation_source (str or list[str])</em>: Different types of Isolation source <br />
+&ensp;&ensp;&ensp; - <em>Pangolin_lineage (str or list[str])</em>: Different types of Pangolin Lineages (Taken from <a href="https://github.com/cov-lineages/pango-designation">here</a> <br />
+&ensp;&ensp;&ensp; - <em>Released_Dates (str tuple)</em>: Limit results to sequences that have been released in a specified date frame. <br /></p>
+<p><strong>Returns</strong>: <br />
+&ensp;&ensp;&ensp; - <em>protein_sequence_name (str)</em>: The name of the <em>.fasta</em> protein sequence file downloaded from the NCBI Virus database.</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def call_ncbi_virus(Virus_Type, Protein, Completeness, Host, Refseq, Geographic_region, 
+                         Isolation_source, Pangolin_lineage, Released_Dates):
+    
+    &#34;&#34;&#34;
+    **Function**: Fetches protein sequence data from the [NCBI Virus tool](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Protein))
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Virus_Type (str)*: Which SARS virus to work with. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Protein (str)*: Which proteins to retrieve in the data package. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Completeness (str)*: Include complete/partial genomes. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Host (str)*: If set, limit results to genomes extracted from this host. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Refseq (str)*: Fetch only RefSeq/GenBank or both. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Geographic_Region (str tuple)*: Tuple of Geographic type (Continent/Country/USA State) and the value &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Isolation_source (str or list[str])*: Different types of Isolation source &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Pangolin_lineage (str or list[str])*: Different types of Pangolin Lineages (Taken from [here](https://github.com/cov-lineages/pango-designation) &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Released_Dates (str tuple)*: Limit results to sequences that have been released in a specified date frame. &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *protein_sequence_name (str)*: The name of the *.fasta* protein sequence file downloaded from the NCBI Virus database.
+
+    &#34;&#34;&#34;
+    
+    query_string = &#39;q=*:*&amp;fq={!tag=SeqType_s}SeqType_s:(&#34;Protein&#34;)&#39;
+    
+    # Virus Type part
+    if Virus_Type == &#34;Sars-CoV&#34;:
+        query_string += &#39;&amp;fq=VirusLineageId_ss:(694009)&#39;
+    elif Virus_Type == &#34;Sars-CoV-2&#34;:
+        query_string += &#39;&amp;fq=VirusLineageId_ss:(2697049)&#39;
+    elif Virus_Type == &#34;Both&#34;:
+        query_string += &#39;&amp;fq=VirusLineageId_ss:(2697049 OR 694009)&#39;
+    else: 
+        return &#34;Invalid Virus type, please set one of [Sars-CoV, Sars-CoV-2, Both] correctly!&#34;   
+    
+    # Ambiguous parts removal
+    query_string += &#39;&amp;fq={!tag=QualNum_i}QualNum_i:([0 TO 0])&#39;
+    
+    # Protein part
+    query_string += &#39;&amp;fq={!tag=ProtNames_ss}ProtNames_ss:(&#34;&#39; + Protein + &#39;&#34;)&#39;
+    
+    # Sequence Type part
+    if Refseq == &#34;RefSeq&#34;:
+        query_string += &#39;&amp;fq={!tag=SourceDB_s}SourceDB_s:(&#34;RefSeq&#34;)&#39;
+    elif Refseq == &#34;GenBank&#34;:
+        query_string += &#39;&amp;fq={!tag=SourceDB_s}SourceDB_s:(&#34;GenBank&#34;)&#39;
+    elif Refseq == &#34;Both&#34;:
+        pass
+    else: 
+        return &#34;Invalid Sequence type, please set one of [RefSeq, GenBank, Both] correctly!&#34; 
+    
+    # Completeness part
+    if Completeness == &#34;Complete&#34;:
+        query_string += &#39;&amp;fq={!tag=Completeness_s}Completeness_s:(&#34;complete&#34;)&#39;
+    elif Completeness == &#34;Partial&#34;:    
+        query_string += &#39;&amp;fq={!tag=Completeness_s}Completeness_s:(&#34;partial&#34;)&#39;
+    elif Completeness == &#34;Both&#34;: 
+        pass
+    else: 
+        return &#34;Invalid Completeness type, please set one of [Complete, Partial, Both] correctly!&#34; 
+    
+    # Host part
+    if Host == &#34;Human&#34;:
+        query_string += &#39;&amp;fq=HostLineageId_ss:(9606)&#39;
+    if Host != &#34;Human&#34; and Host != &#34;All&#34;:
+        return &#34;Invalid Host, please set one of [Human, All]!&#34;
+    
+    # Isolation source part
+    list_length = len(Isolation_source)
+    if list_length != 0:
+        i = 0
+        query_string += &#39;&amp;fq={!tag=Isolation_csv}Isolation_csv:(&#39;
+        while i &lt; list_length:
+            query_string += &#39;&#34;&#39; + Isolation_source[i] + &#39;&#34;&#39;
+            if i &lt; list_length - 1:
+                query_string += &#34; OR &#34;
+            else:
+                query_string += &#34;)&#34;
+            i += 1
+            
+    # Pango lineage part
+    list_length = len(Pangolin_lineage)
+    if list_length &gt;= 1025:
+        return &#34;Selection of pangolin lineages is too large, and the algorithm will fail! If you wish to choose all pangolin lineages, just leave the selection empty!&#34;
+    if list_length != 0:
+        i = 0
+        query_string += &#39;&amp;fq={!tag=Lineage_s}Lineage_s:(&#39;
+        while i &lt; list_length:
+            query_string += &#39;&#34;&#39; + Pangolin_lineage[i] + &#39;&#34;&#39;
+            if i &lt; list_length - 1:
+                query_string += &#34; OR &#34;
+            else:
+                query_string += &#34;)&#34;
+            i += 1
+    
+    # Geographic region part
+    if Geographic_region[0] == &#39;Continent&#39;:
+        list_length = len(Geographic_region[1])
+        if list_length != 0:
+            i = 0
+            query_string += &#39;&amp;fq={!tag=Region_s}Region_s:(&#39;
+            while i &lt; list_length:
+                query_string += &#39;&#34;&#39; + Geographic_region[1][i] + &#39;&#34;&#39;
+                if i &lt; list_length - 1:
+                    query_string += &#34; OR &#34;
+                else:
+                    query_string += &#34;)&#34;
+                i += 1
+    
+    if Geographic_region[0] == &#39;Country&#39;:
+        list_length = len(Geographic_region[1])
+        if list_length != 0:
+            i = 0
+            query_string += &#39;&amp;fq={!tag=Country_s}Country_s:(&#39;
+            while i &lt; list_length:
+                query_string += &#39;&#34;&#39; + Geographic_region[1][i] + &#39;&#34;&#39;
+                if i &lt; list_length - 1:
+                    query_string += &#34; OR &#34;
+                else:
+                    query_string += &#34;)&#34;
+                i += 1
+            
+    if Geographic_region[0] == &#39;USA State&#39;:
+        list_length = len(Geographic_region[1])
+        if list_length != 0:
+            i = 0
+            query_string += &#39;&amp;fq={!tag=USAState_s}USAState_s:(&#39;
+            while i &lt; list_length:
+                query_string += &#39;&#34;&#39; + Geographic_region[1][i] + &#39;&#34;&#39;
+                if i &lt; list_length - 1:
+                    query_string += &#34; OR &#34;
+                else:
+                    query_string += &#34;)&#34;
+                i += 1
+                
+    # Date part
+    try:
+        date1 = datetime.combine(Released_Dates[0], datetime.min.time()).isoformat()
+        date2 = datetime.combine(Released_Dates[1], datetime.min.time()).isoformat()
+    except ValueError:
+        return &#34;Invalid isoformat dates&#34;
+    if(date1 &gt; date2):
+        return &#34;Dates are reversed! Make sure the first is older than the newer one!&#34;
+    query_string += &#39;&amp;fq={!tag=CreateDate_dt}CreateDate_dt:([&#39; + date1 + &#39;.00Z TO &#39; + date2 + &#39;.00Z])&#39;
+    
+    # Final part
+    query_string += &#39;&amp;cmd=download&amp;sort=SourceDB_s desc,CreateDate_dt desc,id asc&amp;dlfmt=fasta&amp;fl=AccVer_s,Definition_s,Protein_seq&#39;
+    
+    #print(query_string)
+    
+    protein_sequence_name = fetch_fasta_file(query_string)
+
+    return protein_sequence_name</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.conservation_analysis"><code class="name flex">
+<span>def <span class="ident">conservation_analysis</span></span>(<span>scoring_method, scoring_matrix)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Computes a conservation score based on each position of the aligned sequences (source code is adopted from <a href="https://compbio.cs.princeton.edu/conservation/">here</a>).</p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>scoring_method (str)</em>: Preffered scoring method. Possible values are: <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 1. <code>js_divergence</code> (Method by <a href="https://academic.oup.com/bioinformatics/article/23/15/1875/203579">Capra and Singh</a>) <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 2. <code>shannon_entropy</code> <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 3. <code>property_entropy</code> (Method by <a href="https://www.sciencedirect.com/science/article/pii/S002228369992911X">Mirny and Shakhnovich</a>) <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 4. <code>vn_entropy</code> (Method by <a href="https://onlinelibrary.wiley.com/doi/full/10.1110/ps.03323604">Caffrey et al.</a>) <br />
+&ensp;&ensp;&ensp; - <em>scoring_matrix (str)</em>: Preffered scoring matrix. This only applies to methods that actually use a scoring matrix for calculating conservation, like <code>js_divergence</code>, else, it is ignored (e.g. <code>shannon_entropy</code>). Possible values are: <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 1. <code>blosum62</code> <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 2. <code>blosum35</code> <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 3. <code>blosum40</code> <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 4. <code>blosum50</code> <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 5. <code>blosum80</code> <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 6. <code>blosum100</code> <br /></p>
+<p><strong>Returns</strong>: <br />
+&ensp;&ensp;&ensp; - conservation_file (str): The name of the <em>.csv</em> conservation file.</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def conservation_analysis(scoring_method, scoring_matrix):
+
+    &#34;&#34;&#34;
+    **Function**: Computes a conservation score based on each position of the aligned sequences (source code is adopted from [here](https://compbio.cs.princeton.edu/conservation/)).
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *scoring_method (str)*: Preffered scoring method. Possible values are: &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 1. `js_divergence` (Method by [Capra and Singh](https://academic.oup.com/bioinformatics/article/23/15/1875/203579)) &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 2. `shannon_entropy` &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 3. `property_entropy` (Method by [Mirny and Shakhnovich](https://www.sciencedirect.com/science/article/pii/S002228369992911X)) &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 4. `vn_entropy` (Method by [Caffrey et al.](https://onlinelibrary.wiley.com/doi/full/10.1110/ps.03323604)) &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *scoring_matrix (str)*: Preffered scoring matrix. This only applies to methods that actually use a scoring matrix for calculating conservation, like `js_divergence`, else, it is ignored (e.g. `shannon_entropy`). Possible values are: &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 1. `blosum62` &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 2. `blosum35` &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 3. `blosum40` &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 4. `blosum50` &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 5. `blosum80` &lt;br /&gt;
+        &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 6. `blosum100` &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - conservation_file (str): The name of the *.csv* conservation file.
+
+    &#34;&#34;&#34; 
+    
+    scoring_matrix_path = &#39;../conservation_code/matrix/&#39; + scoring_matrix + &#39;.bla&#39;
+    conservation_file = &#39;conservation.csv&#39;
+    os.system(&#34;rm -f &#34; + conservation_file)
+    command = [&#39;python&#39;, &#39;../conservation_code/score_conservation.py&#39;, &#39;-m&#39;, scoring_matrix_path, 
+               &#39;-s&#39;, scoring_method, &#39;-o&#39;, conservation_file, &#39;aligned.faa&#39;]
+    result = run(command, stdout=PIPE, stderr=PIPE, universal_newlines=True)
+    print(result.stdout, result.stderr)
+
+    return conservation_file</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.count_sequences"><code class="name flex">
+<span>def <span class="ident">count_sequences</span></span>(<span>protein_sequence_file)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Prints and returns the total number of sequences in the <em>.faa</em> protein sequence file file downloaded from the NCBI datasets tool.</p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>protein_sequence_name (str)</em>: The name of the <em>.faa</em> protein sequence file. <br /></p>
+<p><strong>Returns</strong>: <br />
+&ensp;&ensp;&ensp; - <em>number_of_sequences (int)</em>: Number of sequences in the <em>.faa</em> file.</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def count_sequences(protein_sequence_file):
+    
+    &#34;&#34;&#34;
+    **Function**: Prints and returns the total number of sequences in the *.faa* protein sequence file file downloaded from the NCBI datasets tool.
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *protein_sequence_name (str)*: The name of the *.faa* protein sequence file. &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *number_of_sequences (int)*: Number of sequences in the *.faa* file. 
+
+    &#34;&#34;&#34; 
+    
+    command = &#34;grep -c &#39;&gt;&#39; &#34; + protein_sequence_file
+    results = check_output(command, stderr=STDOUT, shell=True)
+    number_of_sequences = int(re.search(r&#39;\d+&#39;, str(results)).group(0))
+    print(&#34;Total number of sequences:&#34;, number_of_sequences)
+    return number_of_sequences</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.create_tab"><code class="name flex">
+<span>def <span class="ident">create_tab</span></span>(<span>workflow_dir)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Creates a UI tab for selecting arguments, in order to fetch data from the NCBI Virus database</p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>workflow_dir</em>: The workflow to download infor about pangolin lineage. <br /></p>
+<p><strong>Returns</strong>: <br />
+&ensp;&ensp;&ensp; - <em>tab (widgets.Tab)</em>: An ipywidgets tab that apparears on the Workflow screen</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def create_tab(workflow_dir):
+    
+    &#34;&#34;&#34;
+    **Function**: Creates a UI tab for selecting arguments, in order to fetch data from the NCBI Virus database
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *workflow_dir*: The workflow to download infor about pangolin lineage. &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *tab (widgets.Tab)*: An ipywidgets tab that apparears on the Workflow screen
+    &#34;&#34;&#34;
+    
+    Virus_type = widgets.Dropdown(options=[&#39;Sars-CoV&#39;, &#39;Sars-CoV-2&#39;, &#39;Both&#39;],
+                              value=&#39;Sars-CoV-2&#39;,
+                              description=&#39;Virus:&#39;)
+
+    Protein = widgets.Dropdown(options=[&#39;ORF1ab polyprotein&#39;, &#39;ORF1a polyprotein&#39;, &#39;leader protein&#39;, &#39;nsp2&#39;, &#39;nsp3&#39;,
+                                        &#39;nsp4&#39;, &#39;3C-like proteinase&#39;, &#39;nsp6&#39;, &#39;nsp7&#39;, &#39;nsp8&#39;, &#39;nsp9&#39;, &#39;nsp10&#39;, 
+                                        &#39;RNA-dependent RNA polymerase&#39;, &#39;helicase&#39;, &#34;3&#39;-to-5&#39; exonuclease&#34;,
+                                        &#39;endoRNAse&#39;, &#34;2&#39;-o-ribose methyltransferase&#34;, &#39;nsp11&#39;, &#39;surface glycoprotein&#39;,
+                                        &#39;ORF3a&#39;, &#39;envelope protein&#39;, &#39;membrane glycoprotein&#39;, &#39;ORF6&#39;, &#39;ORF7a&#39;,
+                                        &#39;ORF7b&#39;, &#39;ORF8&#39;, &#39;nucleocapsid phosphoprotein&#39;, &#39;ORF10&#39;],
+                               value=&#39;nucleocapsid phosphoprotein&#39;,
+                               description=&#39;Protein:&#39;)
+
+    Completeness = widgets.Dropdown(options=[&#39;Complete&#39;, &#39;Partial&#39;, &#39;Both&#39;],
+                                    value=&#39;Complete&#39;,
+                                    description=&#39;Completeness:&#39;,
+                                    style={&#39;description_width&#39;: &#39;initial&#39;})
+
+    Host = widgets.Dropdown(options=[&#39;Human&#39;, &#39;All&#39;],
+                            value=&#39;Human&#39;,
+                            description=&#39;Host:&#39;)
+    
+    RefSeq = widgets.Dropdown(options=[&#39;RefSeq&#39;, &#39;GenBank&#39;, &#39;Both&#39;],
+                              value=&#39;RefSeq&#39;,
+                              description=&#39;Sequence Type:&#39;,
+                              style={&#39;description_width&#39;: &#39;initial&#39;})
+
+    general_accordion = widgets.Accordion(children=[Virus_type, Protein, Completeness, Host, RefSeq])
+    general_accordion_titles = [&#39;Virus&#39;, &#39;Protein&#39;, &#39;Completeness&#39;, &#39;Host&#39;, &#39;Sequence Type&#39;]
+    for i, title in enumerate(general_accordion_titles):
+        general_accordion.set_title(i, title)
+
+    Isolation_source = widgets.SelectMultiple(options=[&#39;blood&#39;, &#39;feces&#39;, &#39;lung&#39;, &#39;lung, oronasopharynx&#39;,
+                                                       &#39;oronasopharynx&#39;, &#39;oronasopharynx, oronasopharynx&#39;,
+                                                       &#39;placenta&#39;, &#39;saliva, oronasopharynx&#39;, &#39;swab&#39;,
+                                                       &#39;urine&#39;],
+                                              value=[],
+                                              description=&#39;Isolation source:&#39;,
+                                              style={&#39;description_width&#39;: &#39;initial&#39;})
+
+    Release_Date_From = widgets.DatePicker(
+        description=&#39;From&#39;,
+        value = datetime.today().replace(day=1).date(),
+        disabled=False
+    )
+
+    Release_Date_To = widgets.DatePicker(
+        description=&#39;To&#39;,
+        value = datetime.today().date(),
+        disabled=False
+    )
+
+    date_accordion = widgets.Accordion(children=[Release_Date_From, Release_Date_To])
+    date_accordion.set_title(0, &#39;From&#39;)
+    date_accordion.set_title(1, &#39;To&#39;)
+
+    Geography = widgets.Dropdown(options=[&#39;Continent&#39;, &#39;Country&#39;, &#39;USA State&#39;],
+                                 value=&#39;Continent&#39;,
+                                 description=&#39;Selection of geographic type:&#39;,
+                                 style={&#39;description_width&#39;: &#39;initial&#39;})
+
+    Continent = widgets.SelectMultiple(options=[&#39;Africa&#39;, &#39;Antartica&#39;, &#39;Asia&#39;, &#39;Europe&#39;, &#39;North America&#39;, &#39;Oceania&#39;, 
+                                                &#39;Oceans and Seas&#39;, &#39;South America&#39;],
+                                       value=[],
+                                       description=&#39;Selection of continent:&#39;,
+                                       style={&#39;description_width&#39;: &#39;initial&#39;})
+
+    geography_accordion = widgets.VBox([Geography, widgets.HBox([Continent])])
+    
+    pangolin_storage = workflow_dir + &#39;/lineage_notes.txt&#39;
+    fetch_pangolin_lineage(pangolin_storage)
+    lineage_data = pd.read_csv(pangolin_storage, sep=&#39;\t&#39;, header=0)
+    lineage_cleaning_query = (lineage_data[&#34;Lineage&#34;].str.startswith(&#39;*&#39;)) | (lineage_data[&#34;Lineage&#34;].str.startswith(&#39;X&#39;))
+    lineage_data = lineage_data[~lineage_cleaning_query][&#39;Lineage&#39;]
+    pangolin_lineage = widgets.SelectMultiple(options=lineage_data.values.tolist(),
+                                              value=[],
+                                              description=&#39;Pangolin Lineage:&#39;,
+                                              style={&#39;description_width&#39;: &#39;initial&#39;})
+    
+    tab = widgets.Tab()
+    tab_titles = [&#39;General Information&#39;, &#39;Geographic Region&#39;, &#39;Isolation Source&#39;, &#39;Pangolin Lineage&#39;, &#39;Release Date&#39;]
+    tab.children = [general_accordion, geography_accordion, Isolation_source, pangolin_lineage, date_accordion]
+    for i, title in enumerate(tab_titles):
+        tab.set_title(i, title)
+    return tab</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.dataset_selection"><code class="name flex">
+<span>def <span class="ident">dataset_selection</span></span>(<span>tab)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Displays the UI ipywidgets tab for selecting arguments, in order to fetch data from the NCBI Virus database</p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>tab</em>: The UI ipywidgets tab. <br /></p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def dataset_selection(tab):
+    
+    &#34;&#34;&#34;
+    **Function**: Displays the UI ipywidgets tab for selecting arguments, in order to fetch data from the NCBI Virus database
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *tab*: The UI ipywidgets tab. &lt;br /&gt;
+    &#34;&#34;&#34;
+    
+    display(tab)
+    tab.children[1].children[0].observe(lambda x: update_country_tab(x, tab), names=&#39;value&#39;)</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.energy_plot_selection"><code class="name flex">
+<span>def <span class="ident">energy_plot_selection</span></span>(<span>scoring_results, scoring_function, energy_cutoff)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Interactive plot of the energy scores for each peptide-HLA pair. The user can interact with the energy cutoff so that wanted pHLA complexes are stored.</p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>scoring_results (pandas.DataFrame)</em>: DataFrame that contains the peptide-HLA pairs and the scores for each scoring function. <br />
+&ensp;&ensp;&ensp; - <em>scoring_function (str)</em>: Scoring function to be chosen for energy filtering. Possible values are: <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 1. <code>vina</code> <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 2. <code>vinardo</code> <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 3. <code>AutoDock4</code> <br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 4. <code>3pHLA</code> (In-house scoring method (link to paper/github pending)) <br />
+&ensp;&ensp;&ensp; - <em>energy_cutoff (str)</em>: Energy cutoff chosen by user for filtering pHLA complexes. Chosen by user (Default : Mean of the scoring function of the <code>scoring_results</code>)</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def energy_plot_selection(scoring_results, scoring_function, energy_cutoff):
+    &#34;&#34;&#34;
+    **Function**: Interactive plot of the energy scores for each peptide-HLA pair. The user can interact with the energy cutoff so that wanted pHLA complexes are stored.
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *scoring_results (pandas.DataFrame)*: DataFrame that contains the peptide-HLA pairs and the scores for each scoring function. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *scoring_function (str)*: Scoring function to be chosen for energy filtering. Possible values are: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 1. `vina` &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 2. `vinardo` &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 3. `AutoDock4` &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp; 4. `3pHLA` (In-house scoring method (link to paper/github pending)) &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *energy_cutoff (str)*: Energy cutoff chosen by user for filtering pHLA complexes. Chosen by user (Default : Mean of the scoring function of the `scoring_results`)
+
+    &#34;&#34;&#34;      
+    min_energy = np.min(scoring_results[scoring_function])
+    max_energy = np.max(scoring_results[scoring_function])
+    mean_energy = np.mean(scoring_results[scoring_function])
+    scoring_specific_df = scoring_results[[&#39;Modeled HLAs&#39;, &#39;peptide&#39;, scoring_function]]
+    slider = FloatSlider(min=min_energy-1, max=max_energy + 1, step=0.1, value = mean_energy, continuous_update=False)
+    energy_cutoff.value = str(mean_energy)
+
+    x = interact(energy_handle_interact, scoring_specific_df=fixed(scoring_specific_df), cutoff=slider,  min_energy=fixed(min_energy), energy_cutoff=fixed(energy_cutoff), scoring_function=fixed(scoring_function))</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.extract_peptides"><code class="name flex">
+<span>def <span class="ident">extract_peptides</span></span>(<span>min_len, max_len, aligned_sequences_df)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Extracts all peptides of a given length of all the aligned sequences</p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>min_len (int)</em>: The minimum peptide length. <br />
+&ensp;&ensp;&ensp; - <em>max_len (int)</em>: The maximum peptide length. <br />
+&ensp;&ensp;&ensp; - <em>aligned_sequences_df (pandas.DataFrame)</em>: Dataframe containing all the aligned sequences <br /></p>
+<p><strong>Returns</strong>: <br />
+&ensp;&ensp;&ensp; - *extracted_peptides (list[str]): List of all the peptides extracted from all the aligned sequences.</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def extract_peptides(min_len, max_len, aligned_sequences_df):
+    &#34;&#34;&#34;
+    **Function**: Extracts all peptides of a given length of all the aligned sequences
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *min_len (int)*: The minimum peptide length. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *max_len (int)*: The maximum peptide length. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *aligned_sequences_df (pandas.DataFrame)*: Dataframe containing all the aligned sequences &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *extracted_peptides (list[str]): List of all the peptides extracted from all the aligned sequences.  
+
+    &#34;&#34;&#34; 
+    
+    # Extract peptides of length `max_len`
+    print(&#34;Extracting all peptides from sequences&#34;)
+    Region_sequences = aligned_sequences_df[&#39;Aligned_Sequences&#39;].tolist()
+    peptide_list = []
+    for sequence in tqdm(Region_sequences):
+        peptides = [(i, i + max_len, max_len, sequence[i:i + max_len]) for i in range(len(sequence)- max_len + 1)]
+        peptide_list.append(peptides)
+
+    # Post-processing for all peptide lengths until `min_len`
+    print(&#34;Post-processing for all peptide lengths&#34;)
+    peptide_list = [peptide for peptide_sublist in peptide_list for peptide in peptide_sublist]
+    peptide_list = sorted(list(set(peptide_list)), key=lambda element: (element[0], element[1]))
+    extracted_peptides = []
+    extracted_peptides.append(peptide_list)
+    for pep_length in tqdm(range(min_len, max_len)):
+        temp_list = peptide_list.copy()
+        peptide_list = []
+        for (start, stop, length, peptide) in temp_list:
+            peptide_list.append((start, stop - 1, length - 1, peptide[0:(length - 1)]))
+            peptide_list.append((start + 1, stop, length - 1, peptide[1:length]))
+        peptide_list = sorted(list(set(peptide_list)), key=lambda element: (element[1], element[2]))    
+        extracted_peptides.append(peptide_list)
+    extracted_peptides = [peptide for final_sublist in extracted_peptides for peptide in final_sublist
+                  if(&#39;-&#39; not in peptide[3]) and (&#39;X&#39; not in peptide[3]) and (&#39;J&#39; not in peptide[3]) and (&#39;B&#39; not in peptide[3]) and (&#39;Z&#39; not in peptide[3])]
+    extracted_peptides = sorted(list(set(extracted_peptides)), key=lambda element: (element[2], element[0], element[1]))
+
+    return extracted_peptides</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.fetch_hla_sequences"><code class="name flex">
+<span>def <span class="ident">fetch_hla_sequences</span></span>(<span>hlas)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Fetches the HLA sequences from the <a href="https://www.ebi.ac.uk/ipd/imgt/hla/">IPD-IMGT/HLA Database</a></p>
+<p>Parameters: <br />
+&ensp;&ensp;&ensp; - <em>hlas (list[str])</em>: List of HLAs.
+It is important that the HLA name follows the pattern GENE<em>ALLELE GROUP:HLA PROTEIN (e.g. A</em>02:01, B<em>57:01, C</em>11:07) <br /></p>
+<p>Returns: <br />
+&ensp;&ensp;&ensp; - <em>hla_sequences (dict)</em>: dictionary where keys are HLAs and values are their sequences.</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def fetch_hla_sequences(hlas):
+    &#34;&#34;&#34;
+    **Function**: Fetches the HLA sequences from the [IPD-IMGT/HLA Database](https://www.ebi.ac.uk/ipd/imgt/hla/)
+
+    Parameters: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *hlas (list[str])*: List of HLAs.  It is important that the HLA name follows the pattern GENE*ALLELE GROUP:HLA PROTEIN (e.g. A*02:01, B*57:01, C*11:07) &lt;br /&gt;
+
+    Returns: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *hla_sequences (dict)*: dictionary where keys are HLAs and values are their sequences. 
+
+    &#34;&#34;&#34;         
+    os.system(&#34;rm -f hla_prot.fasta&#34;)
+    os.system(&#34;wget ftp://ftp.ebi.ac.uk/pub/databases/ipd/imgt/hla/hla_prot.fasta&#34;)
+    hla_reformatted = [&#39;HLA-&#39; + hla.replace(&#34;*&#34;, &#34;&#34;).replace(&#34;:&#34;, &#34;&#34;) for hla in hlas]
+    hla_sequences = {}
+    with open(&#34;hla_prot.fasta&#34;) as in_handle:
+        for title, seq in SeqIO.FastaIO.SimpleFastaParser(in_handle):
+            for i,hla in enumerate(hlas):
+                if hlas[i] in title and hla_reformatted[i] not in hla_sequences.keys():
+                    hla_sequences[hla_reformatted[i]] = seq
+    return hla_sequences</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.fetch_precomputed_sequences"><code class="name flex">
+<span>def <span class="ident">fetch_precomputed_sequences</span></span>(<span>year, month)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Fetches the prealigned sequences from our repository. </p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>year (int)</em>: Sequences will be fetched from this year onwards. <br />
+&ensp;&ensp;&ensp; - <em>month (int)</em>: Sequences will be fetched from this month onwards. <br /></p>
+<p><strong>Returns</strong>: <br />
+&ensp;&ensp;&ensp; - <em>protein_sequence_name (str)</em>: The name of the <em>.faa</em> protein sequence file that contains all requested aligned sequences.</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def fetch_precomputed_sequences(year, month):
+
+    &#34;&#34;&#34;
+    **Function**: Fetches the prealigned sequences from our repository. 
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *year (int)*: Sequences will be fetched from this year onwards. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *month (int)*: Sequences will be fetched from this month onwards. &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *protein_sequence_name (str)*: The name of the *.faa* protein sequence file that contains all requested aligned sequences.
+
+    &#34;&#34;&#34;
+   
+    query_string = &#34;https://sars-arena.rice.edu:8000/get_msa/&#34; + year + &#34;/&#34; + month
+
+    protein_sequence_name = fetch_file_and_unzip(query_string)
+
+    return protein_sequence_name   </code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.hla_filtering"><code class="name flex">
+<span>def <span class="ident">hla_filtering</span></span>(<span>hla_sequences)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Filters the HLA sequences So that they are compatible with <a href="https://github.com/openvax/mhcflurry">MHCflurry</a></p>
+<p>Parameters: <br />
+&ensp;&ensp;&ensp; - <em>hla_sequences (dict)</em>: dictionary where keys are HLAs and values are their sequences. <br /></p>
+<p>Returns: <br />
+&ensp;&ensp;&ensp; - <em>hla_filtered_sequences (dict)</em>: dictionary where keys are filtered, MHCflurry-compatible HLAs and values are their sequences. <br /></p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def hla_filtering(hla_sequences):
+
+    &#34;&#34;&#34;
+    **Function**: Filters the HLA sequences So that they are compatible with [MHCflurry](https://github.com/openvax/mhcflurry)
+
+    Parameters: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *hla_sequences (dict)*: dictionary where keys are HLAs and values are their sequences. &lt;br /&gt;
+
+    Returns: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *hla_filtered_sequences (dict)*: dictionary where keys are filtered, MHCflurry-compatible HLAs and values are their sequences. &lt;br /&gt;
+
+    &#34;&#34;&#34;   
+
+    mhcflurry_alleles = list(pd.read_csv(&#34;../utils/MHCflurry_supported_alleles.txt&#34;, header=None)[0])
+    hla_filtered_sequences = {}
+    for key, value in hla_sequences.items():
+        if key in mhcflurry_alleles:
+            hla_filtered_sequences[key] = value
+
+    return hla_filtered_sequences</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.interactive_plot_selection"><code class="name flex">
+<span>def <span class="ident">interactive_plot_selection</span></span>(<span>conservation_df, extracted_peptides, min_len, max_len)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Interactive plot of the conservation scores in each position. The user can interact with the conservation threshold, the rolling median window length and the peptide lengths to filter the desired peptides.</p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>conservation_df (pandas.DataFrame)</em>: Dataframe that contains the alignment and the conservation score per sequence position. <br />
+&ensp;&ensp;&ensp; - <em>extracted_peptides (list[str])</em>: List of all the peptides extracted from all the aligned sequences. <br />
+&ensp;&ensp;&ensp; - <em>min_len (int)</em>: The minimum peptide length. <br />
+&ensp;&ensp;&ensp; - <em>max_len (int)</em>: The maximum peptide length. <br /></p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def interactive_plot_selection(conservation_df, extracted_peptides, min_len, max_len):
+    &#34;&#34;&#34;
+    **Function**: Interactive plot of the conservation scores in each position. The user can interact with the conservation threshold, the rolling median window length and the peptide lengths to filter the desired peptides.
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *conservation_df (pandas.DataFrame)*: Dataframe that contains the alignment and the conservation score per sequence position. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *extracted_peptides (list[str])*: List of all the peptides extracted from all the aligned sequences. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *min_len (int)*: The minimum peptide length. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *max_len (int)*: The maximum peptide length. &lt;br /&gt;
+
+    &#34;&#34;&#34; 
+    CV_slider = FloatSlider(value=conservation_df[&#39;Score&#39;].mean(), min=round(conservation_df[&#39;Score&#39;].min()) - 1, 
+                      step=0.1, max=min(round(conservation_df[&#39;Score&#39;].max()) + 1, 100), continuous_update=False)
+    CV_cutoff = conservation_df[&#39;Score&#39;].mean()
+
+    RMW_slider = IntSlider(value=10, min=1, step=1, max=100, continuous_update=False)
+    RMW_cutoff = 10
+
+    Peptide_length_slider = IntSlider(value=min_len+1, min=min_len, step=1, max=max_len, continuous_update=False)
+    Pep_length = min_len+1
+    
+    x = interact(handle_interact, CV_cutoff=CV_slider, RMW_cutoff=RMW_slider, Pep_length=Peptide_length_slider,
+                 conservation_df=fixed(conservation_df), extracted_peptides=fixed(extracted_peptides))</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.mhcflurry_plot_selection"><code class="name flex">
+<span>def <span class="ident">mhcflurry_plot_selection</span></span>(<span>df_predictions, binder_cutoff)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Interactive swarm plot of the binding affinity scores of peptide-HLA pairs. The x-axis denotes the different HLAs. The user can interact with the binding affinity threshold in order to filter the desired peptide-HLA pairs.</p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>df_predictions (pandas.DataFrame)</em>: Dataframe with binding affinity predictions for each peptide-HLA pair. <br />
+&ensp;&ensp;&ensp; - <em>binder_cutoff (int)</em>: Binding affinity cutoff in order to filter peptide-HLA pairs (Default : 500nM) <br /></p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def mhcflurry_plot_selection(df_predictions, binder_cutoff):
+    &#34;&#34;&#34;
+    **Function**: Interactive swarm plot of the binding affinity scores of peptide-HLA pairs. The x-axis denotes the different HLAs. The user can interact with the binding affinity threshold in order to filter the desired peptide-HLA pairs.
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *df_predictions (pandas.DataFrame)*: Dataframe with binding affinity predictions for each peptide-HLA pair. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *binder_cutoff (int)*: Binding affinity cutoff in order to filter peptide-HLA pairs (Default : 500nM) &lt;br /&gt;
+
+    &#34;&#34;&#34;       
+    max_thres = max(df_predictions[&#39;mhcflurry_prediction&#39;]) + 1000
+
+    slider = IntSlider(value=500, min=0, step=50, max=int(max_thres), continuous_update=False)
+    binder_cutoff.value = &#34;500&#34;
+
+    x = interact(mhcflurry_handle_interact, df_predictions=fixed(df_predictions), cutoff=slider, binder_cutoff=fixed(binder_cutoff))</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.mhcflurry_scoring"><code class="name flex">
+<span>def <span class="ident">mhcflurry_scoring</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Peptide-HLA pairs from Workflow 2 are being scored using <a href="https://github.com/openvax/mhcflurry">MHCflurry</a></p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def mhcflurry_scoring():
+    &#34;&#34;&#34;
+    **Function**: Peptide-HLA pairs from Workflow 2 are being scored using [MHCflurry](https://github.com/openvax/mhcflurry)
+
+    &#34;&#34;&#34;     
+    command = &#34;mhcflurry-predict mhcflurry_input.csv --out predictions.csv&#34;
+    print(&#34;Calling MHCFlurry...&#34;)
+    s = Popen(command, shell=True)
+    s.wait()
+    print(&#34;MHCflurry finished, collecting results...&#34;)
+    f=IntProgress(min=0, max=100, description=&#39;MHCflurry:&#39;, bar_style=&#39;info&#39;)
+    display(f)
+
+    count = 0
+    f.value = 0
+    while count &lt;= 100:
+        time.sleep(.1)
+        p1 = Popen([&#34;cat&#34;, &#34;predictions.csv&#34;], stdout=PIPE)
+        p2 = Popen([&#34;wc&#34;, &#34;-l&#34;], stdin=p1.stdout, stdout=PIPE)
+        val = int(p2.communicate()[0])
+        if val == 0 and count &lt; 80: val = 0.5
+        count += float(val*100/40)
+        f.value = count # signal to increment the progress bar</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.model_hlas_MODELLER"><code class="name flex">
+<span>def <span class="ident">model_hlas_MODELLER</span></span>(<span>hla_sequences)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Calling MODELLER to model the input HLA sequences. </p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>hla_sequences (dict)</em>: dictionary where keys are HLAs and values are their sequences.
+<br /></p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def model_hlas_MODELLER(hla_sequences):
+    &#34;&#34;&#34;
+    **Function**: Calling MODELLER to model the input HLA sequences. 
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *hla_sequences (dict)*: dictionary where keys are HLAs and values are their sequences.  &lt;br /&gt;
+
+    &#34;&#34;&#34;            
+    hla_alleles = hla_sequences.keys()
+    for hla_allele in hla_alleles:
+        if os.path.exists(hla_allele + &#34;.pdb&#34;):
+            print(&#34;Already found &#34; + hla_allele + &#34;.pdb&#34;)
+            continue
+        os.makedirs(&#34;./Modeller-files/&#34; + hla_allele + &#34;-modeller-output&#34;, exist_ok=True)
+        os.chdir(&#34;./Modeller-files/&#34; + hla_allele + &#34;-modeller-output&#34;)
+        with open(&#34;alpha_chain.fasta&#34;, &#34;w&#34;) as f:
+            f.write(&#34;&gt;&#34; + hla_allele)
+            f.write(&#34;\n&#34; + hla_sequences[hla_allele])
+        f.close()
+        arena.model_hla((&#34;alpha_chain.fasta&#34;, hla_allele), num_models=2)
+        call([&#34;cp best_model.pdb ../../&#34; + hla_allele + &#34;.pdb&#34;], shell=True)
+        os.chdir(&#34;../../&#34;)</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.model_structures"><code class="name flex">
+<span>def <span class="ident">model_structures</span></span>(<span>Filtered_peptides)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Performs docking of peptide-HLA pairs with <a href="https://github.com/KavrakiLab/APE-Gen">APE-GEN</a>)</p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>Filtered_peptides (pandas.DataFrame)</em>: Dataframe of peptide-HLA pairs to be modelled.
+<br /></p>
+<p><strong>Returns</strong>: <br />
+&ensp;&ensp;&ensp; - <em>best_scoring_confs (dict)</em>: dictionary where keys are peptide-HLA pairs and values are paths to the <em>.pdb</em> files that correspond to their best-modelled conformations.</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def model_structures(Filtered_peptides):
+    &#34;&#34;&#34;
+    **Function**: Performs docking of peptide-HLA pairs with [APE-GEN](https://github.com/KavrakiLab/APE-Gen))
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *Filtered_peptides (pandas.DataFrame)*: Dataframe of peptide-HLA pairs to be modelled.  &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *best_scoring_confs (dict)*: dictionary where keys are peptide-HLA pairs and values are paths to the *.pdb* files that correspond to their best-modelled conformations. 
+
+    &#34;&#34;&#34;   
+    best_scoring_confs = {}
+    selected_hla_peptides = []
+    list(Filtered_peptides.to_records(index=False))
+    selected_hla_peptides = list(Filtered_peptides.to_records(index=False))
+    i = 0
+    fail_counter = 0
+    while i &lt; len(selected_hla_peptides):
+        allele, peptide, mhcfpred = selected_hla_peptides[i]
+        print (&#39;-&#39;*80)
+        print(&#34;Running APE-Gen on HLA:&#34; + allele +&#34; peptide:&#34;+ peptide)
+        print (&#39;-&#39;*80)
+
+        comp =  allele.replace(&#34;*&#34;, &#34;&#34;)+&#34;-&#34;+peptide
+        print(comp)
+        root_dir = os.getcwd()
+        call([&#34;mkdir -p &#34; + comp], shell=True)
+        call([&#34;cp &#34; + allele+&#34;.pdb ./&#34;+comp+&#34;/&#34;+allele+&#34;.pdb&#34;], shell=True)
+        os.chdir(comp)
+        try:
+            best_scoring_conf = arena.dock(peptide, &#34;./&#34;+allele+&#34;.pdb&#34;)
+            print(best_scoring_conf)
+            best_scoring_confs[comp.replace(&#34;:&#34;, &#34;&#34;)] = best_scoring_conf
+            os.chdir(&#34;../&#34;)
+            i+=1
+        except Exception as e:
+            os.chdir(root_dir)
+            call([&#34;rm -r ./&#34;+comp+&#34;/&#34;], shell=True)
+            fail_counter +=1
+            if fail_counter &gt; 5:
+                print(&#34;ERROR from APE-Gen generating structure more then five times &#34;+comp)
+                print(&#34;Skipping structure &#34;+comp)
+                fail_counter=0
+                i+=1
+            else:
+                print(&#34;ERROR from APE-Gen generating structure &#34;+comp)
+                print(&#34;Repeating reconstruction of the structure &#34;+comp)
+    return best_scoring_confs</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.read_faa"><code class="name flex">
+<span>def <span class="ident">read_faa</span></span>(<span>input_file, output_file, N)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Parses the <em>.faa</em> and filters sequences with unwanted characters. Additionally, only the first <strong>N</strong> sequences will be kept. </p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>input_file (str)</em>: The name of the <em>.faa</em> protein sequence file. <br />
+&ensp;&ensp;&ensp; - <em>output_file (str)</em>: The preferred name of the <strong>filtered</strong> <em>.faa</em> protein sequence file. <br />
+&ensp;&ensp;&ensp; - <em>N (int)</em>: The first <strong>N</strong> number of sequences that will be kept</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def read_faa(input_file, output_file, N):
+
+    &#34;&#34;&#34;
+    **Function**: Parses the *.faa* and filters sequences with unwanted characters. Additionally, only the first **N** sequences will be kept. 
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *input_file (str)*: The name of the *.faa* protein sequence file. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *output_file (str)*: The preferred name of the **filtered** *.faa* protein sequence file. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *N (int)*: The first **N** number of sequences that will be kept
+
+    &#34;&#34;&#34; 
+    
+    i = 1
+    with open(output_file, &#39;w&#39;) as output:
+        for header,group in groupby(input_file, isheader):
+            if header:
+                line = next(group)
+                ensembl_id = line
+                if i == N + 1:
+                    break
+                i = i + 1
+            else:
+                temp_list = []
+                X_flag = True
+                for line in group:
+                    if &#39;X&#39; not in line:
+                        temp_list.append(line)
+                    else:
+                        X_flag = False
+                if X_flag:
+                    output.write(ensembl_id)
+                    for line in temp_list:
+                        output.write(line)
+    number_of_sequences = count_sequences(output_file)
+    return str(N - number_of_sequences) + &#34; sequences had invalid characters and were discarded&#34;</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.run_msa"><code class="name flex">
+<span>def <span class="ident">run_msa</span></span>(<span>protein_sequence_file, nthread, threshold)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Runs multiple sequence alignment on the input sequences using <a href="https://mafft.cbrc.jp/alignment/software/">MAFFT</a>.</p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>protein_sequence_name (str)</em>: The name of the <em>.faa</em> protein sequence file. <br />
+&ensp;&ensp;&ensp; - <em>nthread (int)</em>: The number of cores MAFFT will use to perform the alignment <br />
+&ensp;&ensp;&ensp; - <em>threshold (float)</em>: Threshold for calculating the consensus sequence of the alignment (frequencies below this threshold will have an unknown amino acid) <br /></p>
+<p><strong>Returns</strong>: <br />
+&ensp;&ensp;&ensp; - <em>consensus_sequence (str)</em>: The consensus sequence obtained after the MSA.</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def run_msa(protein_sequence_file, nthread, threshold):
+
+    &#34;&#34;&#34;
+    **Function**: Runs multiple sequence alignment on the input sequences using [MAFFT](https://mafft.cbrc.jp/alignment/software/).
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *protein_sequence_name (str)*: The name of the *.faa* protein sequence file. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *nthread (int)*: The number of cores MAFFT will use to perform the alignment &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *threshold (float)*: Threshold for calculating the consensus sequence of the alignment (frequencies below this threshold will have an unknown amino acid) &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *consensus_sequence (str)*: The consensus sequence obtained after the MSA. 
+
+    &#34;&#34;&#34; 
+    
+    if(threshold &gt; 1 or threshold &lt; 0):
+        return &#34;Define a threshold between 0 and 1!&#34;
+    if(nthread &lt; 1 or nthread &gt; multiprocessing.cpu_count()):
+        return &#34;Define a proper cpu core number!&#34;
+
+    # Run alignment using MAFFT
+    os.system(&#34;rm -f aligned.faa&#34;)
+    command = [&#39;mafft&#39;, &#39;--auto&#39;, &#39;--thread&#39;, str(nthread), protein_sequence_file]
+    with open(&#39;aligned.faa&#39;, &#39;w&#39;) as f:
+        call(command, stdout=f)
+    
+    #Store sequences in csv
+    sequence_list = []
+    for i, re in enumerate(SeqIO.parse(&#39;aligned.faa&#39;, &#39;fasta&#39;)):
+        sequence_list.append((i + 1, str(re.seq)))
+    pd.DataFrame(data=sequence_list).to_csv(&#39;aligned.csv&#39;)
+
+    # Compute consensus sequence
+    alignment = AlignIO.read(&#39;aligned.faa&#39;, &#39;fasta&#39;)
+    summary_align = AlignInfo.SummaryInfo(alignment)
+
+    return str(summary_align.gap_consensus(threshold))</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.score_structures"><code class="name flex">
+<span>def <span class="ident">score_structures</span></span>(<span>best_scoring_confs)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Performs scoring of peptide-HLA pairs conformations with different scoring functions. </p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>best_scoring_confs (dict)</em>: dictionary where keys are peptide-HLA pairs and values are paths to the <em>.pdb</em> files that correspond to their best-modelled conformations. <br /></p>
+<p><strong>Returns</strong>: <br />
+&ensp;&ensp;&ensp; - <em>scoring_results (pandas.DataFrame)</em>: DataFrame that contains the peptide-HLA pairs and the socres for each scoring function</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def score_structures(best_scoring_confs):
+    &#34;&#34;&#34;
+    **Function**: Performs scoring of peptide-HLA pairs conformations with different scoring functions. 
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *best_scoring_confs (dict)*: dictionary where keys are peptide-HLA pairs and values are paths to the *.pdb* files that correspond to their best-modelled conformations. &lt;br /&gt;
+
+    **Returns**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *scoring_results (pandas.DataFrame)*: DataFrame that contains the peptide-HLA pairs and the socres for each scoring function 
+
+    &#34;&#34;&#34;  
+    init_rosetta()
+    energies = {&#34;Modeled HLAs&#34;: [], &#34;peptide&#34;: [], &#34;vina&#34;: [], &#34;vinardo&#34;: [], &#34;AutoDock4&#34;: [], &#34;3pHLA&#34;: []}
+    for key, value in best_scoring_confs.items():
+        allele = key[4:9]
+        peptide = key[10:]
+        energy_vina = arena.rescore_complex_simple_smina(value, &#34;vina&#34;)
+        energy_vinardo = arena.rescore_complex_simple_smina(value, &#34;vinardo&#34;)
+        energy_ad4 = arena.rescore_complex_simple_smina(value, &#34;ad4_scoring&#34;)
+        energy_ppp = pyrosetta_ppp(allele, peptide, value)
+        energies[&#34;Modeled HLAs&#34;].append(allele)
+        energies[&#34;peptide&#34;].append(peptide)
+        energies[&#34;vina&#34;].append(energy_vina)
+        energies[&#34;vinardo&#34;].append(energy_vinardo)
+        energies[&#34;AutoDock4&#34;].append(energy_ad4)
+        energies[&#34;3pHLA&#34;].append(energy_ppp)
+    scoring_results = pd.DataFrame(energies)
+    return scoring_results</code></pre>
+</details>
+</dd>
+<dt id="SARS_Arena.store_best_structures"><code class="name flex">
+<span>def <span class="ident">store_best_structures</span></span>(<span>best_scoring_confs, selected, structures_storage_location)</span>
+</code></dt>
+<dd>
+<section class="desc"><p><strong>Function</strong>: Stores the structures selected for further processing</p>
+<p><strong>Parameters</strong>: <br />
+&ensp;&ensp;&ensp; - <em>best_scoring_confs (dict)</em>: dictionary where keys are peptide-HLA pairs and values are paths to the <em>.pdb</em> files that correspond to their best-modelled conformations. <br />
+&ensp;&ensp;&ensp; - <em>selected (dict)</em>: DataFrame that contains the filtered by the energy cutoff peptide-HLA pairs. <br />
+&ensp;&ensp;&ensp; - <em>structures_storage_location (str)</em>: Directory for the selected structures to be stored.</p></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def store_best_structures(best_scoring_confs, selected, structures_storage_location):
+    &#34;&#34;&#34;
+    **Function**: Stores the structures selected for further processing
+
+    **Parameters**: &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *best_scoring_confs (dict)*: dictionary where keys are peptide-HLA pairs and values are paths to the *.pdb* files that correspond to their best-modelled conformations. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *selected (dict)*: DataFrame that contains the filtered by the energy cutoff peptide-HLA pairs. &lt;br /&gt;
+    &amp;ensp;&amp;ensp;&amp;ensp; - *structures_storage_location (str)*: Directory for the selected structures to be stored. 
+
+    &#34;&#34;&#34; 
+    for index, row in selected.iterrows():
+        key = &#34;HLA-&#34; + row[&#34;Modeled HLAs&#34;]+&#34;-&#34;+row[&#34;peptide&#34;]
+        path = best_scoring_confs[key]
+        print(&#34;Writing &#34;+key+&#34; to &#34; + structures_storage_location)
+        call([&#34;cp &#34; + best_scoring_confs[key] + &#34; &#34; + structures_storage_location + &#34;/&#34; + key + &#34;.pdb&#34;], shell=True)</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#modeller-license-key">Modeller license key</a></li>
+<li><a href="#using-jupyter-notebook">Using Jupyter Notebook</a></li>
+<li><a href="#available-workflows">Available workflows</a></li>
+</ul>
+</div>
+<ul id="index">
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="SARS_Arena.call_ncbi_datasets" href="#SARS_Arena.call_ncbi_datasets">call_ncbi_datasets</a></code></li>
+<li><code><a title="SARS_Arena.call_ncbi_virus" href="#SARS_Arena.call_ncbi_virus">call_ncbi_virus</a></code></li>
+<li><code><a title="SARS_Arena.conservation_analysis" href="#SARS_Arena.conservation_analysis">conservation_analysis</a></code></li>
+<li><code><a title="SARS_Arena.count_sequences" href="#SARS_Arena.count_sequences">count_sequences</a></code></li>
+<li><code><a title="SARS_Arena.create_tab" href="#SARS_Arena.create_tab">create_tab</a></code></li>
+<li><code><a title="SARS_Arena.dataset_selection" href="#SARS_Arena.dataset_selection">dataset_selection</a></code></li>
+<li><code><a title="SARS_Arena.energy_plot_selection" href="#SARS_Arena.energy_plot_selection">energy_plot_selection</a></code></li>
+<li><code><a title="SARS_Arena.extract_peptides" href="#SARS_Arena.extract_peptides">extract_peptides</a></code></li>
+<li><code><a title="SARS_Arena.fetch_hla_sequences" href="#SARS_Arena.fetch_hla_sequences">fetch_hla_sequences</a></code></li>
+<li><code><a title="SARS_Arena.fetch_precomputed_sequences" href="#SARS_Arena.fetch_precomputed_sequences">fetch_precomputed_sequences</a></code></li>
+<li><code><a title="SARS_Arena.hla_filtering" href="#SARS_Arena.hla_filtering">hla_filtering</a></code></li>
+<li><code><a title="SARS_Arena.interactive_plot_selection" href="#SARS_Arena.interactive_plot_selection">interactive_plot_selection</a></code></li>
+<li><code><a title="SARS_Arena.mhcflurry_plot_selection" href="#SARS_Arena.mhcflurry_plot_selection">mhcflurry_plot_selection</a></code></li>
+<li><code><a title="SARS_Arena.mhcflurry_scoring" href="#SARS_Arena.mhcflurry_scoring">mhcflurry_scoring</a></code></li>
+<li><code><a title="SARS_Arena.model_hlas_MODELLER" href="#SARS_Arena.model_hlas_MODELLER">model_hlas_MODELLER</a></code></li>
+<li><code><a title="SARS_Arena.model_structures" href="#SARS_Arena.model_structures">model_structures</a></code></li>
+<li><code><a title="SARS_Arena.read_faa" href="#SARS_Arena.read_faa">read_faa</a></code></li>
+<li><code><a title="SARS_Arena.run_msa" href="#SARS_Arena.run_msa">run_msa</a></code></li>
+<li><code><a title="SARS_Arena.score_structures" href="#SARS_Arena.score_structures">score_structures</a></code></li>
+<li><code><a title="SARS_Arena.store_best_structures" href="#SARS_Arena.store_best_structures">store_best_structures</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.7.5</a>.</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</body>
+</html>

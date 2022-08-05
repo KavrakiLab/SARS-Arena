@@ -1,5 +1,5 @@
 # SARS-Arena
-SARS-Arena: A Pipeline for Selection and Structural HLA Modeling of Conserved Peptides of SARS-relate
+SARS-Arena: Sequence and Structure-Guided Selection of Conserved Peptides from SARS-related Coronaviruses for Novel Vaccine Development
 
 ## Installation
 1. If you don’t already have it, install Docker.

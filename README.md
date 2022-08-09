@@ -18,7 +18,11 @@ SARS-Arena: Sequence and Structure-Guided Selection of Conserved Peptides from S
 
 3. Clone this repo and run the following command in the terminal:
 
-  `./start_SARS-Arena.sh`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On Linux or Mac: `./start_SARS-Arena.sh`
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On Windows: `./start_SARS-Arena.ps1` (using PowerShell)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_In PowerShell, make sure you have permissions to execute the script, if you get an error_ `***  cannot be loaded because the execution of scripts is disabled on this system.` _follow these [tips](https://stackoverflow.com/questions/4037939/powershell-says-execution-of-scripts-is-disabled-on-this-system)._
   
   &nbsp;
 

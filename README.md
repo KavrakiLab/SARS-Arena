@@ -35,7 +35,7 @@ SARS-Arena: Sequence and Structure-Guided Selection of Conserved Peptides from S
 
 &nbsp;
 
-6. Check out the [DOCUMENTATION](https://github.com/KavrakiLab/SARS-Arena/edit/master/DOCUMENTATION.html), also provided alongside the Jupyter notebooks, for additional information on the workflows and available functions.
+6. Check out the [DOCUMENTATION](https://kavrakilab.github.io/SARS-Arena/), also provided alongside the Jupyter notebooks, for additional information on the workflows and available functions.
 
 &nbsp;
 
